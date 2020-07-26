@@ -1,0 +1,126 @@
+[
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 15635,
+      "user_date": "2020-03-30 12:32:57",
+      "user_query": "hi bot"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 15636,
+      "system_date": "2020-03-30 12:32:57",
+      "system_response": "Hallo und willkommen zum Rezeptbot-Chat!\nFalls du Fragen hast, was man hier tun kann, kannst du mit /help eine kleine Einleitung aufrufen. Du kannst aber auch sofort nach einem Rezept suchen.\nAlso: Was kann ich für dich tun?"
+    },
+    "state": 1,
+    "recipe_num_search": 1
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 15637,
+      "user_date": "2020-03-30 12:34:06",
+      "user_query": "Ich suche ein vegetarisches Rezept für 5 Personen, 4 Stunden, fettarm"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 15638,
+      "system_date": "2020-03-30 12:34:07",
+      "system_response": "Welche Kohlenhydratquelle bevorzugst du normalerweise? Beispielsweise Kartoffeln, Nudeln oder Reis? Brot?"
+    },
+    "state": 2.2,
+    "recipe_num_search": 1
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 15639,
+      "user_date": "2020-03-30 12:34:13",
+      "user_query": "Nudeln"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 15641,
+      "system_date": "2020-03-30 12:34:13",
+      "system_response": "Was sind deine Lieblingszutaten?"
+    },
+    "state": 2.2,
+    "recipe_num_search": 1
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 15642,
+      "user_date": "2020-03-30 12:34:25",
+      "user_query": "Tomate, Mozzarella"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 15645,
+      "system_date": "2020-03-30 12:34:31",
+      "system_response": "Wie klingt Italienischer Nudelsalat für dich?"
+    },
+    "state": 3.1,
+    "recipe_num_search": 1
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 15646,
+      "user_date": "2020-03-30 12:35:47",
+      "user_query": "gut"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 15647,
+      "system_date": "2020-03-30 12:35:47",
+      "system_response": "Möchtest du die Zutatenliste sehen?"
+    },
+    "state": 3.2,
+    "recipe_num_search": 1
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 15648,
+      "user_date": "2020-03-30 12:35:49",
+      "user_query": "ja"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 15649,
+      "system_date": "2020-03-30 12:35:49",
+      "system_response": "Zutaten\n\n500 gr. kleine Nudeln, Sorte istegal \n 3 Päckchen Mozzarella \n 5 Stück große Tomaten \n 100 gr. Pinienkerne \n 1 Topf Basilikum \n 0.25 l Olivenöl \n 5 EL Balsamico-Essig dunkel \n  Salz \n  Pfeffer\n\nMöchtest du das Rezept sehen?"
+    },
+    "state": 3.3,
+    "recipe_num_search": 1
+  },
+  {
+    "current_recipe": "('/rezept/330026/Italienischer-Nudelsalat.html', 'Italienischer Nudelsalat', 'Frisch und sehr, sehr lecker..', 7, 5.0, 5, 1, 1, 232, 8, '500 gr.:kleine Nudeln, Sorte istegal \\n 3 Päckchen:Mozzarella \\n 5 Stück:große Tomaten \\n 100 gr.:Pinienkerne \\n 1 Topf:Basilikum \\n 0.25 l:Olivenöl \\n 5 EL:Balsamico-Essig dunkel \\n :Salz \\n :Pfeffer', '1. Nudeln im Salzwasser kochen\\t2. In der Zwischzeit die Tomaten von den Kernen befreien, in kleine Stück schneiden und in eine größere Schüssel geben\\t3. Mozarella ebenfalls in kleine Stücke schneiden und zu den Tomaten geben\\t4. Die abgekochten Nudeln, das Öl und Balsamico dazu geben und ordentlich vermischen\\t5. Die Pinienkerne leicht anrösten und ebenfalls dazu geben\\t6. Basilikumblätter klein zupfen und untermengen\\t7. Mit Salz und Pfeffer abschmecken\\t8. Einfach nur geniessen, denn der Nudelsalat schmeckt gerade bei den Temperaturen super lecker.', 'leicht', 30, '1', 2378, 568, 6.0, 1.7, 60.6, datetime.date(2010, 7, 13), 9, 0)"
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 15650,
+      "user_date": "2020-03-30 12:35:55",
+      "user_query": "ja"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 15651,
+      "system_date": "2020-03-30 12:35:55",
+      "system_response": "Rezept: 'Italienischer Nudelsalat'\n\nBeschreibung\nFrisch und sehr, sehr lecker..\n\nPortionen: 8\n\nZutaten\n500 gr. kleine Nudeln, Sorte istegal \n 3 Päckchen Mozzarella \n 5 Stück große Tomaten \n 100 gr. Pinienkerne \n 1 Topf Basilikum \n 0.25 l Olivenöl \n 5 EL Balsamico-Essig dunkel \n  Salz \n  Pfeffer\n\nZubereitung\n1. Nudeln im Salzwasser kochen 2. In der Zwischzeit die Tomaten von den Kernen befreien, in kleine Stück schneiden und in eine größere Schüssel geben 3. Mozarella ebenfalls in kleine Stücke schneiden und zu den Tomaten geben 4. Die abgekochten Nudeln, das Öl und Balsamico dazu geben und ordentlich vermischen 5. Die Pinienkerne leicht anrösten und ebenfalls dazu geben 6. Basilikumblätter klein zupfen und untermengen 7. Mit Salz und Pfeffer abschmecken 8. Einfach nur geniessen, denn der Nudelsalat schmeckt gerade bei den Temperaturen super lecker.\n\nSchwierigkeit: leicht\nZeit: 30 Minuten"
+    },
+    "state": 3.4,
+    "recipe_num_search": 1
+  },
+  {
+    "current_recipe": "('/rezept/330026/Italienischer-Nudelsalat.html', 'Italienischer Nudelsalat', 'Frisch und sehr, sehr lecker..', 7, 5.0, 5, 1, 1, 232, 8, '500 gr.:kleine Nudeln, Sorte istegal \\n 3 Päckchen:Mozzarella \\n 5 Stück:große Tomaten \\n 100 gr.:Pinienkerne \\n 1 Topf:Basilikum \\n 0.25 l:Olivenöl \\n 5 EL:Balsamico-Essig dunkel \\n :Salz \\n :Pfeffer', '1. Nudeln im Salzwasser kochen\\t2. In der Zwischzeit die Tomaten von den Kernen befreien, in kleine Stück schneiden und in eine größere Schüssel geben\\t3. Mozarella ebenfalls in kleine Stücke schneiden und zu den Tomaten geben\\t4. Die abgekochten Nudeln, das Öl und Balsamico dazu geben und ordentlich vermischen\\t5. Die Pinienkerne leicht anrösten und ebenfalls dazu geben\\t6. Basilikumblätter klein zupfen und untermengen\\t7. Mit Salz und Pfeffer abschmecken\\t8. Einfach nur geniessen, denn der Nudelsalat schmeckt gerade bei den Temperaturen super lecker.', 'leicht', 30, '1', 2378, 568, 6.0, 1.7, 60.6, datetime.date(2010, 7, 13), 9, 0)"
+  },
+  {
+    "curr_user": "no_user"
+  },
+  {
+    "System": "B"
+  }
+]

@@ -1,0 +1,48 @@
+Telefood Aufbau:
+TODO recipeSuggestions
+
+main.py 
+	Hauptbestandteil des Bots
+	handle_conversation_question
+		handle_nlu
+	
+	handle_ingredients_question
+	
+calculator.py
+	calculate_current_season - berechnet die aktuelle Jahreszeit
+	calculate_minutes(slot_duration) - berechnet grob die Anzahl der Minuten
+	
+	
+chat_filter.py
+	wird zur Wake Word Erkennung genutzt um eine neue Rezeptsuche zu starten (variationen von hey/hallo möglich)
+
+conversation_handler.py
+	bis jetzt in handle_conversation in main verwendet
+	TODO an anderen Stellen
+
+db_handler.py
+	class DatabaseHandler: This class handles all interactions with the database.
+	Datenbankabfragen für die gesamte Anwendung
+
+model.py
+	beeinhaltet den aktuellen framework state des conversational frameworks
+	counter scores f
+	enthält die Fragen (verwendet, möhlich)
+	TODO Datenbank
+
+recipe_details.py
+	enthält die relevanten Informationen für die spätere Datenbankabfrage
+	es wird aktuell nur eine Datenbankabfrage gestartet, wenn die Konditionen erfüllt sind (2-3 conversation items und 1 zutat)
+
+system_response_text.py 
+	mögliche Nachrichtentexte des Bots
+	zum Beispiel die Konversationsfragen und Zutatenfragen
+	
+telefood_nlu.py 
+	Snips NLU, Intent Filter and Parser (parse_user_query, get_answer) werden verwendet
+	INTENTS searchRecipe, answerMiscQuestion, 
+			acceptIngredients, declineIngredients
+			confirmQuestion, declineQuestion
+	
+config.py
+	BOT_TOKEN für Telegram API (currently used in main)

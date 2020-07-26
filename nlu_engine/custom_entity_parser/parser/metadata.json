@@ -1,0 +1,76 @@
+{
+  "parsers_metadata": [
+    {
+      "entity_identifier": "botName",
+      "entity_parser": "parser_1"
+    },
+    {
+      "entity_identifier": "change",
+      "entity_parser": "parser_2"
+    },
+    {
+      "entity_identifier": "confirm",
+      "entity_parser": "parser_3"
+    },
+    {
+      "entity_identifier": "decline",
+      "entity_parser": "parser_4"
+    },
+    {
+      "entity_identifier": "declineQuest",
+      "entity_parser": "parser_5"
+    },
+    {
+      "entity_identifier": "greeting",
+      "entity_parser": "parser_6"
+    },
+    {
+      "entity_identifier": "ingredientName",
+      "entity_parser": "parser_7"
+    },
+    {
+      "entity_identifier": "recipeCategory",
+      "entity_parser": "parser_8"
+    },
+    {
+      "entity_identifier": "recipeDefinitionCategory",
+      "entity_parser": "parser_9"
+    },
+    {
+      "entity_identifier": "recipeDetail",
+      "entity_parser": "parser_10"
+    },
+    {
+      "entity_identifier": "recipeDiet",
+      "entity_parser": "parser_11"
+    },
+    {
+      "entity_identifier": "recipeDifficulty",
+      "entity_parser": "parser_12"
+    },
+    {
+      "entity_identifier": "recipeDurationParaphrase",
+      "entity_parser": "parser_13"
+    },
+    {
+      "entity_identifier": "recipeName",
+      "entity_parser": "parser_14"
+    },
+    {
+      "entity_identifier": "recipeOrigin",
+      "entity_parser": "parser_15"
+    },
+    {
+      "entity_identifier": "recipeOther",
+      "entity_parser": "parser_16"
+    },
+    {
+      "entity_identifier": "recipePreparation",
+      "entity_parser": "parser_17"
+    },
+    {
+      "entity_identifier": "recipeServingsParaphrase",
+      "entity_parser": "parser_18"
+    }
+  ]
+}

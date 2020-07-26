@@ -1,0 +1,142 @@
+[
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 15687,
+      "user_date": "2020-07-26 12:50:20",
+      "user_query": "Hi bot"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 15688,
+      "system_date": "2020-07-26 12:50:20",
+      "system_response": "Hallo und willkommen zum Rezeptbot-Chat!\nFalls du Fragen hast, was man hier tun kann, kannst du mit /help eine kleine Einleitung aufrufen. Du kannst aber auch sofort nach einem Rezept suchen.\nAlso: Was kann ich für dich tun?"
+    },
+    "state": 1,
+    "recipe_num_search": 1
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 15689,
+      "user_date": "2020-07-26 12:50:35",
+      "user_query": "Ich möchte ein schnelles Frühstück"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 15690,
+      "system_date": "2020-07-26 12:50:35",
+      "system_response": "Wie ernährst du dich?"
+    },
+    "state": 2.1,
+    "recipe_num_search": 1
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 15691,
+      "user_date": "2020-07-26 12:50:39",
+      "user_query": "Vegan"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 15692,
+      "system_date": "2020-07-26 12:50:40",
+      "system_response": "Welches Gemüse magst du?"
+    },
+    "state": 2.2,
+    "recipe_num_search": 1
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 15693,
+      "user_date": "2020-07-26 12:50:44",
+      "user_query": "Zucchini"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 15695,
+      "system_date": "2020-07-26 12:50:44",
+      "system_response": "Welche Präferenzen gibt es bei den Zutaten?"
+    },
+    "state": 2.2,
+    "recipe_num_search": 1
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 15696,
+      "user_date": "2020-07-26 12:50:51",
+      "user_query": "Tomaten"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 15699,
+      "system_date": "2020-07-26 12:50:52",
+      "system_response": "Wie klingt Zuchini-Reis-Gulasch für dich?"
+    },
+    "state": 3.1,
+    "recipe_num_search": 1
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 15700,
+      "user_date": "2020-07-26 12:51:01",
+      "user_query": "Ok"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 15701,
+      "system_date": "2020-07-26 12:51:01",
+      "system_response": "Möchtest du die Zutatenliste sehen?"
+    },
+    "state": 3.2,
+    "recipe_num_search": 1
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 15702,
+      "user_date": "2020-07-26 12:51:05",
+      "user_query": "Ja"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 15703,
+      "system_date": "2020-07-26 12:51:05",
+      "system_response": "Zutaten\n\n3 Zwiebeln groß \n 1 kg Zucchini \n 250 g Tomaten passiert \n 3 EL Reis wer mag auch mehr \n  Salz, Pfeffer, Majoran,Paprikapulver \n 200 ml Wasser ca. \n 250 ml Sahne\n\nMöchtest du das Rezept sehen?"
+    },
+    "state": 3.3,
+    "recipe_num_search": 1
+  },
+  {
+    "current_recipe": "('/rezept/105119/Zuchini-Reis-Gulasch.html', 'Zuchini-Reis-Gulasch', '-vegetarisches Gulasch-', 16, 4.62, 4, 8, 9, 1863, 4, '3:Zwiebeln groß \\n 1 kg:Zucchini \\n 250 g:Tomaten passiert \\n 3 EL:Reis wer mag auch mehr \\n :Salz, Pfeffer, Majoran,Paprikapulver \\n 200 ml:Wasser ca. \\n 250 ml:Sahne', 'Zwiebeln schälen und in Würfel schneiden! \\n Zucchini in Würfel schneiden! \\n Zwiebeln andünsten, Zucchini dazugeben kurz mitrösten, nun die Tomaten, Wasser, den Reis und die Gewürze dazugeben und gut durch rühren! \\n Ca. 30 Minuten leicht köcheln lassen! \\n Kurz vor dem Servieren, die Sahne unterrühren und heiss werden lassen!', 'leicht', 15, '1', 251, 60, 0.9, 2.4, 5.3, datetime.date(2009, 2, 8), 7, 0)"
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 15704,
+      "user_date": "2020-07-26 12:51:12",
+      "user_query": "Ja"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 15705,
+      "system_date": "2020-07-26 12:51:12",
+      "system_response": "Rezept: 'Zuchini-Reis-Gulasch'\n\nBeschreibung\n-vegetarisches Gulasch-\n\nPortionen: 4\n\nZutaten\n3 Zwiebeln groß \n 1 kg Zucchini \n 250 g Tomaten passiert \n 3 EL Reis wer mag auch mehr \n  Salz, Pfeffer, Majoran,Paprikapulver \n 200 ml Wasser ca. \n 250 ml Sahne\n\nZubereitung\nZwiebeln schälen und in Würfel schneiden! \n Zucchini in Würfel schneiden! \n Zwiebeln andünsten, Zucchini dazugeben kurz mitrösten, nun die Tomaten, Wasser, den Reis und die Gewürze dazugeben und gut durch rühren! \n Ca. 30 Minuten leicht köcheln lassen! \n Kurz vor dem Servieren, die Sahne unterrühren und heiss werden lassen!\n\nSchwierigkeit: leicht\nZeit: 15 Minuten"
+    },
+    "state": 3.4,
+    "recipe_num_search": 1
+  },
+  {
+    "current_recipe": "('/rezept/105119/Zuchini-Reis-Gulasch.html', 'Zuchini-Reis-Gulasch', '-vegetarisches Gulasch-', 16, 4.62, 4, 8, 9, 1863, 4, '3:Zwiebeln groß \\n 1 kg:Zucchini \\n 250 g:Tomaten passiert \\n 3 EL:Reis wer mag auch mehr \\n :Salz, Pfeffer, Majoran,Paprikapulver \\n 200 ml:Wasser ca. \\n 250 ml:Sahne', 'Zwiebeln schälen und in Würfel schneiden! \\n Zucchini in Würfel schneiden! \\n Zwiebeln andünsten, Zucchini dazugeben kurz mitrösten, nun die Tomaten, Wasser, den Reis und die Gewürze dazugeben und gut durch rühren! \\n Ca. 30 Minuten leicht köcheln lassen! \\n Kurz vor dem Servieren, die Sahne unterrühren und heiss werden lassen!', 'leicht', 15, '1', 251, 60, 0.9, 2.4, 5.3, datetime.date(2009, 2, 8), 7, 0)"
+  },
+  {
+    "curr_user": "no_user"
+  },
+  {
+    "System": "B"
+  }
+]

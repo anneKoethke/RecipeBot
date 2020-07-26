@@ -1,0 +1,97 @@
+save_input(update, system_response) # saves the input in the database
+
+filter: greet_user(update,context) # TODO use intent recognition, easier to use for other messaging platforms
+# get_recipe_photo(update,context)
+
+rest look at documentaion
+main:
+	register filter, MessageHandler e.g.: user_input_handler = MessageHandler(Filters.text, handle_user_query)
+	
+	update_count(slot_name) # updates the counter of the conversation and ingredient stock
+	
+	show_no_recipe_found()
+	
+	append_to_all_categories(value) # # if the slot value for the categories doesn't exists in all categories the value is added
+	
+	handle_ingredients(data): # todo move to telefood_nlu
+		checks the acceptIngredients and declineIngredientsIntent according to classification data
+	
+	define_recipe_text() # todo move to nlg and add data parameter
+	
+	search_recipe_details() 
+		# gets the recipe_data from the RecipeDetails Class
+		# uses the data to execute an sql query
+		# and sets the current_recipe data
+		
+	search_modified_recipe_details(recipe_data)
+		# searches for a new recipe in the database with the modified data
+		# if a result was found it return true
+		# else false
+		
+	change_modified_recipe_details(modified_recipe_details_tmp)
+		# changes the modified recipe details to form a list/dict like the recipeDetailsModel for a later database query
+		# todo change chaotic function
+		# [{'categories': ['Asien', 'Vegan', 'Winter']}, {'ingredients_like': ['nudeln', 'eier']}]
+		
+	modify_recipe_search(modified_recipe_details, modified_recipe_title)
+		# todo change totally chaotic function
+		# modifies the recipe search to look for a new recipe
+		# TODO should search until one recipe is found by replacing recipe details
+		
+	search_for_recipe()
+	send_recipe_title_to_user() # returns the recipe title string
+	
+	search_only_title_recipe_details(recipe_name)
+		# uses the recipe title only for the search in the database
+		
+	handle_recipe_name_slot(slot_real_value, slot_name_raw_value)
+		# searches for the whole recipe title with the current user input data
+		# and changes the framework states
+		
+	handle_recipe_other_slot(slot_real_value) 
+		# handles the real value of the filtered slot and sets the recipeDetails accordingly
+		
+	handle_recipe_category_slot(slot_real_value)	
+		# updates the models data (recipeDetails)
+		
+	select_ingredient_question() # selects the available questions for ingredients
+	
+	select_conversation_question() # selects the available questions for conversation
+	
+	get_system_message()
+	handle_nlu(update)
+		# does the NER (intent,slot filling), update recipeDetails accordingly and model
+		
+	handle_solid_cuisine(quest_answer, user_query)
+		# sets the sweet value for the query
+	
+	handle_seasonal_cuisine(quest_answer)
+	handle_sweet_recipe(quest_answer, user_query)
+	handle_allergy(quest_answer)
+	handle_regional(quest_answer)
+	handle_vegan(quest_answer, user_query)
+	handle_vegetarian(quest_answer, user_query)
+	
+	handle_conversation_question(update, previous_message)
+	reset_all_ingredients()
+	handle_user_query(update, context)
+	
+	start_command(update, context)
+	help_command(update, context)
+	unknown_command(update, context)
+	
+DATABASE_MODULE - InnoDB engine for faster: select sql queries and use of foreign key 
+	db_handler.py
+	class DatabaseHandler # This class handles all interactions with the database module.
+		constructor (self, host, name, user, password)
+		add_chat_to_db(self, result_dict):
+		get_recipe(self, data)
+			define_basic_sql_structure(data, operator, sql_parts, inner_join=False, modified_category=False)
+			define_ingredient_sql_dislike(self, ingredients_dislike)
+				define_sql_ingredient_part(data, column_name, table_name)
+				get_ingredient_ids(self, ingredients)
+			define_ingredient_sql_like(self, ingredients_like)
+			define_recipe_sql(el,key) # staticmethod
+			define_category_sql(categories)
+		reconnect_db(self)
+		close_db(self)

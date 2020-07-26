@@ -1,0 +1,16 @@
+MANIFEST.in
+metadata.json
+setup.py
+snips_nlu_de/__init__.py
+snips_nlu_de/metadata.json
+snips_nlu_de.egg-info/PKG-INFO
+snips_nlu_de.egg-info/SOURCES.txt
+snips_nlu_de.egg-info/dependency_links.txt
+snips_nlu_de.egg-info/not-zip-safe
+snips_nlu_de.egg-info/top_level.txt
+snips_nlu_de/snips_nlu_de-0.2.3/metadata.json
+snips_nlu_de/snips_nlu_de-0.2.3/noise.txt
+snips_nlu_de/snips_nlu_de-0.2.3/stop_words.txt
+snips_nlu_de/snips_nlu_de-0.2.3/gazetteers/top_200000_words.txt
+snips_nlu_de/snips_nlu_de-0.2.3/gazetteers/top_200000_words_stemmed.txt
+snips_nlu_de/snips_nlu_de-0.2.3/stemming/stems.txt

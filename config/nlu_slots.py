@@ -1,0 +1,15 @@
+SNIPS_SERVINGS_NUMBER = "Number"
+SNIPS_DURATION = "Duration"
+
+RECIPE_DIET = "recipeDiet"
+RECIPE_SERVINGS_PARAPHRASE = "recipeServingsParaphrase"
+RECIPE_PREPARATION = "recipePreparation"
+RECIPE_ORIGIN = "recipeOrigin"
+RECIPE_DIFFICULTY = "recipeDifficulty"
+RECIPE_NAME = "recipeName"
+RECIPE_DURATION_PARAPHRASE = "recipeDurationParaphrase"
+RECIPE_CATEGORY = "recipeCategory"
+RECIPE_OTHER = "recipeOther"
+INGREDIENT_NAME = "ingredientName"
+
+NO_VALUE = "kein"

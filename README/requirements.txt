@@ -1,0 +1,5 @@
+mysql-connector-python
+python-telegram-bot
+setuptools-rust
+snips-nlu
+requests
