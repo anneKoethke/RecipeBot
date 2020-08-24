@@ -7,7 +7,7 @@ from System_B import User_Feedback_System_B
 # Anne: ...
 
 
-def ingredient_list_display_state(system_b, nlu, model, details, user_query):
+def ingredient_list_display_state(nlu, model, details, user_query):
     quest_answer = nlu.get_answer(user_query)
     if quest_answer:
         # ANNE: show recipe and prepare new search
@@ -16,7 +16,8 @@ def ingredient_list_display_state(system_b, nlu, model, details, user_query):
     else:
         # reset all ingredients
         reset_all_ingredients(model, details)
-        if system_b:
+        # TODO teste ob sys b == none
+        if model.use_system_b:
             system_message = User_Feedback_System_B.get_all_ingredients_removed_message(details)
         else:
             system_message = system_response_text.INGREDIENT_PREFERENCE  # "Welche Präferenzen gibt es bei den Zutaten?"

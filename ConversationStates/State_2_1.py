@@ -136,12 +136,9 @@ def handle_nlu(db, nlu, model, details, update):
     model.framework_state = conversation_states.CONVERSATION_STOCK_STATE
     for intents in nlu_data:
         intent = intents["intent"]["intentName"]
-        print("intent in 2.1: " + str(intent))
         all_slots = intents["slots"]
         slot_minutes = 0
-        print(all_slots)
         if intent is None:
-            print("intent in 2.1 was NONE")
             pass
         for slot in all_slots:
             slot_value = slot["value"]
@@ -186,7 +183,6 @@ def get_system_message(model, details):
 # selects the available questions for conversation
 def select_conversation_question(model):
     if not model.available_conversation_questions:
-        print("2.1: select conv question : in no con questions available")
         model.framework_state = conversation_states.INGREDIENT_STOCK_STATE
         # return select_ingredient_question() # in state 2.2
         # Anne: removed return, because internally handled in model

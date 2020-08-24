@@ -28,6 +28,8 @@ class Model:
         self.conversation_questions = []
         self.ingredients_questions = []
 
+        self.use_system_b = None
+
     def reset_model(self):
         self.framework_state = "no_state"
         self.framework_states = []
@@ -44,3 +46,5 @@ class Model:
 
         self.conversation_questions = []
         self.ingredients_questions = []
+
+        self.use_system_b = None

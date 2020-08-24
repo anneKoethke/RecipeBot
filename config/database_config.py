@@ -2,4 +2,4 @@
 HOST = "localhost"
 NAME = "food_db"
 USER = "root"
-PASSWORD = "BAUR2020Anne"
+PASSWORD = "BAUR2020Anne"  # im Server ändern zu aktuellem PW

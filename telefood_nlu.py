@@ -46,7 +46,7 @@ class TelefoodNLU:
             if intent_name == nlu_intents.DECLINE_QUESTION:
                 return False
 
-    ####################################################################################################################
+####################################################################################################################
 
     # Anne: so far NOT USED in main.py (?!) -> one query for all intents
     def parse_user_query2(self, user_input):  # gets the top most intent with the respected slots

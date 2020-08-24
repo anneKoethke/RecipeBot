@@ -8,7 +8,7 @@ from config import bot_token, conversation_states, system_response_text, databas
 from helperClasses import ConvLogger
 from helperClasses.ChatFilter import GreetFilter
 # States
-from ConversationStates import State_0, State_2_1, State_2_2, State_3_1, State_3_2, State_3_3
+from ConversationStates import State_0, State_1_1, State_2_1, State_2_2, State_3_1, State_3_2, State_3_3
 # everything else
 from model import Model
 # from db_handler import DatabaseHandler
@@ -16,7 +16,6 @@ from Database.db_handler import DatabaseHandler
 from telefood_nlu import TelefoodNLU
 from recipe_details import RecipeDetails
 
-SYSTEM_B = True
 # Anne: FOR LOGGING
 conversation = []
 curr_user = "no_user"
@@ -53,7 +52,7 @@ def save_input_to_database(update, system_response):
     if model.framework_state == conversation_states.RECIPE_DISPLAY_STATE:
         conversation.append({"current_recipe": str(details.current_recipe)})
         conversation.append({"curr_user": curr_user})
-        if SYSTEM_B:
+        if model.use_system_b:
             conversation.append({"System": "B"})
         else:
             conversation.append({"System": "A"})
@@ -69,13 +68,15 @@ def save_input_to_database(update, system_response):
 
 
 def greet_user(update, context):
-    system_message = system_response_text.GREETING
+    # system_message = system_response_text.GREETING
+    system_message = system_response_text.SYSTEM_STATE_QUESTION
     details.reset_details()
     model.reset_model()
     model.replied_message = system_message
     model.available_conversation_questions = system_response_text.CONVERSATION_STOCK.copy()
     model.available_ingredients_questions = system_response_text.INGREDIENT_STOCK.copy()
-    model.framework_state = conversation_states.GREETING_STATE
+    # model.framework_state = conversation_states.GREETING_STATE
+    model.framework_state = conversation_states.ASK_FOR_SYSTEM
     model.framework_states.append(model.framework_state)
     respond_to_user_and_save_conversational_turn(update, context, system_message)
 
@@ -148,14 +149,21 @@ def handle_user_query(update, context):
     # Anne: system_message MUST be None!
     system_message = None
     user_query = update.message.text
-    # start of conversation (state: 1) or asking conversational questions - everything not ingredient (state 2.1)
-    if model.framework_state is not conversation_states.NO_STATE and (
+    # start of conversation (state: 1.1) asking for the System (A/B)
+    if model.framework_state == conversation_states.ASK_FOR_SYSTEM:
+        res = State_1_1.ask_for_system_state(nlu, user_query)
+        system_message = res[0]
+        model.use_system_b = res[1]
+        print("\tsystem b:", model.use_system_b)
+        model.framework_state = conversation_states.GREETING_STATE
+    # asking conversational questions - everything not ingredient (state 2.1)
+    elif model.framework_state is not conversation_states.NO_STATE and (
             model.framework_state == conversation_states.GREETING_STATE or
             model.framework_state == conversation_states.CONVERSATION_STOCK_STATE):
         system_message = State_2_1.handle_conversation_question(context, update, db, nlu, model, details)
     elif model.framework_state == conversation_states.INGREDIENT_STOCK_STATE:
         # (state 2.2): asking for specific ingredients
-        system_message = State_2_2.ingredient_stock_state(context, update, SYSTEM_B, db, nlu, model, details, user_query)
+        system_message = State_2_2.ingredient_stock_state(context, update, db, nlu, model, details, user_query)
     elif model.framework_state == conversation_states.TITLE_DISPLAY_STATE:
         # show recipe title: "Wie klingt <Title> für dich?"
         system_message = State_3_1.title_display_state(nlu, model, details, user_query)
@@ -164,7 +172,7 @@ def handle_user_query(update, context):
         system_message = State_3_2.ingredient_list_state(nlu, model, details, user_query)
     elif model.framework_state == conversation_states.INGREDIENT_LIST_DISPLAY_STATE:
         # show ingredient list, get feedback on recipe display: "Rezept: <Title> Beschreibung: ...."
-        system_message = State_3_3.ingredient_list_display_state(SYSTEM_B, nlu, model, details, user_query)
+        system_message = State_3_3.ingredient_list_display_state(nlu, model, details, user_query)
     elif model.framework_state == conversation_states.RECIPE_DISPLAY_STATE:
         print("\nEND of SEARCH")
         # "Mit 'hey <BOTNAME>' kann eine neue Suche gestartet werden"
@@ -185,7 +193,7 @@ def handle_user_query(update, context):
 
 
 def main():
-    print("\nNutzer kann loslegen\n")
+    print(">>> bot is ready\n")
     # frontend to telegram.Bot:
     # receives updates from Telegram and delivers them to the dispatcher (the bot-uuid, using context based callbacks)
     updater = Updater(token=bot_token.BOT_TOKEN, use_context=True)
@@ -205,6 +213,7 @@ def main():
 
 
 if __name__ == "__main__":
+    print("setting up things in __main__ : please wait")
     model = Model()
     details = RecipeDetails()
     db = DatabaseHandler(database_config.HOST, database_config.NAME, database_config.USER, database_config.PASSWORD)

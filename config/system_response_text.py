@@ -24,6 +24,14 @@ GREETING = "<b>Hallo und willkommen zum Rezeptbot-Chat!</b>\nFalls du Fragen has
            "\n<b>Also: <i>Was kann ich für dich tun?</i></b>"
 
 ########################################################################################################################
+# System State
+########################################################################################################################
+
+SYSTEM_STATE_QUESTION = "Möchtest du System B verwenden (ja, nein)?"
+USE_SYSTEM_A = "System A wird verwendet."
+USE_SYSTEM_B = "System B wird verwendet."
+
+########################################################################################################################
 # recipeCategory
 ########################################################################################################################
 PREFERENCES = "Auf was hast du Lust?"

@@ -16,7 +16,6 @@ def concatenate_ingredient_lists_to_string(like_list, dislike_list):
     if dislike_list:
         dislike_feedback = return_ingredients_string(dislike_list, "dislike")
         feedback_message += dislike_feedback
-    print("feedback_message: " + str(feedback_message))
     return feedback_message
 
 
@@ -45,11 +44,8 @@ def return_ingredients_string(curr_list, like_value):
 
 # called in main
 def get_all_search_criteria(recipe_data):
-    print("in FB all search criteria")
-    print(recipe_data)
     feedback_message = "<b>Folgende Suchkriterien werden verwendet:</b>\n"
     for c in recipe_data:
-        print(c)
         if c.get("duration"):
             feedback_message += str(c.get("duration")) + " Minuten. "
         if c.get("servings"):

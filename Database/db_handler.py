@@ -48,8 +48,7 @@ class DatabaseHandler:
     # Anne: main search structure; rebuilt
     # get n recipe ids by el[key] -> compare the lists -> found one for all? return rec : mod rec
     def get_recipe(self, data):
-        print("\n GET_RECIPE: data")
-        print(data)
+        print("\n GET_RECIPE > data: ", str(data))
         # data-example = [
         #  {'servings': 3}, {'categories': ['Suppen/Eintöpfe']}, {'ingredients_like': ['tomaten', 'basilikum']}
         #  ]
@@ -110,8 +109,7 @@ class DatabaseHandler:
         # compare the lists and return those, which fulfill all user restraints
         result = self.compare_lists(rec_table_list, cat_table_list, like_ingred_table_list, dislike_ingred_table_list)
 
-        print("\nDB RESULT: ")  # 1000 or less
-        print(len(result))
+        print("\n\tDB RESULT:", str(len(result)))  # 1000 or less
 
         result_recipe = self.get_result_recipe(result, result_recipe, rec_table_list, cat_table_list,
                                         like_ingred_table_list, dislike_ingred_table_list)
@@ -124,23 +122,18 @@ class DatabaseHandler:
         # handle differnet outcomes: (1) one result (2) many results (3) None result
         if result and result != []:
             random.shuffle(result)
-            print(result[0])
+            print("\n 1st Result: ",result[0])
             if len(result) == 1:
-                print("\nIN IF: result 1")
                 result_recipe = self.get_recipe_by_rec_id(result[0])
             elif len(result) > 1 and result_recipe is None:
-                print("\nIN ELIF: result many")
                 for item in result:
                     result_recipe = self.get_recipe_by_rec_id(item)
                     if result_recipe:
                         break
         else:
-            print("\nIN ELSE: result None")
             if cat_table_list:
-                print("cat")
                 result_recipe = self.get_result_recipe(cat_table_list)
             elif like_ingred_table_list:
-                print("like")
                 result_recipe = self.get_result_recipe(like_ingred_table_list)
             elif rec_table_list:
                 result_recipe = self.get_result_recipe(rec_table_list)
@@ -166,12 +159,12 @@ class DatabaseHandler:
         result_list = []
         # 1st if: there is either rec_list or cat_list or both
         if rec_list and cat_list:
-            print("\nrec_list, length: " + str(len(rec_list)))
-            print("cat_list, length:" + str(len(cat_list)))
+            print("\nrec_list, length:", str(len(rec_list)))
+            print("cat_list, length:", str(len(cat_list)))
             intermed_list_1 = self.compare_two_lists(rec_list, cat_list)
             print(len(intermed_list_1))
         elif rec_list:
-            print("\nrec_list, length: " + str(len(rec_list)))
+            print("\nrec_list, length:", str(len(rec_list)))
             intermed_list_1 = rec_list.copy()
         elif cat_list:
             print("\ncat_list, length:" + str(len(cat_list)))
@@ -199,8 +192,7 @@ class DatabaseHandler:
             result_list = intermed_list_2
 
         # disklike_list and rec_list are hurting result
-        print("\ncompare_lists - result_list final length: ")
-        print(len(result_list))
+        print("\ncompare_lists: result_list > final length:", str(len(result_list)))
         return result_list
 
     # table_lists should have same length (i.e. LIMIT 0,1000), but for future changes..
@@ -228,8 +220,7 @@ class DatabaseHandler:
             elif l1[counter_1] < l2[counter_2]:
                 counter_1 += 1
 
-        print("\nCOMPARE TWO LISTS")
-        print(result_list)
+        print("\nCOMPARE TWO LISTS > result:", result_list)
 
         return result_list
 
@@ -250,8 +241,7 @@ class DatabaseHandler:
             counter += 1
         sql_start += sql_end
 
-        print("\nRECIPE TABLE, sql: ")
-        print(sql_start)
+        print("\nRECIPE TABLE, sql: ", sql_start)
 
         curr_list = self.execute_sql_fetch_all(sql_start)
         return curr_list
@@ -273,8 +263,7 @@ class DatabaseHandler:
                 sql_start += " AND "
         sql_start += sql_end
 
-        print("\nCATEGORY TABLE, sql: ")
-        print(sql_start)
+        print("\nCATEGORY TABLE, sql:", sql_start)
 
         curr_list = self.execute_sql_fetch_all(sql_start)
         return curr_list
@@ -317,8 +306,7 @@ class DatabaseHandler:
                 counter += 1
             sql += sql_table_part + sql_where + sql_not + sql_ingred_id + sql_rec_id + self.LIMIT_1000
 
-            print("\n INGREDIENT TABLE, sql")
-            print(sql)
+            print("\n INGREDIENT TABLE sql:", sql)
 
             result = self.execute_sql_fetch_all(sql)
         return result
@@ -337,8 +325,7 @@ class DatabaseHandler:
               " ON " + self.INGREDIENT_TABLE + ".ingredient_id = " + self.REC_INGRED_TABEL + ".ingredient_id" + \
               " WHERE " + sql_not + self.INGREDIENT_TABLE + ".name = '" + ingred + "'" + self.LIMIT_1000
 
-        print("\nINGREDIENT TABLE, single, sql: ")
-        print(sql)
+        print("\nINGREDIENT TABLE, single, sql:", sql)
 
         result = self.execute_sql_fetch_all(sql)
         return result

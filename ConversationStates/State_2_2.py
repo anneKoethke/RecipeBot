@@ -10,15 +10,13 @@ from System_B import User_Feedback_System_B
 
 
 #
-def ingredient_stock_state(context, update, system_b, db, nlu, model, details, user_query):
+def ingredient_stock_state(context, update, db, nlu, model, details, user_query):
     # get intent and slots from user message
     ingredient_data = nlu.get_ingredients_intents(user_query)
     intent = ingredient_data[0]["intent"]["intentName"]
     slots = ingredient_data[0]["slots"]
     # Anne: None intent == don't increase ingredient count
     #       -> take a new question (removed from handle_ingredients and handle_never_ingredients)
-    print("intent in 2.2")
-    print(intent)
     if intent is None:
         system_message = select_ingredient_question(model)
     else:
@@ -28,14 +26,14 @@ def ingredient_stock_state(context, update, system_b, db, nlu, model, details, u
         else:
             # Anne: all ingredient questions except INGREDIENT_NEVER (see above)
             handle_ingredients(model, details, intent, slots)
-        if system_b:
+        if model.use_system_b:
             feedback_message = \
                 User_Feedback_System_B.concatenate_ingredient_lists_to_string(details.ingredients_like,
                                                                               details.ingredients_dislike)
             context.bot.send_message(chat_id=update.effective_chat.id, text=feedback_message,
                                      parse_mode=telegram.ParseMode.HTML)
         # gather whether enough information were extracted from user
-        system_message = select_ingredient_question_or_search_for_recipe(context, update, system_b, db, model, details)
+        system_message = select_ingredient_question_or_search_for_recipe(context, update, db, model, details)
     return system_message
 
 
@@ -92,12 +90,12 @@ def append_to_ingredient_list_and_update_count(model, details, list_type, slot):
 
 
 # Anne: handles if enough info for search found, else new question needed, called by state 2.2
-def select_ingredient_question_or_search_for_recipe(context, update, system_b, db, model, details):
+def select_ingredient_question_or_search_for_recipe(context, update, db, model, details):
     system_message = ""
     if model.ingredients_count <= 1:
         system_message = select_ingredient_question(model)
     elif model.ingredients_count > 1:
-        system_message = RecipeSearcher.search_for_recipe(context, update, system_b, db, model, details)
+        system_message = RecipeSearcher.search_for_recipe(context, update, db, model, details)
     return system_message
 
 
