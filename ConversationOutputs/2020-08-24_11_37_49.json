@@ -1,0 +1,337 @@
+[
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16698,
+      "user_date": "2020-08-24 09:35:48",
+      "user_query": "hi bot"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16699,
+      "system_date": "2020-08-24 09:35:48",
+      "system_response": "Möchtest du System B verwenden (ja, nein)?"
+    },
+    "state": 1.1,
+    "recipe_num_search": 7
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16700,
+      "user_date": "2020-08-24 09:35:49",
+      "user_query": "ja"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16701,
+      "system_date": "2020-08-24 09:35:49",
+      "system_response": "System B wird verwendet.\nHallo und willkommen zum Rezeptbot-Chat!\nFalls du Fragen hast, was man hier tun kann, kannst du mit /help eine kleine Einleitung aufrufen. Du kannst aber auch sofort nach einem Rezept suchen.\nAlso: Was kann ich für dich tun?"
+    },
+    "state": 1,
+    "recipe_num_search": 7
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16702,
+      "user_date": "2020-08-24 09:35:58",
+      "user_query": "veganer Kuchen oder Torte"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16703,
+      "system_date": "2020-08-24 09:35:58",
+      "system_response": "Für wie viele Personen willst du kochen?"
+    },
+    "state": 2.1,
+    "recipe_num_search": 7
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16704,
+      "user_date": "2020-08-24 09:36:03",
+      "user_query": "egal"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16705,
+      "system_date": "2020-08-24 09:36:03",
+      "system_response": "Wie stehst du zu saisonalem Essen?"
+    },
+    "state": 2.1,
+    "recipe_num_search": 7
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16706,
+      "user_date": "2020-08-24 09:36:05",
+      "user_query": "nein"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16707,
+      "system_date": "2020-08-24 09:36:05",
+      "system_response": "Auf was hast du Lust?"
+    },
+    "state": 2.1,
+    "recipe_num_search": 7
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16708,
+      "user_date": "2020-08-24 09:36:13",
+      "user_query": "Torte, Kuchen, Plätzchen"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16709,
+      "system_date": "2020-08-24 09:36:14",
+      "system_response": "Zu was für Rezepten greifst du normalerweise, wenn du etwas kochen möchtest?"
+    },
+    "state": 2.1,
+    "recipe_num_search": 7
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16710,
+      "user_date": "2020-08-24 09:36:22",
+      "user_query": "Torte, Kuchen, Plätzchen"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16711,
+      "system_date": "2020-08-24 09:36:22",
+      "system_response": "Wie viel Zeit hast du zum Kochen?"
+    },
+    "state": 2.1,
+    "recipe_num_search": 7
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16712,
+      "user_date": "2020-08-24 09:36:27",
+      "user_query": "2 STunden"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16713,
+      "system_date": "2020-08-24 09:36:27",
+      "system_response": "Welche Kohlenhydratquelle bevorzugst du normalerweise? Beispielsweise Kartoffeln, Nudeln oder Reis? Brot?"
+    },
+    "state": 2.2,
+    "recipe_num_search": 7
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16714,
+      "user_date": "2020-08-24 09:36:34",
+      "user_query": "nein"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16715,
+      "system_date": "2020-08-24 09:36:34",
+      "system_response": "Welche Präferenzen gibt es bei den Zutaten?"
+    },
+    "state": 2.2,
+    "recipe_num_search": 7
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16716,
+      "user_date": "2020-08-24 09:36:44",
+      "user_query": "SChokolade, Kirschen"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16718,
+      "system_date": "2020-08-24 09:36:44",
+      "system_response": "Welche Zutaten würdest du niemals benutzen?"
+    },
+    "state": 2.2,
+    "recipe_num_search": 7
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16719,
+      "user_date": "2020-08-24 09:36:49",
+      "user_query": "nein"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16720,
+      "system_date": "2020-08-24 09:36:49",
+      "system_response": "Welches Gemüse magst du?"
+    },
+    "state": 2.2,
+    "recipe_num_search": 7
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16721,
+      "user_date": "2020-08-24 09:36:52",
+      "user_query": "nein"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16722,
+      "system_date": "2020-08-24 09:36:52",
+      "system_response": "Gibt es spezielle Zutaten, die du magst? Wie beispielsweise Szechuan Pfeffer oder Tamarinde?"
+    },
+    "state": 2.2,
+    "recipe_num_search": 7
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16723,
+      "user_date": "2020-08-24 09:36:55",
+      "user_query": "Kirsche"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16726,
+      "system_date": "2020-08-24 09:36:57",
+      "system_response": "Wie klingt Schwarzwaldbecher für dich?"
+    },
+    "state": 3.1,
+    "recipe_num_search": 7
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16727,
+      "user_date": "2020-08-24 09:37:02",
+      "user_query": "gut"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16728,
+      "system_date": "2020-08-24 09:37:02",
+      "system_response": "Möchtest du die Zutatenliste sehen?"
+    },
+    "state": 3.2,
+    "recipe_num_search": 7
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16729,
+      "user_date": "2020-08-24 09:37:03",
+      "user_query": "ja"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16730,
+      "system_date": "2020-08-24 09:37:03",
+      "system_response": "Zutaten\n\n250 Gramm Quark \n 1 Päckchen Vanillinzucker \n 0.0625 Liter Milch \n  Zucker und Zitronensaft \n 0.5 Glas Kirschen \n 0.5 Schokolade Tafel \n 0.5 Becher Sahne\n\nMöchtest du das Rezept sehen?"
+    },
+    "state": 3.3,
+    "recipe_num_search": 7
+  },
+  {
+    "current_recipe": "('/rezept/263872/Schwarzwaldbecher.html', 'Schwarzwaldbecher', None, 5, 5.0, 5, 2, 1, 137, 4, '250 Gramm:Quark \\n 1 Päckchen:Vanillinzucker \\n 0.0625 Liter:Milch \\n :Zucker und Zitronensaft \\n 0.5 Glas:Kirschen \\n 0.5:Schokolade Tafel \\n 0.5 Becher:Sahne', 'Den Quark,Vanillezucker,Milch,Zucker und einige Spritzer Zitronensaft in einer Schüssel geben und und mit dem Schneebesen aufschlagen.Die Kirschen gut abtropfen.Die Schokolade  reiben.Die Sahne schlagen und unter die Quark-creme heben.\\t\\tIn Dessert-schalen abwechselnd Quark,Kirschen und Schokolade schichten  und zum Schluss mit geraspelten Schokolade Verzieren und kühl stellen', 'leicht', None, '1', 355, 85, 10.9, 7.0, 1.4, datetime.date(2009, 11, 23), 8, 1)"
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16731,
+      "user_date": "2020-08-24 09:37:07",
+      "user_query": "nein"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16732,
+      "system_date": "2020-08-24 09:37:07",
+      "system_response": "Bisherige Zutaten wurden als Suchkriterium aus der Suche entfernt.\nWelche Präferenzen gibt es bei den Zutaten?"
+    },
+    "state": 2.2,
+    "recipe_num_search": 7
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16733,
+      "user_date": "2020-08-24 09:37:28",
+      "user_query": "schokolade, Kirsche, Plätzchen, Toret"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16736,
+      "system_date": "2020-08-24 09:37:33",
+      "system_response": "Wie klingt KUCHEN: Kirschen-Schoko-Nuss-Kuchen für dich?"
+    },
+    "state": 3.1,
+    "recipe_num_search": 7
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16737,
+      "user_date": "2020-08-24 09:37:36",
+      "user_query": "gut"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16738,
+      "system_date": "2020-08-24 09:37:37",
+      "system_response": "Möchtest du die Zutatenliste sehen?"
+    },
+    "state": 3.2,
+    "recipe_num_search": 7
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16739,
+      "user_date": "2020-08-24 09:37:38",
+      "user_query": "ja"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16740,
+      "system_date": "2020-08-24 09:37:39",
+      "system_response": "Zutaten\n\n300 g Kirschen frisch süß odersauer \n 125 g Butter \n 60 g Zucker ,        beiSauerkirschen 80 g \n 4 große Eier \n 150 g Mehl \n 2 TL Backpulver \n 1 Prise Salz \n 80 g Haselnuss frisch \n 75 g schwarze Schokolade 70 % \n 1 Schuss Kirschwasser, Cognac oderGrand Marnier, wenn keine \n  Kinder mit essen.\n\nMöchtest du das Rezept sehen?"
+    },
+    "state": 3.3,
+    "recipe_num_search": 7
+  },
+  {
+    "current_recipe": "('/rezept/203570/KUCHEN-Kirschen-Schoko-Nuss-Kuchen.html', 'KUCHEN: Kirschen-Schoko-Nuss-Kuchen', None, 20, 4.7, 4, 7, 13, 3394, 8, '300 g:Kirschen frisch süß odersauer \\n 125 g:Butter \\n 60 g:Zucker ,        beiSauerkirschen 80 g \\n 4 große:Eier \\n 150 g:Mehl \\n 2 TL:Backpulver \\n 1 Prise:Salz \\n 80 g:Haselnuss frisch \\n 75 g:schwarze Schokolade 70 % \\n 1 Schuss:Kirschwasser, Cognac oderGrand Marnier, wenn keine \\n :Kinder mit essen.', 'Kirschen entsteinen, Nüsse und Schokolade hacken\\t\\t Butter und Zucker, dann Eier und Salz und evtl. Alkohol schaumig rühren. Dann das mit Backpulver vermengte Mehl unterrühren. Danach die Nüsse, Schokostückchen \\n und zuletzt die Kirschen unterheben.\\tIn eine kleinere Kasten- oder Gugelhupf-Form füllen und\\t\\tbei 160° O/U 40-50 Min. backen', 'leicht', None, '1', 2168, 518, 7.0, 32.8, 40.5, datetime.date(2009, 7, 14), 13, 1)"
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16741,
+      "user_date": "2020-08-24 09:37:49",
+      "user_query": "ja"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16742,
+      "system_date": "2020-08-24 09:37:49",
+      "system_response": "Rezept: 'KUCHEN: Kirschen-Schoko-Nuss-Kuchen'\n\nBeschreibung\nkeine Angabe\n\nPortionen: 8\n\nZutaten\n300 g Kirschen frisch süß odersauer \n 125 g Butter \n 60 g Zucker ,        beiSauerkirschen 80 g \n 4 große Eier \n 150 g Mehl \n 2 TL Backpulver \n 1 Prise Salz \n 80 g Haselnuss frisch \n 75 g schwarze Schokolade 70 % \n 1 Schuss Kirschwasser, Cognac oderGrand Marnier, wenn keine \n  Kinder mit essen.\n\nZubereitung\nKirschen entsteinen, Nüsse und Schokolade hacken   Butter und Zucker, dann Eier und Salz und evtl. Alkohol schaumig rühren. Dann das mit Backpulver vermengte Mehl unterrühren. Danach die Nüsse, Schokostückchen \n und zuletzt die Kirschen unterheben. In eine kleinere Kasten- oder Gugelhupf-Form füllen und  bei 160° O/U 40-50 Min. backen\n\nSchwierigkeit: leicht\nZeit: keine Angabe"
+    },
+    "state": 3.4,
+    "recipe_num_search": 7
+  },
+  {
+    "current_recipe": "('/rezept/203570/KUCHEN-Kirschen-Schoko-Nuss-Kuchen.html', 'KUCHEN: Kirschen-Schoko-Nuss-Kuchen', None, 20, 4.7, 4, 7, 13, 3394, 8, '300 g:Kirschen frisch süß odersauer \\n 125 g:Butter \\n 60 g:Zucker ,        beiSauerkirschen 80 g \\n 4 große:Eier \\n 150 g:Mehl \\n 2 TL:Backpulver \\n 1 Prise:Salz \\n 80 g:Haselnuss frisch \\n 75 g:schwarze Schokolade 70 % \\n 1 Schuss:Kirschwasser, Cognac oderGrand Marnier, wenn keine \\n :Kinder mit essen.', 'Kirschen entsteinen, Nüsse und Schokolade hacken\\t\\t Butter und Zucker, dann Eier und Salz und evtl. Alkohol schaumig rühren. Dann das mit Backpulver vermengte Mehl unterrühren. Danach die Nüsse, Schokostückchen \\n und zuletzt die Kirschen unterheben.\\tIn eine kleinere Kasten- oder Gugelhupf-Form füllen und\\t\\tbei 160° O/U 40-50 Min. backen', 'leicht', None, '1', 2168, 518, 7.0, 32.8, 40.5, datetime.date(2009, 7, 14), 13, 1)"
+  },
+  {
+    "curr_user": "no_user"
+  },
+  {
+    "System": "B"
+  }
+]

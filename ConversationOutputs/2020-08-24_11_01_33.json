@@ -1,0 +1,142 @@
+[
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16363,
+      "user_date": "2020-08-24 09:00:55",
+      "user_query": "hi bot"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16364,
+      "system_date": "2020-08-24 09:00:55",
+      "system_response": "Möchtest du System B verwenden (ja, nein)?"
+    },
+    "state": 1.1,
+    "recipe_num_search": 5
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16365,
+      "user_date": "2020-08-24 09:00:57",
+      "user_query": "ja"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16366,
+      "system_date": "2020-08-24 09:00:57",
+      "system_response": "System B wird verwendet.\nHallo und willkommen zum Rezeptbot-Chat!\nFalls du Fragen hast, was man hier tun kann, kannst du mit /help eine kleine Einleitung aufrufen. Du kannst aber auch sofort nach einem Rezept suchen.\nAlso: Was kann ich für dich tun?"
+    },
+    "state": 1,
+    "recipe_num_search": 5
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16367,
+      "user_date": "2020-08-24 09:01:08",
+      "user_query": "schnelles veganes essen für zwischendurch"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16368,
+      "system_date": "2020-08-24 09:01:08",
+      "system_response": "Auf was hast du Lust?"
+    },
+    "state": 2.1,
+    "recipe_num_search": 5
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16369,
+      "user_date": "2020-08-24 09:01:12",
+      "user_query": "Obst"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16370,
+      "system_date": "2020-08-24 09:01:12",
+      "system_response": "Welche Zutaten würdest du niemals benutzen?"
+    },
+    "state": 2.2,
+    "recipe_num_search": 5
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16371,
+      "user_date": "2020-08-24 09:01:15",
+      "user_query": "Fleisch"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16374,
+      "system_date": "2020-08-24 09:01:16",
+      "system_response": "Wie klingt Spinat-Lasagne für dich?"
+    },
+    "state": 3.1,
+    "recipe_num_search": 5
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16375,
+      "user_date": "2020-08-24 09:01:21",
+      "user_query": "gut"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16376,
+      "system_date": "2020-08-24 09:01:21",
+      "system_response": "Möchtest du die Zutatenliste sehen?"
+    },
+    "state": 3.2,
+    "recipe_num_search": 5
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16377,
+      "user_date": "2020-08-24 09:01:24",
+      "user_query": "ja"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16378,
+      "system_date": "2020-08-24 09:01:24",
+      "system_response": "Zutaten\n\n8 Lasagneblätter \n 0.5 Pck TK-Blattspinat \n 1 Pck Dinkelsahne \n 0.5 Pck Soyananda Kräuter-Knoblauch%x22Frischkäse%x22 \n 1 Zwiebel \n 0.5 Schale getrocknete Soft-Tomaten inÖl \n 2 TL Mandelmus \n 50 ml Wasser \n 0.5 Pck. Soyananda %x22wie Sauerrahm%x22 \n 1 TL gemischte TK-Kräuter \n 2 Handvoll geriebener veganer Käse\n\nMöchtest du das Rezept sehen?"
+    },
+    "state": 3.3,
+    "recipe_num_search": 5
+  },
+  {
+    "current_recipe": "('/rezept/490555/Spinat-Lasagne.html', 'Spinat-Lasagne', 'vegan', 2, 5.0, 5, 0, 0, 762, 4, '8:Lasagneblätter \\n 0.5 Pck:TK-Blattspinat \\n 1 Pck:Dinkelsahne \\n 0.5 Pck:Soyananda Kräuter-Knoblauch%x22Frischkäse%x22 \\n 1:Zwiebel \\n 0.5 Schale:getrocknete Soft-Tomaten inÖl \\n 2 TL:Mandelmus \\n 50 ml:Wasser \\n 0.5 Pck.:Soyananda %x22wie Sauerrahm%x22 \\n 1 TL:gemischte TK-Kräuter \\n 2 Handvoll:geriebener veganer Käse', 'TK-Spinat auftauen lassen. Zwiebel fein hacken und in etwas Öl andünsten. Spinat dazu und kurz mitdünsten. Dinkelsahne und %x22Frischkäse%x22 einrühren, kurz köcheln lassen, vom Herd nehmen. Die Soft-Tomaten ggf. noch etwas klein schneiden und unter den Spinat rühren. \\t\\tDas Mandelmus in dem Wasser erhitzen, den Käse einrühren und schmelzen lassen, mit den TK-Kräutern abschmecken. \\t\\tIn eine Auflaufform zunächst 1-2 Kellen Spinatsauce geben, darauf 2 Lasagneplatten, wieder eine Lage Spinatsauce, Lasagneplatten, noch eine Schicht Lasagneplatten. Auf diese Lage dann den %x22Sauerrahm%x22 großzügig verteilen. Wieder 2 Lasagneplatten darauf und als abschließende Schicht die Käsesauce darauf verteilen. \\tBei ca. 200°°C im Ofen 20-30 Min. überbacken.', 'leicht', 40, '3', 791, 189, 4.3, 5.6, 16.9, datetime.date(2014, 4, 11), 11, 0)"
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16379,
+      "user_date": "2020-08-24 09:01:33",
+      "user_query": "ja"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16380,
+      "system_date": "2020-08-24 09:01:33",
+      "system_response": "Rezept: 'Spinat-Lasagne'\n\nBeschreibung\nvegan\n\nPortionen: 4\n\nZutaten\n8 Lasagneblätter \n 0.5 Pck TK-Blattspinat \n 1 Pck Dinkelsahne \n 0.5 Pck Soyananda Kräuter-Knoblauch%x22Frischkäse%x22 \n 1 Zwiebel \n 0.5 Schale getrocknete Soft-Tomaten inÖl \n 2 TL Mandelmus \n 50 ml Wasser \n 0.5 Pck. Soyananda %x22wie Sauerrahm%x22 \n 1 TL gemischte TK-Kräuter \n 2 Handvoll geriebener veganer Käse\n\nZubereitung\nTK-Spinat auftauen lassen. Zwiebel fein hacken und in etwas Öl andünsten. Spinat dazu und kurz mitdünsten. Dinkelsahne und %x22Frischkäse%x22 einrühren, kurz köcheln lassen, vom Herd nehmen. Die Soft-Tomaten ggf. noch etwas klein schneiden und unter den Spinat rühren.   Das Mandelmus in dem Wasser erhitzen, den Käse einrühren und schmelzen lassen, mit den TK-Kräutern abschmecken.   In eine Auflaufform zunächst 1-2 Kellen Spinatsauce geben, darauf 2 Lasagneplatten, wieder eine Lage Spinatsauce, Lasagneplatten, noch eine Schicht Lasagneplatten. Auf diese Lage dann den %x22Sauerrahm%x22 großzügig verteilen. Wieder 2 Lasagneplatten darauf und als abschließende Schicht die Käsesauce darauf verteilen.  Bei ca. 200°°C im Ofen 20-30 Min. überbacken.\n\nSchwierigkeit: leicht\nZeit: 40 Minuten"
+    },
+    "state": 3.4,
+    "recipe_num_search": 5
+  },
+  {
+    "current_recipe": "('/rezept/490555/Spinat-Lasagne.html', 'Spinat-Lasagne', 'vegan', 2, 5.0, 5, 0, 0, 762, 4, '8:Lasagneblätter \\n 0.5 Pck:TK-Blattspinat \\n 1 Pck:Dinkelsahne \\n 0.5 Pck:Soyananda Kräuter-Knoblauch%x22Frischkäse%x22 \\n 1:Zwiebel \\n 0.5 Schale:getrocknete Soft-Tomaten inÖl \\n 2 TL:Mandelmus \\n 50 ml:Wasser \\n 0.5 Pck.:Soyananda %x22wie Sauerrahm%x22 \\n 1 TL:gemischte TK-Kräuter \\n 2 Handvoll:geriebener veganer Käse', 'TK-Spinat auftauen lassen. Zwiebel fein hacken und in etwas Öl andünsten. Spinat dazu und kurz mitdünsten. Dinkelsahne und %x22Frischkäse%x22 einrühren, kurz köcheln lassen, vom Herd nehmen. Die Soft-Tomaten ggf. noch etwas klein schneiden und unter den Spinat rühren. \\t\\tDas Mandelmus in dem Wasser erhitzen, den Käse einrühren und schmelzen lassen, mit den TK-Kräutern abschmecken. \\t\\tIn eine Auflaufform zunächst 1-2 Kellen Spinatsauce geben, darauf 2 Lasagneplatten, wieder eine Lage Spinatsauce, Lasagneplatten, noch eine Schicht Lasagneplatten. Auf diese Lage dann den %x22Sauerrahm%x22 großzügig verteilen. Wieder 2 Lasagneplatten darauf und als abschließende Schicht die Käsesauce darauf verteilen. \\tBei ca. 200°°C im Ofen 20-30 Min. überbacken.', 'leicht', 40, '3', 791, 189, 4.3, 5.6, 16.9, datetime.date(2014, 4, 11), 11, 0)"
+  },
+  {
+    "curr_user": "no_user"
+  },
+  {
+    "System": "B"
+  }
+]

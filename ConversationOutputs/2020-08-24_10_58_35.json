@@ -1,0 +1,190 @@
+[
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16305,
+      "user_date": "2020-08-24 08:57:39",
+      "user_query": "hi bot"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16306,
+      "system_date": "2020-08-24 08:57:40",
+      "system_response": "Möchtest du System B verwenden (ja, nein)?"
+    },
+    "state": 1.1,
+    "recipe_num_search": 2
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16307,
+      "user_date": "2020-08-24 08:57:46",
+      "user_query": "hallelaljsddnl"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16308,
+      "system_date": "2020-08-24 08:57:46",
+      "system_response": "System A wird verwendet.\nHallo und willkommen zum Rezeptbot-Chat!\nFalls du Fragen hast, was man hier tun kann, kannst du mit /help eine kleine Einleitung aufrufen. Du kannst aber auch sofort nach einem Rezept suchen.\nAlso: Was kann ich für dich tun?"
+    },
+    "state": 1,
+    "recipe_num_search": 2
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16309,
+      "user_date": "2020-08-24 08:57:59",
+      "user_query": "schnelels für zwischendurch vegan"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16310,
+      "system_date": "2020-08-24 08:57:59",
+      "system_response": "Wie stehst du zu regionaler Küche (z.B. Hamburger oder Allgäuer Küche)?"
+    },
+    "state": 2.1,
+    "recipe_num_search": 2
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16311,
+      "user_date": "2020-08-24 08:58:04",
+      "user_query": "egal"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16312,
+      "system_date": "2020-08-24 08:58:04",
+      "system_response": "Wie viel Zeit hast du zum Kochen?"
+    },
+    "state": 2.1,
+    "recipe_num_search": 2
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16313,
+      "user_date": "2020-08-24 08:58:09",
+      "user_query": "20 minuten"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16314,
+      "system_date": "2020-08-24 08:58:09",
+      "system_response": "Was sind deine Lieblingszutaten?"
+    },
+    "state": 2.2,
+    "recipe_num_search": 2
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16315,
+      "user_date": "2020-08-24 08:58:12",
+      "user_query": "Eiser"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16316,
+      "system_date": "2020-08-24 08:58:12",
+      "system_response": "Gibt es spezielle Zutaten, die du magst? Wie beispielsweise Szechuan Pfeffer oder Tamarinde?"
+    },
+    "state": 2.2,
+    "recipe_num_search": 2
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16317,
+      "user_date": "2020-08-24 08:58:16",
+      "user_query": "Eier"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16318,
+      "system_date": "2020-08-24 08:58:16",
+      "system_response": "Welche Zutaten würdest du niemals benutzen?"
+    },
+    "state": 2.2,
+    "recipe_num_search": 2
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16319,
+      "user_date": "2020-08-24 08:58:19",
+      "user_query": "Fleisch"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16320,
+      "system_date": "2020-08-24 08:58:20",
+      "system_response": "Wie klingt Schokogranate für dich?"
+    },
+    "state": 3.1,
+    "recipe_num_search": 2
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16321,
+      "user_date": "2020-08-24 08:58:26",
+      "user_query": "gut"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16322,
+      "system_date": "2020-08-24 08:58:26",
+      "system_response": "Möchtest du die Zutatenliste sehen?"
+    },
+    "state": 3.2,
+    "recipe_num_search": 2
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16323,
+      "user_date": "2020-08-24 08:58:27",
+      "user_query": "ja"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16324,
+      "system_date": "2020-08-24 08:58:27",
+      "system_response": "Zutaten\n\n100 gr. Vollmilchschokolade mitHaselnusssplittern \n 100 gr. Zartbitterschokolade \n 100 gr. gesalzene Butter \n 50 gr. Zucker \n 6 Eier, Eigelb und Eiweißgetrennt\n\nMöchtest du das Rezept sehen?"
+    },
+    "state": 3.3,
+    "recipe_num_search": 2
+  },
+  {
+    "current_recipe": "('/rezept/100557/Schokogranate.html', 'Schokogranate', None, 6, 5.0, 5, 4, 1, 94, 8, '100 gr.:Vollmilchschokolade mitHaselnusssplittern \\n 100 gr.:Zartbitterschokolade \\n 100 gr.:gesalzene Butter \\n 50 gr.:Zucker \\n 6:Eier, Eigelb und Eiweißgetrennt', 'Beide Schokoladensorten zerkleinern und mit je 20 gr Butter schmelzen. Übrige Butter, Zucker und Eigelb schaumig aufschlagen. Geschmolzene Schokolade unterrühren. Eiweiß mit einer Prise Salz zu Eischnee schlagen und unter die Schokomasse heben. \\n Eine Silikon-Kasten-Form mit der Masse befüllen und für 5 Stunden ins Gefriefach stellen. \\n Für den Schokoladenüberzug 100 gr. Zartbitterschokolade mit 20 gr.Butter schmelzen und 100 gr. weiße Schokolade mit 20 gr. Butter getrennt  schmelzen. \\n Dunkle Schokolade über die Schokogranate gießen  und verstreichen. Weiße Schokolade darüber gießen und mischen. \\n Leicht angetaut servieren', 'leicht', 20, '1', 1946, 465, 4.7, 62.9, 21.7, datetime.date(2009, 2, 2), 6, 0)"
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16325,
+      "user_date": "2020-08-24 08:58:35",
+      "user_query": "ja"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16326,
+      "system_date": "2020-08-24 08:58:35",
+      "system_response": "Rezept: 'Schokogranate'\n\nBeschreibung\nkeine Angabe\n\nPortionen: 8\n\nZutaten\n100 gr. Vollmilchschokolade mitHaselnusssplittern \n 100 gr. Zartbitterschokolade \n 100 gr. gesalzene Butter \n 50 gr. Zucker \n 6 Eier, Eigelb und Eiweißgetrennt\n\nZubereitung\nBeide Schokoladensorten zerkleinern und mit je 20 gr Butter schmelzen. Übrige Butter, Zucker und Eigelb schaumig aufschlagen. Geschmolzene Schokolade unterrühren. Eiweiß mit einer Prise Salz zu Eischnee schlagen und unter die Schokomasse heben. \n Eine Silikon-Kasten-Form mit der Masse befüllen und für 5 Stunden ins Gefriefach stellen. \n Für den Schokoladenüberzug 100 gr. Zartbitterschokolade mit 20 gr.Butter schmelzen und 100 gr. weiße Schokolade mit 20 gr. Butter getrennt  schmelzen. \n Dunkle Schokolade über die Schokogranate gießen  und verstreichen. Weiße Schokolade darüber gießen und mischen. \n Leicht angetaut servieren\n\nSchwierigkeit: leicht\nZeit: 20 Minuten"
+    },
+    "state": 3.4,
+    "recipe_num_search": 2
+  },
+  {
+    "current_recipe": "('/rezept/100557/Schokogranate.html', 'Schokogranate', None, 6, 5.0, 5, 4, 1, 94, 8, '100 gr.:Vollmilchschokolade mitHaselnusssplittern \\n 100 gr.:Zartbitterschokolade \\n 100 gr.:gesalzene Butter \\n 50 gr.:Zucker \\n 6:Eier, Eigelb und Eiweißgetrennt', 'Beide Schokoladensorten zerkleinern und mit je 20 gr Butter schmelzen. Übrige Butter, Zucker und Eigelb schaumig aufschlagen. Geschmolzene Schokolade unterrühren. Eiweiß mit einer Prise Salz zu Eischnee schlagen und unter die Schokomasse heben. \\n Eine Silikon-Kasten-Form mit der Masse befüllen und für 5 Stunden ins Gefriefach stellen. \\n Für den Schokoladenüberzug 100 gr. Zartbitterschokolade mit 20 gr.Butter schmelzen und 100 gr. weiße Schokolade mit 20 gr. Butter getrennt  schmelzen. \\n Dunkle Schokolade über die Schokogranate gießen  und verstreichen. Weiße Schokolade darüber gießen und mischen. \\n Leicht angetaut servieren', 'leicht', 20, '1', 1946, 465, 4.7, 62.9, 21.7, datetime.date(2009, 2, 2), 6, 0)"
+  },
+  {
+    "curr_user": "no_user"
+  },
+  {
+    "System": "A"
+  }
+]

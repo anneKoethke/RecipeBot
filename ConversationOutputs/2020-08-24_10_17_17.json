@@ -1,0 +1,177 @@
+[
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16174,
+      "user_date": "2020-08-24 08:16:21",
+      "user_query": "hi bot"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16175,
+      "system_date": "2020-08-24 08:16:22",
+      "system_response": "Möchtest du System B verwenden (ja, nein)?"
+    },
+    "state": 1.1,
+    "recipe_num_search": 1
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16176,
+      "user_date": "2020-08-24 08:16:24",
+      "user_query": "ja"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16177,
+      "system_date": "2020-08-24 08:16:25",
+      "system_response": "System B wird verwendet.\nHallo und willkommen zum Rezeptbot-Chat!\nFalls du Fragen hast, was man hier tun kann, kannst du mit /help eine kleine Einleitung aufrufen. Du kannst aber auch sofort nach einem Rezept suchen.\nAlso: Was kann ich für dich tun?"
+    },
+    "state": 1,
+    "recipe_num_search": 1
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16178,
+      "user_date": "2020-08-24 08:16:32",
+      "user_query": "schnelles Abendessen vegan"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16179,
+      "system_date": "2020-08-24 08:16:35",
+      "system_response": "Wie klingt Schnelles Abendessen für dich?"
+    },
+    "state": 3.1,
+    "recipe_num_search": 1
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16180,
+      "user_date": "2020-08-24 08:16:42",
+      "user_query": "gut"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16181,
+      "system_date": "2020-08-24 08:16:42",
+      "system_response": "Möchtest du die Zutatenliste sehen?"
+    },
+    "state": 3.2,
+    "recipe_num_search": 1
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16182,
+      "user_date": "2020-08-24 08:16:44",
+      "user_query": "ja"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16183,
+      "system_date": "2020-08-24 08:16:44",
+      "system_response": "Zutaten\n\n3 Putenschnitzel \n 50 g Roquefort \n 1 TL Senf scharf \n  Salz, Pfeffer aus der Mühle \n  Paprika edelsüß \n 1 Chilischote rot \n  Für den Salat- \n 300 g Vogerlsalat \n 50 g Speckwürfel \n 1 Hand voll Zwiebelcroutons \n  Dressing s. mein KB \n  Wasabi-Himbeer-Dressing\n\nMöchtest du das Rezept sehen?"
+    },
+    "state": 3.3,
+    "recipe_num_search": 1
+  },
+  {
+    "current_recipe": "('/rezept/305305/Schnelles-Abendessen.html', 'Schnelles Abendessen', 'Roquefortpute mit Vogerlsalat', 74, 5.0, 5, 23, 15, 12452, 2, '3:Putenschnitzel \\n 50 g:Roquefort \\n 1 TL:Senf scharf \\n :Salz, Pfeffer aus der Mühle \\n :Paprika edelsüß \\n 1:Chilischote rot \\n :Für den Salat- \\n 300 g:Vogerlsalat \\n 50 g:Speckwürfel \\n 1 Hand voll:Zwiebelcroutons \\n :Dressing s. mein KB \\n :Wasabi-Himbeer-Dressing', 'Schnitzel waschen, trocknen, parieren, würzen und mit Senf bestreichen. \\n In einer Pfanne mit Bratfett, z. B. Ghee, eine geschlitzte Chilischote anbraten und die Schnitzel darin scharf von beiden Seiten anbraten. Den gewürfelten Roquefort auf die Schnitzel geben und die Hitze reduzieren. Einen Deckel auf die Pfanne machen, damit der Käse schmilzt. \\n Vogerlsalat gründlich waschen und putzen. Speckwürfel ohne Fett knusprig braten. Dressing, s. mein KB, herstellen. Salat erst kurz vor dem Servieren marinieren, der fällt gern schnell zusammen. Kracherle ( dieses Mal gekauft...musste schnell gehen) und warmen Speck drauf verteilen. Alles zusammen anrichten.', 'leicht', None, '1', 1004, 240, 19.5, 0.4, 18.0, datetime.date(2010, 4, 11), 11, 0)"
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16184,
+      "user_date": "2020-08-24 08:16:51",
+      "user_query": "nein"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16185,
+      "system_date": "2020-08-24 08:16:51",
+      "system_response": "Bisherige Zutaten wurden als Suchkriterium aus der Suche entfernt.\nWelche Präferenzen gibt es bei den Zutaten?"
+    },
+    "state": 2.2,
+    "recipe_num_search": 1
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16186,
+      "user_date": "2020-08-24 08:17:03",
+      "user_query": "Tomate, Olive"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16189,
+      "system_date": "2020-08-24 08:17:05",
+      "system_response": "Wie klingt Chili-Zwiebel-Marinade für dich?"
+    },
+    "state": 3.1,
+    "recipe_num_search": 1
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16190,
+      "user_date": "2020-08-24 08:17:10",
+      "user_query": "gut"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16191,
+      "system_date": "2020-08-24 08:17:10",
+      "system_response": "Möchtest du die Zutatenliste sehen?"
+    },
+    "state": 3.2,
+    "recipe_num_search": 1
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16192,
+      "user_date": "2020-08-24 08:17:14",
+      "user_query": "ja"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16193,
+      "system_date": "2020-08-24 08:17:14",
+      "system_response": "Zutaten\n\n3 Zwiebeln weiß \n 3 Chilischoten rot \n 3 Zweige Rosmarin frisch \n 3 Stiele Petersilie glatt frisch \n 1 EL Pfeffer bunt \n 250 ml Olivenöl extra vergine \n 6 Knoblauchzehen\n\nMöchtest du das Rezept sehen?"
+    },
+    "state": 3.3,
+    "recipe_num_search": 1
+  },
+  {
+    "current_recipe": "('/rezept/490780/Chili-Zwiebel-Marinade.html', 'Chili-Zwiebel-Marinade', 'auch sehr gut für Gemüse geeignet', 2, 5.0, 5, 0, 0, 69, 1, '3:Zwiebeln weiß \\n 3:Chilischoten rot \\n 3 Zweige:Rosmarin frisch \\n 3 Stiele:Petersilie glatt frisch \\n 1 EL:Pfeffer bunt \\n 250 ml:Olivenöl extra vergine \\n 6:Knoblauchzehen', 'Zwiebeln und Knoblauch schälen. Zwiebeln in Ringe schneiden, Knoblauchzehen halbieren. Chili entkernen und fein hacken. Kräuter waschen und grob hacken. Alles mit Pfefferkörnern und Öl vermengen. Mindestens 1 Tag durchziehen lassen.', 'leicht', 5, '1', 3395, 811, 0.3, 2.3, 90.7, datetime.date(2014, 4, 15), 7, 0)"
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16194,
+      "user_date": "2020-08-24 08:17:18",
+      "user_query": "ja"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16195,
+      "system_date": "2020-08-24 08:17:18",
+      "system_response": "Rezept: 'Chili-Zwiebel-Marinade'\n\nBeschreibung\nauch sehr gut für Gemüse geeignet\n\nPortionen: 1\n\nZutaten\n3 Zwiebeln weiß \n 3 Chilischoten rot \n 3 Zweige Rosmarin frisch \n 3 Stiele Petersilie glatt frisch \n 1 EL Pfeffer bunt \n 250 ml Olivenöl extra vergine \n 6 Knoblauchzehen\n\nZubereitung\nZwiebeln und Knoblauch schälen. Zwiebeln in Ringe schneiden, Knoblauchzehen halbieren. Chili entkernen und fein hacken. Kräuter waschen und grob hacken. Alles mit Pfefferkörnern und Öl vermengen. Mindestens 1 Tag durchziehen lassen.\n\nSchwierigkeit: leicht\nZeit: 5 Minuten"
+    },
+    "state": 3.4,
+    "recipe_num_search": 1
+  },
+  {
+    "current_recipe": "('/rezept/490780/Chili-Zwiebel-Marinade.html', 'Chili-Zwiebel-Marinade', 'auch sehr gut für Gemüse geeignet', 2, 5.0, 5, 0, 0, 69, 1, '3:Zwiebeln weiß \\n 3:Chilischoten rot \\n 3 Zweige:Rosmarin frisch \\n 3 Stiele:Petersilie glatt frisch \\n 1 EL:Pfeffer bunt \\n 250 ml:Olivenöl extra vergine \\n 6:Knoblauchzehen', 'Zwiebeln und Knoblauch schälen. Zwiebeln in Ringe schneiden, Knoblauchzehen halbieren. Chili entkernen und fein hacken. Kräuter waschen und grob hacken. Alles mit Pfefferkörnern und Öl vermengen. Mindestens 1 Tag durchziehen lassen.', 'leicht', 5, '1', 3395, 811, 0.3, 2.3, 90.7, datetime.date(2014, 4, 15), 7, 0)"
+  },
+  {
+    "curr_user": "no_user"
+  },
+  {
+    "System": "B"
+  }
+]

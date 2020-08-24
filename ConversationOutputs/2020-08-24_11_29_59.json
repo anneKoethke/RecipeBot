@@ -1,0 +1,302 @@
+[
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16528,
+      "user_date": "2020-08-24 09:28:32",
+      "user_query": "hi bot"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16529,
+      "system_date": "2020-08-24 09:28:33",
+      "system_response": "Möchtest du System B verwenden (ja, nein)?"
+    },
+    "state": 1.1,
+    "recipe_num_search": 2
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16530,
+      "user_date": "2020-08-24 09:28:40",
+      "user_query": "schokokuchen für Geburtstag"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16531,
+      "system_date": "2020-08-24 09:28:40",
+      "system_response": "System A wird verwendet.\nHallo und willkommen zum Rezeptbot-Chat!\nFalls du Fragen hast, was man hier tun kann, kannst du mit /help eine kleine Einleitung aufrufen. Du kannst aber auch sofort nach einem Rezept suchen.\nAlso: Was kann ich für dich tun?"
+    },
+    "state": 1,
+    "recipe_num_search": 2
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16532,
+      "user_date": "2020-08-24 09:28:43",
+      "user_query": "hi bot"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16533,
+      "system_date": "2020-08-24 09:28:43",
+      "system_response": "Möchtest du System B verwenden (ja, nein)?"
+    },
+    "state": 1.1,
+    "recipe_num_search": 3
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16534,
+      "user_date": "2020-08-24 09:28:49",
+      "user_query": "ja"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16535,
+      "system_date": "2020-08-24 09:28:49",
+      "system_response": "System B wird verwendet.\nHallo und willkommen zum Rezeptbot-Chat!\nFalls du Fragen hast, was man hier tun kann, kannst du mit /help eine kleine Einleitung aufrufen. Du kannst aber auch sofort nach einem Rezept suchen.\nAlso: Was kann ich für dich tun?"
+    },
+    "state": 1,
+    "recipe_num_search": 3
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16536,
+      "user_date": "2020-08-24 09:29:00",
+      "user_query": "Schokoladenkuchen für Geburtatg"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16537,
+      "system_date": "2020-08-24 09:29:00",
+      "system_response": "Gibt es Veganer?"
+    },
+    "state": 2.1,
+    "recipe_num_search": 3
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16538,
+      "user_date": "2020-08-24 09:29:02",
+      "user_query": "nein"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16539,
+      "system_date": "2020-08-24 09:29:02",
+      "system_response": "Wie würdest du deine Kochfähigkeiten einschätzen?"
+    },
+    "state": 2.1,
+    "recipe_num_search": 3
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16540,
+      "user_date": "2020-08-24 09:29:04",
+      "user_query": "gut"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16541,
+      "system_date": "2020-08-24 09:29:04",
+      "system_response": "Auf was hast du Lust?"
+    },
+    "state": 2.1,
+    "recipe_num_search": 3
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16542,
+      "user_date": "2020-08-24 09:29:10",
+      "user_query": "Kuchen schokolade"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16543,
+      "system_date": "2020-08-24 09:29:10",
+      "system_response": "Wie ernährst du dich?"
+    },
+    "state": 2.1,
+    "recipe_num_search": 3
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16544,
+      "user_date": "2020-08-24 09:29:13",
+      "user_query": "gesund"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16545,
+      "system_date": "2020-08-24 09:29:13",
+      "system_response": "Wie stehst du zu saisonalem Essen?"
+    },
+    "state": 2.1,
+    "recipe_num_search": 3
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16546,
+      "user_date": "2020-08-24 09:29:15",
+      "user_query": "egal"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16547,
+      "system_date": "2020-08-24 09:29:15",
+      "system_response": "Zu was für Rezepten greifst du normalerweise, wenn du etwas kochen möchtest?"
+    },
+    "state": 2.1,
+    "recipe_num_search": 3
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16548,
+      "user_date": "2020-08-24 09:29:19",
+      "user_query": "Kuchen"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16549,
+      "system_date": "2020-08-24 09:29:19",
+      "system_response": "Welche Kohlenhydratquelle bevorzugst du normalerweise? Beispielsweise Kartoffeln, Nudeln oder Reis? Brot?"
+    },
+    "state": 2.2,
+    "recipe_num_search": 3
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16551,
+      "user_date": "2020-08-24 09:29:29",
+      "user_query": "k"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16552,
+      "system_date": "2020-08-24 09:29:29",
+      "system_response": "Welche Zutaten würdest du niemals benutzen?"
+    },
+    "state": 2.2,
+    "recipe_num_search": 3
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16553,
+      "user_date": "2020-08-24 09:29:36",
+      "user_query": "hi bot"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16554,
+      "system_date": "2020-08-24 09:29:36",
+      "system_response": "Möchtest du System B verwenden (ja, nein)?"
+    },
+    "state": 1.1,
+    "recipe_num_search": 4
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16555,
+      "user_date": "2020-08-24 09:29:37",
+      "user_query": "ja"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16556,
+      "system_date": "2020-08-24 09:29:37",
+      "system_response": "System B wird verwendet.\nHallo und willkommen zum Rezeptbot-Chat!\nFalls du Fragen hast, was man hier tun kann, kannst du mit /help eine kleine Einleitung aufrufen. Du kannst aber auch sofort nach einem Rezept suchen.\nAlso: Was kann ich für dich tun?"
+    },
+    "state": 1,
+    "recipe_num_search": 4
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16557,
+      "user_date": "2020-08-24 09:29:46",
+      "user_query": "schokoladentorte"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16558,
+      "system_date": "2020-08-24 09:29:48",
+      "system_response": "Wie klingt Schokoladentorte für dich?"
+    },
+    "state": 3.1,
+    "recipe_num_search": 4
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16559,
+      "user_date": "2020-08-24 09:29:50",
+      "user_query": "gut"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16560,
+      "system_date": "2020-08-24 09:29:50",
+      "system_response": "Möchtest du die Zutatenliste sehen?"
+    },
+    "state": 3.2,
+    "recipe_num_search": 4
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16561,
+      "user_date": "2020-08-24 09:29:52",
+      "user_query": "ja"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16562,
+      "system_date": "2020-08-24 09:29:52",
+      "system_response": "Zutaten\n\n9 dag Butter \n 15 dag Kochschokolade \n 24 dag Zucker \n 9 Eiklar \n 12 dag Mehl\n\nMöchtest du das Rezept sehen?"
+    },
+    "state": 3.3,
+    "recipe_num_search": 4
+  },
+  {
+    "current_recipe": "('/rezept/102678/Schokoladentorte.html', 'Schokoladentorte', 'Eiklarverwertung', 24, 4.88, 5, 13, 5, 651, 4, '9 dag:Butter \\n 15 dag:Kochschokolade \\n 24 dag:Zucker \\n 9:Eiklar \\n 12 dag:Mehl', 'Die Schokolade erwärmen, die weiche Butter schaumig rühren \\n Mit der Schokolade und dem Zucker weiterrühren \\n Den festgeschlgenen Schnee und das Mehl mit einer Prise Salz unterheben. \\n Diese Masse in eine vorbereitete , mittlere Tortenform füllen und bei 180 Grad \\tim vorgeheizten Rohr ca. 1 Stunde backen.', 'leicht', 20, '1', 1900, 454, 2.8, 72.6, 16.8, datetime.date(2009, 2, 5), 5, 0)"
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16563,
+      "user_date": "2020-08-24 09:29:59",
+      "user_query": "ja"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16564,
+      "system_date": "2020-08-24 09:29:59",
+      "system_response": "Rezept: 'Schokoladentorte'\n\nBeschreibung\nEiklarverwertung\n\nPortionen: 4\n\nZutaten\n9 dag Butter \n 15 dag Kochschokolade \n 24 dag Zucker \n 9 Eiklar \n 12 dag Mehl\n\nZubereitung\nDie Schokolade erwärmen, die weiche Butter schaumig rühren \n Mit der Schokolade und dem Zucker weiterrühren \n Den festgeschlgenen Schnee und das Mehl mit einer Prise Salz unterheben. \n Diese Masse in eine vorbereitete , mittlere Tortenform füllen und bei 180 Grad  im vorgeheizten Rohr ca. 1 Stunde backen.\n\nSchwierigkeit: leicht\nZeit: 20 Minuten"
+    },
+    "state": 3.4,
+    "recipe_num_search": 4
+  },
+  {
+    "current_recipe": "('/rezept/102678/Schokoladentorte.html', 'Schokoladentorte', 'Eiklarverwertung', 24, 4.88, 5, 13, 5, 651, 4, '9 dag:Butter \\n 15 dag:Kochschokolade \\n 24 dag:Zucker \\n 9:Eiklar \\n 12 dag:Mehl', 'Die Schokolade erwärmen, die weiche Butter schaumig rühren \\n Mit der Schokolade und dem Zucker weiterrühren \\n Den festgeschlgenen Schnee und das Mehl mit einer Prise Salz unterheben. \\n Diese Masse in eine vorbereitete , mittlere Tortenform füllen und bei 180 Grad \\tim vorgeheizten Rohr ca. 1 Stunde backen.', 'leicht', 20, '1', 1900, 454, 2.8, 72.6, 16.8, datetime.date(2009, 2, 5), 5, 0)"
+  },
+  {
+    "curr_user": "no_user"
+  },
+  {
+    "System": "B"
+  }
+]

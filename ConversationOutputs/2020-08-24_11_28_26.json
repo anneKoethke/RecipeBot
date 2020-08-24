@@ -1,0 +1,126 @@
+[
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16512,
+      "user_date": "2020-08-24 09:27:18",
+      "user_query": "hi bot"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16513,
+      "system_date": "2020-08-24 09:27:18",
+      "system_response": "Möchtest du System B verwenden (ja, nein)?"
+    },
+    "state": 1.1,
+    "recipe_num_search": 1
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16514,
+      "user_date": "2020-08-24 09:27:21",
+      "user_query": "ja"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16515,
+      "system_date": "2020-08-24 09:27:21",
+      "system_response": "System B wird verwendet.\nHallo und willkommen zum Rezeptbot-Chat!\nFalls du Fragen hast, was man hier tun kann, kannst du mit /help eine kleine Einleitung aufrufen. Du kannst aber auch sofort nach einem Rezept suchen.\nAlso: Was kann ich für dich tun?"
+    },
+    "state": 1,
+    "recipe_num_search": 1
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16516,
+      "user_date": "2020-08-24 09:27:34",
+      "user_query": "schnelles vegetarisches Mittagessen"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16517,
+      "system_date": "2020-08-24 09:27:34",
+      "system_response": "Was sind deine Lieblingszutaten?"
+    },
+    "state": 2.2,
+    "recipe_num_search": 1
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16518,
+      "user_date": "2020-08-24 09:27:55",
+      "user_query": "Nudeln, Aubergine, Olive, Tomaten"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16521,
+      "system_date": "2020-08-24 09:27:57",
+      "system_response": "Wie klingt erster gang pasta fredda estiva für dich?"
+    },
+    "state": 3.1,
+    "recipe_num_search": 1
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16522,
+      "user_date": "2020-08-24 09:28:05",
+      "user_query": "gut"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16523,
+      "system_date": "2020-08-24 09:28:05",
+      "system_response": "Möchtest du die Zutatenliste sehen?"
+    },
+    "state": 3.2,
+    "recipe_num_search": 1
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16524,
+      "user_date": "2020-08-24 09:28:06",
+      "user_query": "ja"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16525,
+      "system_date": "2020-08-24 09:28:06",
+      "system_response": "Zutaten\n\n500 gr. Ditali-Nudeln \n 1 gross Aubergine frisch \n 2 Paprikaschoten grün \n 11 EL Olivenöl extra vergine \n 1 Zwiebel gewürfelt \n 2 Knoblauchzehen gehackt \n 2 EL Pinienkerne geröstet \n 100 gr. Oliven grün gesäuert indünne scheiben \n 6 Basilikumblätter gerupft \n 2 EL Kapern \n 2 EL Petersilie gehackt \n  Oregano \n  Salz \n  Pfeffer\n\nMöchtest du das Rezept sehen?"
+    },
+    "state": 3.3,
+    "recipe_num_search": 1
+  },
+  {
+    "current_recipe": "('/rezept/180257/erster-gang-pasta-fredda-estiva.html', 'erster gang pasta fredda estiva', 'nudelsalat', 12, 5.0, 5, 3, 6, 781, 6, '500 gr.:Ditali-Nudeln \\n 1 gross:Aubergine frisch \\n 2:Paprikaschoten grün \\n 11 EL:Olivenöl extra vergine \\n 1:Zwiebel gewürfelt \\n 2:Knoblauchzehen gehackt \\n 2 EL:Pinienkerne geröstet \\n 100 gr.:Oliven grün gesäuert indünne scheiben \\n 6:Basilikumblätter gerupft \\n 2 EL:Kapern \\n 2 EL:Petersilie gehackt \\n :Oregano \\n :Salz \\n :Pfeffer', 'ohne die schale abzuschneiden aubergine in würfel schneiden in salzwasser für 1 std legen ausdrücken und auf küchenpapier trocknen.in 3 el. öl goldgelb anbraten.paprikaschoten auf höchster stufe im grill einfallen lassen.öfters drehen damit sie gleichmäßig gegrillt werden in eine tüte kalt werden lassen und die haut abziehen.körner entfernen und in würfel schneiden \\n 3 el. öl erhitzen und die zwiebel mit knoblauch auf kleinster stufe für 15 min. dünsten salzen zur seite stellen.nudeln in kochendes salzwasser al dente kochen abgiessen. mit zwiebeln knoblauch öl mischen paar min ziehen lassen.pinienkerne und alle anderen zutaten unterrühren pfeffer drüberstreuen  und sehr kalt servieren', 'leicht', 60, '1', 1565, 374, 6.6, 30.8, 25.4, datetime.date(2009, 6, 4), 14, 0)"
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16526,
+      "user_date": "2020-08-24 09:28:26",
+      "user_query": "ja"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16527,
+      "system_date": "2020-08-24 09:28:26",
+      "system_response": "Rezept: 'erster gang pasta fredda estiva'\n\nBeschreibung\nnudelsalat\n\nPortionen: 6\n\nZutaten\n500 gr. Ditali-Nudeln \n 1 gross Aubergine frisch \n 2 Paprikaschoten grün \n 11 EL Olivenöl extra vergine \n 1 Zwiebel gewürfelt \n 2 Knoblauchzehen gehackt \n 2 EL Pinienkerne geröstet \n 100 gr. Oliven grün gesäuert indünne scheiben \n 6 Basilikumblätter gerupft \n 2 EL Kapern \n 2 EL Petersilie gehackt \n  Oregano \n  Salz \n  Pfeffer\n\nZubereitung\nohne die schale abzuschneiden aubergine in würfel schneiden in salzwasser für 1 std legen ausdrücken und auf küchenpapier trocknen.in 3 el. öl goldgelb anbraten.paprikaschoten auf höchster stufe im grill einfallen lassen.öfters drehen damit sie gleichmäßig gegrillt werden in eine tüte kalt werden lassen und die haut abziehen.körner entfernen und in würfel schneiden \n 3 el. öl erhitzen und die zwiebel mit knoblauch auf kleinster stufe für 15 min. dünsten salzen zur seite stellen.nudeln in kochendes salzwasser al dente kochen abgiessen. mit zwiebeln knoblauch öl mischen paar min ziehen lassen.pinienkerne und alle anderen zutaten unterrühren pfeffer drüberstreuen  und sehr kalt servieren\n\nSchwierigkeit: leicht\nZeit: 60 Minuten"
+    },
+    "state": 3.4,
+    "recipe_num_search": 1
+  },
+  {
+    "current_recipe": "('/rezept/180257/erster-gang-pasta-fredda-estiva.html', 'erster gang pasta fredda estiva', 'nudelsalat', 12, 5.0, 5, 3, 6, 781, 6, '500 gr.:Ditali-Nudeln \\n 1 gross:Aubergine frisch \\n 2:Paprikaschoten grün \\n 11 EL:Olivenöl extra vergine \\n 1:Zwiebel gewürfelt \\n 2:Knoblauchzehen gehackt \\n 2 EL:Pinienkerne geröstet \\n 100 gr.:Oliven grün gesäuert indünne scheiben \\n 6:Basilikumblätter gerupft \\n 2 EL:Kapern \\n 2 EL:Petersilie gehackt \\n :Oregano \\n :Salz \\n :Pfeffer', 'ohne die schale abzuschneiden aubergine in würfel schneiden in salzwasser für 1 std legen ausdrücken und auf küchenpapier trocknen.in 3 el. öl goldgelb anbraten.paprikaschoten auf höchster stufe im grill einfallen lassen.öfters drehen damit sie gleichmäßig gegrillt werden in eine tüte kalt werden lassen und die haut abziehen.körner entfernen und in würfel schneiden \\n 3 el. öl erhitzen und die zwiebel mit knoblauch auf kleinster stufe für 15 min. dünsten salzen zur seite stellen.nudeln in kochendes salzwasser al dente kochen abgiessen. mit zwiebeln knoblauch öl mischen paar min ziehen lassen.pinienkerne und alle anderen zutaten unterrühren pfeffer drüberstreuen  und sehr kalt servieren', 'leicht', 60, '1', 1565, 374, 6.6, 30.8, 25.4, datetime.date(2009, 6, 4), 14, 0)"
+  },
+  {
+    "curr_user": "no_user"
+  },
+  {
+    "System": "B"
+  }
+]

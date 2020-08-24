@@ -1,0 +1,193 @@
+[
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16228,
+      "user_date": "2020-08-24 08:37:26",
+      "user_query": "hi bot"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16229,
+      "system_date": "2020-08-24 08:37:28",
+      "system_response": "Möchtest du System B verwenden (ja, nein)?"
+    },
+    "state": 1.1,
+    "recipe_num_search": 1
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16230,
+      "user_date": "2020-08-24 08:37:29",
+      "user_query": "ja"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16231,
+      "system_date": "2020-08-24 08:37:29",
+      "system_response": "System B wird verwendet.\nHallo und willkommen zum Rezeptbot-Chat!\nFalls du Fragen hast, was man hier tun kann, kannst du mit /help eine kleine Einleitung aufrufen. Du kannst aber auch sofort nach einem Rezept suchen.\nAlso: Was kann ich für dich tun?"
+    },
+    "state": 1,
+    "recipe_num_search": 1
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16232,
+      "user_date": "2020-08-24 08:37:48",
+      "user_query": "schnelles Mittagessen vegan"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16233,
+      "system_date": "2020-08-24 08:37:50",
+      "system_response": "Wie klingt Schnelles würziges Mittagessen für dich?"
+    },
+    "state": 3.1,
+    "recipe_num_search": 1
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16234,
+      "user_date": "2020-08-24 08:37:53",
+      "user_query": "gut"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16235,
+      "system_date": "2020-08-24 08:37:54",
+      "system_response": "Möchtest du die Zutatenliste sehen?"
+    },
+    "state": 3.2,
+    "recipe_num_search": 1
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16236,
+      "user_date": "2020-08-24 08:37:55",
+      "user_query": "ja"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16237,
+      "system_date": "2020-08-24 08:37:55",
+      "system_response": "Zutaten\n\n1 Rest Salzkartoffeln vom Vortag \n 400 Gramm Schweinefleisch geschnitten \n 1 Stück Zwiebel gehackt \n 1 Stück Chilischote rot fein gehackt \n 2 Stück Knoblauchzehen fein gehackt \n 1 TL Ajvar \n 1 TL Tomatenmark \n 1 Prise Pfeffer aus der Mühleschwarz \n 1 Prise Meersalz aus der Mühle \n 1 Prise Cayennepulver \n 1 etwas Erdnussöl \n 1 etwas Kräuter der Saison feingehackt \n 1 etwas Butter\n\nMöchtest du das Rezept sehen?"
+    },
+    "state": 3.3,
+    "recipe_num_search": 1
+  },
+  {
+    "current_recipe": "('/rezept/469463/Schnelles-wuerziges-Mittagessen.html', 'Schnelles würziges Mittagessen', None, 81, 4.99, 5, 24, 11, 2284, 2, '1 Rest:Salzkartoffeln vom Vortag \\n 400 Gramm:Schweinefleisch geschnitten \\n 1 Stück:Zwiebel gehackt \\n 1 Stück:Chilischote rot fein gehackt \\n 2 Stück:Knoblauchzehen fein gehackt \\n 1 TL:Ajvar \\n 1 TL:Tomatenmark \\n 1 Prise:Pfeffer aus der Mühleschwarz \\n 1 Prise:Meersalz aus der Mühle \\n 1 Prise:Cayennepulver \\n 1 etwas:Erdnussöl \\n 1 etwas:Kräuter der Saison feingehackt \\n 1 etwas:Butter', 'Das geschnetzelte im Wok im Erdnuusöl scharf anbraten. Wenn gefragt wird, warum im Wok? Nun ich woke gerne! \\n Die Zwiebel dazu und mitbraten. Dann kommt Chili und Knobi hinzu und wird ebenfalls kurz mitgebraten. \\n Nun das Tomatenmark und Ajvar einrühren und etwas mitrösten. Mit Pfeffer, Salz und Cayennepulver würzig abschmecken. \\n Die Kartoffeln in der Butter leicht anbraten. Die Kräuter mit (wer mag) etwas feingehacktem Knobi einrühren, und alles zusammen abschmecken. \\n Das geschnetzelte zu den Kartoffeln servieren. Wir hatten frischen Salat aus dem Garten mit gebratenen Putenbruststreifen als Vorspeise. Die Salatsauce nehmen wir als Sauce über die Kartoffeln.', 'leicht', 20, '1', 548, 131, 5.6, 20.1, 3.0, datetime.date(2013, 6, 13), 13, 0)"
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16238,
+      "user_date": "2020-08-24 08:38:04",
+      "user_query": "nein"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16239,
+      "system_date": "2020-08-24 08:38:04",
+      "system_response": "Bisherige Zutaten wurden als Suchkriterium aus der Suche entfernt.\nWelche Präferenzen gibt es bei den Zutaten?"
+    },
+    "state": 2.2,
+    "recipe_num_search": 1
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16240,
+      "user_date": "2020-08-24 08:38:15",
+      "user_query": "kein schweinefleisch"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16242,
+      "system_date": "2020-08-24 08:38:15",
+      "system_response": "Gibt es spezielle Zutaten, die du magst? Wie beispielsweise Szechuan Pfeffer oder Tamarinde?"
+    },
+    "state": 2.2,
+    "recipe_num_search": 1
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16243,
+      "user_date": "2020-08-24 08:38:22",
+      "user_query": "Tomaten"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16246,
+      "system_date": "2020-08-24 08:38:23",
+      "system_response": "Wie klingt Bruschetta für dich?"
+    },
+    "state": 3.1,
+    "recipe_num_search": 1
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16247,
+      "user_date": "2020-08-24 08:38:28",
+      "user_query": "gut"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16248,
+      "system_date": "2020-08-24 08:38:28",
+      "system_response": "Möchtest du die Zutatenliste sehen?"
+    },
+    "state": 3.2,
+    "recipe_num_search": 1
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16249,
+      "user_date": "2020-08-24 08:38:30",
+      "user_query": "ja"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16250,
+      "system_date": "2020-08-24 08:38:30",
+      "system_response": "Zutaten\n\n250 Gramm Tomate frisch \n 0.5 Stück Zwiebel frisch \n 1 Prise Salz und Pfeffer \n 1 Zehe Knoblauch frisch \n 3 Esslöffel Olivenöl extra vergine \n 1 Esslöffel Balsamico \n 5 Blatt Basilikum gehackt\n\nMöchtest du das Rezept sehen?"
+    },
+    "state": 3.3,
+    "recipe_num_search": 1
+  },
+  {
+    "current_recipe": "('/rezept/488871/Bruschetta.html', 'Bruschetta', 'nach %x22Sven Art%x22', 22, 5.0, 5, 5, 8, 475, 4, '250 Gramm:Tomate frisch \\n 0.5 Stück:Zwiebel frisch \\n 1 Prise:Salz und Pfeffer \\n 1 Zehe:Knoblauch frisch \\n 3 Esslöffel:Olivenöl extra vergine \\n 1 Esslöffel:Balsamico \\n 5 Blatt:Basilikum gehackt', 'Alle Zutaten gut waschen. Die Tomaten und die Zwiebeln in sehr kleine Stücke schneiden.\\tDen Knoblauch durch die Presse dazugeben und mit Pfeffer und Salz abschmecken.\\tNun das Basilikum fein gehackt dazu und mit Olivenöl und dem Balsamico aufgießen.\\tGut durchmengen und Kühl abgedeckt mindestens 2 Stunden ziehen lassen.\\tMit frischen oder gerösteten Ciabatta servieren.\\tGuten Appetit', 'leicht', 15, '1', 757, 181, 1.0, 2.8, 18.7, datetime.date(2014, 3, 17), 8, 0)"
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16251,
+      "user_date": "2020-08-24 08:38:37",
+      "user_query": "ja"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16252,
+      "system_date": "2020-08-24 08:38:37",
+      "system_response": "Rezept: 'Bruschetta'\n\nBeschreibung\nnach %x22Sven Art%x22\n\nPortionen: 4\n\nZutaten\n250 Gramm Tomate frisch \n 0.5 Stück Zwiebel frisch \n 1 Prise Salz und Pfeffer \n 1 Zehe Knoblauch frisch \n 3 Esslöffel Olivenöl extra vergine \n 1 Esslöffel Balsamico \n 5 Blatt Basilikum gehackt\n\nZubereitung\nAlle Zutaten gut waschen. Die Tomaten und die Zwiebeln in sehr kleine Stücke schneiden. Den Knoblauch durch die Presse dazugeben und mit Pfeffer und Salz abschmecken. Nun das Basilikum fein gehackt dazu und mit Olivenöl und dem Balsamico aufgießen. Gut durchmengen und Kühl abgedeckt mindestens 2 Stunden ziehen lassen. Mit frischen oder gerösteten Ciabatta servieren. Guten Appetit\n\nSchwierigkeit: leicht\nZeit: 15 Minuten"
+    },
+    "state": 3.4,
+    "recipe_num_search": 1
+  },
+  {
+    "current_recipe": "('/rezept/488871/Bruschetta.html', 'Bruschetta', 'nach %x22Sven Art%x22', 22, 5.0, 5, 5, 8, 475, 4, '250 Gramm:Tomate frisch \\n 0.5 Stück:Zwiebel frisch \\n 1 Prise:Salz und Pfeffer \\n 1 Zehe:Knoblauch frisch \\n 3 Esslöffel:Olivenöl extra vergine \\n 1 Esslöffel:Balsamico \\n 5 Blatt:Basilikum gehackt', 'Alle Zutaten gut waschen. Die Tomaten und die Zwiebeln in sehr kleine Stücke schneiden.\\tDen Knoblauch durch die Presse dazugeben und mit Pfeffer und Salz abschmecken.\\tNun das Basilikum fein gehackt dazu und mit Olivenöl und dem Balsamico aufgießen.\\tGut durchmengen und Kühl abgedeckt mindestens 2 Stunden ziehen lassen.\\tMit frischen oder gerösteten Ciabatta servieren.\\tGuten Appetit', 'leicht', 15, '1', 757, 181, 1.0, 2.8, 18.7, datetime.date(2014, 3, 17), 8, 0)"
+  },
+  {
+    "curr_user": "no_user"
+  },
+  {
+    "System": "B"
+  }
+]

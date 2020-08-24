@@ -1,0 +1,286 @@
+[
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16327,
+      "user_date": "2020-08-24 08:58:52",
+      "user_query": "hi bot"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16328,
+      "system_date": "2020-08-24 08:58:52",
+      "system_response": "Möchtest du System B verwenden (ja, nein)?"
+    },
+    "state": 1.1,
+    "recipe_num_search": 3
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16329,
+      "user_date": "2020-08-24 08:58:53",
+      "user_query": "ja"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16330,
+      "system_date": "2020-08-24 08:58:54",
+      "system_response": "System B wird verwendet.\nHallo und willkommen zum Rezeptbot-Chat!\nFalls du Fragen hast, was man hier tun kann, kannst du mit /help eine kleine Einleitung aufrufen. Du kannst aber auch sofort nach einem Rezept suchen.\nAlso: Was kann ich für dich tun?"
+    },
+    "state": 1,
+    "recipe_num_search": 3
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16331,
+      "user_date": "2020-08-24 08:59:03",
+      "user_query": "schneeles veagnes essen für wischendurch"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16332,
+      "system_date": "2020-08-24 08:59:03",
+      "system_response": "Wie stehst du zu saisonalem Essen?"
+    },
+    "state": 2.1,
+    "recipe_num_search": 3
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16333,
+      "user_date": "2020-08-24 08:59:07",
+      "user_query": "egal"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16334,
+      "system_date": "2020-08-24 08:59:07",
+      "system_response": "Wie stehst du zu deftigem Essen?"
+    },
+    "state": 2.1,
+    "recipe_num_search": 3
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16335,
+      "user_date": "2020-08-24 08:59:09",
+      "user_query": "nein"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16336,
+      "system_date": "2020-08-24 08:59:09",
+      "system_response": "Welche Länderküche ist dein Favorit, bzw. aus welchem Land soll dein Rezept kommen?"
+    },
+    "state": 2.1,
+    "recipe_num_search": 3
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16337,
+      "user_date": "2020-08-24 08:59:15",
+      "user_query": "Kroatien"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16338,
+      "system_date": "2020-08-24 08:59:15",
+      "system_response": "Magst du etwas süßes Essen?"
+    },
+    "state": 2.1,
+    "recipe_num_search": 3
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16339,
+      "user_date": "2020-08-24 08:59:18",
+      "user_query": "nein"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16340,
+      "system_date": "2020-08-24 08:59:18",
+      "system_response": "Wie viel Zeit hast du zum Kochen?"
+    },
+    "state": 2.1,
+    "recipe_num_search": 3
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16341,
+      "user_date": "2020-08-24 08:59:23",
+      "user_query": "1 stunde"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16342,
+      "system_date": "2020-08-24 08:59:24",
+      "system_response": "Welches Gemüse magst du?"
+    },
+    "state": 2.2,
+    "recipe_num_search": 3
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16343,
+      "user_date": "2020-08-24 08:59:41",
+      "user_query": "Gurke, Paprika, Tomate, Olive"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16346,
+      "system_date": "2020-08-24 08:59:43",
+      "system_response": "Wie klingt Hamburger Galactic ala VirCotto für dich?"
+    },
+    "state": 3.1,
+    "recipe_num_search": 3
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16347,
+      "user_date": "2020-08-24 08:59:55",
+      "user_query": "spannend"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16348,
+      "system_date": "2020-08-24 08:59:55",
+      "system_response": "Welche Zutaten würdest du niemals benutzen?"
+    },
+    "state": 2.2,
+    "recipe_num_search": 3
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16349,
+      "user_date": "2020-08-24 09:00:03",
+      "user_query": "hi bot"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16350,
+      "system_date": "2020-08-24 09:00:03",
+      "system_response": "Möchtest du System B verwenden (ja, nein)?"
+    },
+    "state": 1.1,
+    "recipe_num_search": 4
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16351,
+      "user_date": "2020-08-24 09:00:05",
+      "user_query": "ja"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16352,
+      "system_date": "2020-08-24 09:00:05",
+      "system_response": "System B wird verwendet.\nHallo und willkommen zum Rezeptbot-Chat!\nFalls du Fragen hast, was man hier tun kann, kannst du mit /help eine kleine Einleitung aufrufen. Du kannst aber auch sofort nach einem Rezept suchen.\nAlso: Was kann ich für dich tun?"
+    },
+    "state": 1,
+    "recipe_num_search": 4
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16353,
+      "user_date": "2020-08-24 09:00:11",
+      "user_query": "Hamburger Galactic ala VirCotto"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16354,
+      "system_date": "2020-08-24 09:00:11",
+      "system_response": "Welche Länderküche ist dein Favorit, bzw. aus welchem Land soll dein Rezept kommen?"
+    },
+    "state": 2.1,
+    "recipe_num_search": 4
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16355,
+      "user_date": "2020-08-24 09:00:17",
+      "user_query": "Hamburg"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16356,
+      "system_date": "2020-08-24 09:00:19",
+      "system_response": "Wie klingt Amerikanische Hamburger für dich?"
+    },
+    "state": 3.1,
+    "recipe_num_search": 4
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16357,
+      "user_date": "2020-08-24 09:00:24",
+      "user_query": "gut"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16358,
+      "system_date": "2020-08-24 09:00:24",
+      "system_response": "Möchtest du die Zutatenliste sehen?"
+    },
+    "state": 3.2,
+    "recipe_num_search": 4
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16359,
+      "user_date": "2020-08-24 09:00:26",
+      "user_query": "ja"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16360,
+      "system_date": "2020-08-24 09:00:26",
+      "system_response": "Zutaten\n\n2 Scheiben Toastbrot \n 1 Ei \n 2 EL Ketchup \n 1 TL Senf mittelscharf \n 0.5 TL Zwiebelpulver \n 1 Messerspitze Knoblauchpulver \n  Salz \n  Pfeffer \n 500 gr Rinderhack \n 1 Fleischtomate \n 1 Gemüsezwiebel \n 2 EL Öl \n 4 Scheiben Frühstücksspeck \n 4 Hamburger Brötchen \n 4 Scheiben Edamer \n 4 Scheiben Pfefferkäse \n 4 Blätter grüner Salat\n\nMöchtest du das Rezept sehen?"
+    },
+    "state": 3.3,
+    "recipe_num_search": 4
+  },
+  {
+    "current_recipe": "('/rezept/199849/Amerikanische-Hamburger.html', 'Amerikanische Hamburger', 'einfach', 14, 4.93, 5, 8, 6, 4161, 4, '2 Scheiben:Toastbrot \\n 1:Ei \\n 2 EL:Ketchup \\n 1 TL:Senf mittelscharf \\n 0.5 TL:Zwiebelpulver \\n 1 Messerspitze:Knoblauchpulver \\n :Salz \\n :Pfeffer \\n 500 gr:Rinderhack \\n 1:Fleischtomate \\n 1:Gemüsezwiebel \\n 2 EL:Öl \\n 4 Scheiben:Frühstücksspeck \\n 4:Hamburger Brötchen \\n 4 Scheiben:Edamer \\n 4 Scheiben:Pfefferkäse \\n 4 Blätter:grüner Salat', 'Die Rinde vom Toastbrot entfernen. Das Toastbrot in kleine Würfel schneiden. Das Ei mit dem Ketchup, dem Senf, Zwiebel- und Knoblauchpulver, Salz und wenig Pfeffer verquirlen. In einer Schüssel das Rinderhack mit dem Brot und dem gewürzten Ei gut vermischen. \\n Die Tomate waschen und abtrocknen. Die Zwiebel abziehen. Tomate und Zwiebel in Scheiben schneiden und zugedeckt beiseite stellen.\\tAus dem Fleischteig 4 ca. 2 cm dicke Frikadellen formen. Das Öl in einer Pfanne erhitzen. Die Hamburger darin auf beiden Seiten bei mittlerer Hitze jeweils 4 min. braten. \\n Die Frühstücksspeckscheiben halbieren. Wenn die Hamburger umgedreht sind, den Frühstücksspeck ebenfalls in die Pfanne legen und mitbraten. Hamburger und Speck herausheben und auf Küchenpapier abtropfen lassen. Die Brötchen aufschneiden. \\n Auf jeden Hamburger 1 Scheibe Edamer und eine Scheibe Pfefferkäse legen. Im vorgeheizten Bachofen bei 275°C die Brötchenhälften und die Hamburger einige min. backen, bis der Käse zu schmelzen beginnt. \\n Jeweils 1 Salatblatt auf die untere Brötchenhälfte legen, darauf 1 oder 2 Tomaten- und Zwiebelscheiben, 1 Hamburger mit Käse, 2 Stücke gebratener Speck und abschließend die obere Brötchenhälfte.', 'leicht', None, '1', 2884, 689, 2.8, 9.3, 72.6, datetime.date(2009, 7, 7), 17, 0)"
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16361,
+      "user_date": "2020-08-24 09:00:37",
+      "user_query": "ja"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16362,
+      "system_date": "2020-08-24 09:00:37",
+      "system_response": "Rezept: 'Amerikanische Hamburger'\n\nBeschreibung\neinfach\n\nPortionen: 4\n\nZutaten\n2 Scheiben Toastbrot \n 1 Ei \n 2 EL Ketchup \n 1 TL Senf mittelscharf \n 0.5 TL Zwiebelpulver \n 1 Messerspitze Knoblauchpulver \n  Salz \n  Pfeffer \n 500 gr Rinderhack \n 1 Fleischtomate \n 1 Gemüsezwiebel \n 2 EL Öl \n 4 Scheiben Frühstücksspeck \n 4 Hamburger Brötchen \n 4 Scheiben Edamer \n 4 Scheiben Pfefferkäse \n 4 Blätter grüner Salat\n\nZubereitung\nDie Rinde vom Toastbrot entfernen. Das Toastbrot in kleine Würfel schneiden. Das Ei mit dem Ketchup, dem Senf, Zwiebel- und Knoblauchpulver, Salz und wenig Pfeffer verquirlen. In einer Schüssel das Rinderhack mit dem Brot und dem gewürzten Ei gut vermischen. \n Die Tomate waschen und abtrocknen. Die Zwiebel abziehen. Tomate und Zwiebel in Scheiben schneiden und zugedeckt beiseite stellen. Aus dem Fleischteig 4 ca. 2 cm dicke Frikadellen formen. Das Öl in einer Pfanne erhitzen. Die Hamburger darin auf beiden Seiten bei mittlerer Hitze jeweils 4 min. braten. \n Die Frühstücksspeckscheiben halbieren. Wenn die Hamburger umgedreht sind, den Frühstücksspeck ebenfalls in die Pfanne legen und mitbraten. Hamburger und Speck herausheben und auf Küchenpapier abtropfen lassen. Die Brötchen aufschneiden. \n Auf jeden Hamburger 1 Scheibe Edamer und eine Scheibe Pfefferkäse legen. Im vorgeheizten Bachofen bei 275°C die Brötchenhälften und die Hamburger einige min. backen, bis der Käse zu schmelzen beginnt. \n Jeweils 1 Salatblatt auf die untere Brötchenhälfte legen, darauf 1 oder 2 Tomaten- und Zwiebelscheiben, 1 Hamburger mit Käse, 2 Stücke gebratener Speck und abschließend die obere Brötchenhälfte.\n\nSchwierigkeit: leicht\nZeit: keine Angabe"
+    },
+    "state": 3.4,
+    "recipe_num_search": 4
+  },
+  {
+    "current_recipe": "('/rezept/199849/Amerikanische-Hamburger.html', 'Amerikanische Hamburger', 'einfach', 14, 4.93, 5, 8, 6, 4161, 4, '2 Scheiben:Toastbrot \\n 1:Ei \\n 2 EL:Ketchup \\n 1 TL:Senf mittelscharf \\n 0.5 TL:Zwiebelpulver \\n 1 Messerspitze:Knoblauchpulver \\n :Salz \\n :Pfeffer \\n 500 gr:Rinderhack \\n 1:Fleischtomate \\n 1:Gemüsezwiebel \\n 2 EL:Öl \\n 4 Scheiben:Frühstücksspeck \\n 4:Hamburger Brötchen \\n 4 Scheiben:Edamer \\n 4 Scheiben:Pfefferkäse \\n 4 Blätter:grüner Salat', 'Die Rinde vom Toastbrot entfernen. Das Toastbrot in kleine Würfel schneiden. Das Ei mit dem Ketchup, dem Senf, Zwiebel- und Knoblauchpulver, Salz und wenig Pfeffer verquirlen. In einer Schüssel das Rinderhack mit dem Brot und dem gewürzten Ei gut vermischen. \\n Die Tomate waschen und abtrocknen. Die Zwiebel abziehen. Tomate und Zwiebel in Scheiben schneiden und zugedeckt beiseite stellen.\\tAus dem Fleischteig 4 ca. 2 cm dicke Frikadellen formen. Das Öl in einer Pfanne erhitzen. Die Hamburger darin auf beiden Seiten bei mittlerer Hitze jeweils 4 min. braten. \\n Die Frühstücksspeckscheiben halbieren. Wenn die Hamburger umgedreht sind, den Frühstücksspeck ebenfalls in die Pfanne legen und mitbraten. Hamburger und Speck herausheben und auf Küchenpapier abtropfen lassen. Die Brötchen aufschneiden. \\n Auf jeden Hamburger 1 Scheibe Edamer und eine Scheibe Pfefferkäse legen. Im vorgeheizten Bachofen bei 275°C die Brötchenhälften und die Hamburger einige min. backen, bis der Käse zu schmelzen beginnt. \\n Jeweils 1 Salatblatt auf die untere Brötchenhälfte legen, darauf 1 oder 2 Tomaten- und Zwiebelscheiben, 1 Hamburger mit Käse, 2 Stücke gebratener Speck und abschließend die obere Brötchenhälfte.', 'leicht', None, '1', 2884, 689, 2.8, 9.3, 72.6, datetime.date(2009, 7, 7), 17, 0)"
+  },
+  {
+    "curr_user": "no_user"
+  },
+  {
+    "System": "B"
+  }
+]

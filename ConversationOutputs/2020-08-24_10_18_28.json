@@ -1,0 +1,142 @@
+[
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16196,
+      "user_date": "2020-08-24 08:17:36",
+      "user_query": "hi bot"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16197,
+      "system_date": "2020-08-24 08:17:36",
+      "system_response": "Möchtest du System B verwenden (ja, nein)?"
+    },
+    "state": 1.1,
+    "recipe_num_search": 2
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16198,
+      "user_date": "2020-08-24 08:17:38",
+      "user_query": "nein"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16199,
+      "system_date": "2020-08-24 08:17:38",
+      "system_response": "System A wird verwendet.\nHallo und willkommen zum Rezeptbot-Chat!\nFalls du Fragen hast, was man hier tun kann, kannst du mit /help eine kleine Einleitung aufrufen. Du kannst aber auch sofort nach einem Rezept suchen.\nAlso: Was kann ich für dich tun?"
+    },
+    "state": 1,
+    "recipe_num_search": 2
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16200,
+      "user_date": "2020-08-24 08:17:54",
+      "user_query": "schnelles veganes Abendessen"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16201,
+      "system_date": "2020-08-24 08:17:54",
+      "system_response": "Gibt es spezielle Zutaten, die du magst? Wie beispielsweise Szechuan Pfeffer oder Tamarinde?"
+    },
+    "state": 2.2,
+    "recipe_num_search": 2
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16202,
+      "user_date": "2020-08-24 08:18:04",
+      "user_query": "Bärlauch"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16203,
+      "system_date": "2020-08-24 08:18:04",
+      "system_response": "Welches Gemüse magst du?"
+    },
+    "state": 2.2,
+    "recipe_num_search": 2
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16204,
+      "user_date": "2020-08-24 08:18:07",
+      "user_query": "Tomate"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16205,
+      "system_date": "2020-08-24 08:18:08",
+      "system_response": "Wie klingt Vegetarisch - Feine Gemüsesuppe mit Bärlauch-Cappelletti für dich?"
+    },
+    "state": 3.1,
+    "recipe_num_search": 2
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16206,
+      "user_date": "2020-08-24 08:18:13",
+      "user_query": "gut"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16207,
+      "system_date": "2020-08-24 08:18:13",
+      "system_response": "Möchtest du die Zutatenliste sehen?"
+    },
+    "state": 3.2,
+    "recipe_num_search": 2
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16208,
+      "user_date": "2020-08-24 08:18:14",
+      "user_query": "ja"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16209,
+      "system_date": "2020-08-24 08:18:14",
+      "system_response": "Zutaten\n\n1 Paprikaschote frisch \n 1 Karotte \n 2 Stängel Staudensellerie \n 2 Tomaten \n 1 l Passierte Tomaten \n 500 ml Gemüsebrühe \n 0.5 Chilischote \n  Salz, Pfeffer \n  Knoblauchzehen \n  Bärlauchblättergeschnitten \n  Röstzwiebeln \n 400 gr. Bärlauch-Cappelletti\n\nMöchtest du das Rezept sehen?"
+    },
+    "state": 3.3,
+    "recipe_num_search": 2
+  },
+  {
+    "current_recipe": "('/rezept/461568/Vegetarisch-Feine-Gemuesesuppe-mit-Baerlauch-Cappelletti.html', 'Vegetarisch - Feine Gemüsesuppe mit Bärlauch-Cappelletti', None, 25, 5.0, 5, 3, 2, 305, 3, '1:Paprikaschote frisch \\n 1:Karotte \\n 2 Stängel:Staudensellerie \\n 2:Tomaten \\n 1 l:Passierte Tomaten \\n 500 ml:Gemüsebrühe \\n 0.5:Chilischote \\n :Salz, Pfeffer \\n :Knoblauchzehen \\n :Bärlauchblättergeschnitten \\n :Röstzwiebeln \\n 400 gr.:Bärlauch-Cappelletti', 'Staudensellerie, Paprika, Karotte, Chilischote und Tomaten in feine Stücke schneiden. \\n Das Gemüse (ohne Tomaten) kurz anschwitzen, mit Brühe ablöschen und ca. 10 min. köcheln lassen. \\n Die Tomatenstücke hinzufügen und passierte Tomaten ebenfalls. Knoblauch (Menge richtet sich nach dem eigenen Geschmack) durch die Presse in die Suppe drücken. \\n Bärlauchblätter hinzufügen und mit Salz und Pfeffer abschmecken. \\n Die Cappelletti nach Packungsanweisung behandeln und in der heißen Suppe ziehen lassen. \\n Auf Tellern anrichten und mit einigen Röstzwiebeln bestreut servieren.', 'leicht', None, '1', 75, 18, 0.7, 1.9, 0.8, datetime.date(2013, 3, 1), 12, 0)"
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16210,
+      "user_date": "2020-08-24 08:18:30",
+      "user_query": "ja"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16211,
+      "system_date": "2020-08-24 08:18:30",
+      "system_response": "Rezept: 'Vegetarisch - Feine Gemüsesuppe mit Bärlauch-Cappelletti'\n\nBeschreibung\nkeine Angabe\n\nPortionen: 3\n\nZutaten\n1 Paprikaschote frisch \n 1 Karotte \n 2 Stängel Staudensellerie \n 2 Tomaten \n 1 l Passierte Tomaten \n 500 ml Gemüsebrühe \n 0.5 Chilischote \n  Salz, Pfeffer \n  Knoblauchzehen \n  Bärlauchblättergeschnitten \n  Röstzwiebeln \n 400 gr. Bärlauch-Cappelletti\n\nZubereitung\nStaudensellerie, Paprika, Karotte, Chilischote und Tomaten in feine Stücke schneiden. \n Das Gemüse (ohne Tomaten) kurz anschwitzen, mit Brühe ablöschen und ca. 10 min. köcheln lassen. \n Die Tomatenstücke hinzufügen und passierte Tomaten ebenfalls. Knoblauch (Menge richtet sich nach dem eigenen Geschmack) durch die Presse in die Suppe drücken. \n Bärlauchblätter hinzufügen und mit Salz und Pfeffer abschmecken. \n Die Cappelletti nach Packungsanweisung behandeln und in der heißen Suppe ziehen lassen. \n Auf Tellern anrichten und mit einigen Röstzwiebeln bestreut servieren.\n\nSchwierigkeit: leicht\nZeit: keine Angabe"
+    },
+    "state": 3.4,
+    "recipe_num_search": 2
+  },
+  {
+    "current_recipe": "('/rezept/461568/Vegetarisch-Feine-Gemuesesuppe-mit-Baerlauch-Cappelletti.html', 'Vegetarisch - Feine Gemüsesuppe mit Bärlauch-Cappelletti', None, 25, 5.0, 5, 3, 2, 305, 3, '1:Paprikaschote frisch \\n 1:Karotte \\n 2 Stängel:Staudensellerie \\n 2:Tomaten \\n 1 l:Passierte Tomaten \\n 500 ml:Gemüsebrühe \\n 0.5:Chilischote \\n :Salz, Pfeffer \\n :Knoblauchzehen \\n :Bärlauchblättergeschnitten \\n :Röstzwiebeln \\n 400 gr.:Bärlauch-Cappelletti', 'Staudensellerie, Paprika, Karotte, Chilischote und Tomaten in feine Stücke schneiden. \\n Das Gemüse (ohne Tomaten) kurz anschwitzen, mit Brühe ablöschen und ca. 10 min. köcheln lassen. \\n Die Tomatenstücke hinzufügen und passierte Tomaten ebenfalls. Knoblauch (Menge richtet sich nach dem eigenen Geschmack) durch die Presse in die Suppe drücken. \\n Bärlauchblätter hinzufügen und mit Salz und Pfeffer abschmecken. \\n Die Cappelletti nach Packungsanweisung behandeln und in der heißen Suppe ziehen lassen. \\n Auf Tellern anrichten und mit einigen Röstzwiebeln bestreut servieren.', 'leicht', None, '1', 75, 18, 0.7, 1.9, 0.8, datetime.date(2013, 3, 1), 12, 0)"
+  },
+  {
+    "curr_user": "no_user"
+  },
+  {
+    "System": "A"
+  }
+]

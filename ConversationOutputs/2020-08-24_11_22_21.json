@@ -1,0 +1,209 @@
+[
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16483,
+      "user_date": "2020-08-24 09:21:01",
+      "user_query": "hi bot"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16484,
+      "system_date": "2020-08-24 09:21:01",
+      "system_response": "Möchtest du System B verwenden (ja, nein)?"
+    },
+    "state": 1.1,
+    "recipe_num_search": 3
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16485,
+      "user_date": "2020-08-24 09:21:04",
+      "user_query": "ja"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16486,
+      "system_date": "2020-08-24 09:21:04",
+      "system_response": "System B wird verwendet.\nHallo und willkommen zum Rezeptbot-Chat!\nFalls du Fragen hast, was man hier tun kann, kannst du mit /help eine kleine Einleitung aufrufen. Du kannst aber auch sofort nach einem Rezept suchen.\nAlso: Was kann ich für dich tun?"
+    },
+    "state": 1,
+    "recipe_num_search": 3
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16487,
+      "user_date": "2020-08-24 09:21:13",
+      "user_query": "schnelles vegetarisches Frühstück mit Ei"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16488,
+      "system_date": "2020-08-24 09:21:13",
+      "system_response": "Was sind deine Lieblingszutaten?"
+    },
+    "state": 2.2,
+    "recipe_num_search": 3
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16489,
+      "user_date": "2020-08-24 09:21:25",
+      "user_query": "Brot, Ei, Oliven, Pecorino"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16492,
+      "system_date": "2020-08-24 09:21:27",
+      "system_response": "Wie klingt Gefülltes Pfifferlings- Brot für dich?"
+    },
+    "state": 3.1,
+    "recipe_num_search": 3
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16493,
+      "user_date": "2020-08-24 09:21:32",
+      "user_query": "gut"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16494,
+      "system_date": "2020-08-24 09:21:32",
+      "system_response": "Möchtest du die Zutatenliste sehen?"
+    },
+    "state": 3.2,
+    "recipe_num_search": 3
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16495,
+      "user_date": "2020-08-24 09:21:34",
+      "user_query": "ja"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16496,
+      "system_date": "2020-08-24 09:21:34",
+      "system_response": "Zutaten\n\n1 Stck Pain Parisien oder andereslängliches Brot \n 500 g Pfifferlinge \n 300 g Schinkenspeck \n 3 Stck Zwiebeln \n 2 Stck Knoblauchzehen \n 1 Bd Schnittlauch \n 1 Prise Salz \n 1 TL Pfeffer schwarz \n 1 TL Cumin \n 3 Stck Eier \n 2 EL Crème fraîche \n 200 g Pecorino geraspelt\n\nMöchtest du das Rezept sehen?"
+    },
+    "state": 3.3,
+    "recipe_num_search": 3
+  },
+  {
+    "current_recipe": "('/rezept/210077/Gefuelltes-Pfifferlings-Brot.html', 'Gefülltes Pfifferlings- Brot', '...deftig-köstlich..und etwas für´s Auge', 38, 5.0, 5, 18, 15, 655, 2, '1 Stck:Pain Parisien oder andereslängliches Brot \\n 500 g:Pfifferlinge \\n 300 g:Schinkenspeck \\n 3 Stck:Zwiebeln \\n 2 Stck:Knoblauchzehen \\n 1 Bd:Schnittlauch \\n 1 Prise:Salz \\n 1 TL:Pfeffer schwarz \\n 1 TL:Cumin \\n 3 Stck:Eier \\n 2 EL:Crème fraîche \\n 200 g:Pecorino geraspelt', 'Vom Brot einen dünnen Deckel abschneiden und das Brot vorsichtig aushöhlen.\\t\\tPfifferlinge säubern, Schinkenspeck, Zwiebeln und Schnittlauch zerkleinern und alles in einer großen Pfanne anbraten. \\n Mit den Eiern, den Gewürzen, der Creme Fraiche und der Hälfte des Pecorino mischen. \\n Die Masse in das Brot füllen, den restlichen Pecorino darüber streuen und das Ganze 15 Minuten bei 180 Grad backen. \\n Fotos kommen gleich!', 'leicht', 20, '1', 322, 77, 8.4, 0.9, 4.7, datetime.date(2009, 7, 25), 13, 0)"
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16497,
+      "user_date": "2020-08-24 09:21:51",
+      "user_query": "nien"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16498,
+      "system_date": "2020-08-24 09:21:51",
+      "system_response": "Bisherige Zutaten wurden als Suchkriterium aus der Suche entfernt.\nWelche Präferenzen gibt es bei den Zutaten?"
+    },
+    "state": 2.2,
+    "recipe_num_search": 3
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16499,
+      "user_date": "2020-08-24 09:21:57",
+      "user_query": "kein schinkenspeck"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16501,
+      "system_date": "2020-08-24 09:21:57",
+      "system_response": "Welches Gemüse magst du?"
+    },
+    "state": 2.2,
+    "recipe_num_search": 3
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16502,
+      "user_date": "2020-08-24 09:22:11",
+      "user_query": "Tomaten, Olive"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16505,
+      "system_date": "2020-08-24 09:22:12",
+      "system_response": "Wie klingt Traditional Buttermilk Scones für dich?"
+    },
+    "state": 3.1,
+    "recipe_num_search": 3
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16506,
+      "user_date": "2020-08-24 09:22:16",
+      "user_query": "gut"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16507,
+      "system_date": "2020-08-24 09:22:16",
+      "system_response": "Möchtest du die Zutatenliste sehen?"
+    },
+    "state": 3.2,
+    "recipe_num_search": 3
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16508,
+      "user_date": "2020-08-24 09:22:18",
+      "user_query": "ja"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16509,
+      "system_date": "2020-08-24 09:22:18",
+      "system_response": "Zutaten\n\n400 g Mehl \n 100 g Zucker \n 0.5 TL Backpulver \n 0.5 TL Natron \n 0.75 TL Salz \n 175 g Butter weich \n 250 ml Buttermilch\n\nMöchtest du das Rezept sehen?"
+    },
+    "state": 3.3,
+    "recipe_num_search": 3
+  },
+  {
+    "current_recipe": "('/rezept/501455/Traditional-Buttermilk-Scones.html', 'Traditional Buttermilk Scones', \"was gibt es besseres zum 5 o'clock tea?\", 10, 5.0, 5, 1, 3, 124, 4, '400 g:Mehl \\n 100 g:Zucker \\n 0.5 TL:Backpulver \\n 0.5 TL:Natron \\n 0.75 TL:Salz \\n 175 g:Butter weich \\n 250 ml:Buttermilch', 'Als erstes wird der Ofen auf 220 Grad Umluft vorgeheitzt.\\t\\tIn einer grossen Schüssel werden die trockenen Zutaten geschmischt. Die weiche Butter wird untergehoben und mit einem Handmixer so lange gerührt, bis sich eine Streuselähnliche Masse bildet. Dann die Buttermilch hinzugeben und alles schön vermischen. Achtung: der Teig bleibt klebrig, feucht!\\t\\tNun mit den Händen kleine Brötchen formen und auf ein Blech mit Backpapier legen. Falls ihr aber so Ausstecher habt, müsst ihr den Teig erst ausrollen (auf ca. 2 cm Dicke) und dann die Scones ausstechen.\\t\\tBevor es in den Ofen geht, noch schnell mit etwas Buttermilch bepinseln und ab damit ins Warme.\\t\\tSchon nach 12 Minuten könnt ihr die guten Scones aus dem Ofen nehmen und eigentlich sofort essen!\\thttp://therealcinnamonswirl.blogspot.com/2014/11/traditional-buttermilk-scones.html', 'leicht', 15, '1', 1394, 333, 5.3, 42.8, 16.0, datetime.date(2014, 11, 14), 7, 1)"
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16510,
+      "user_date": "2020-08-24 09:22:21",
+      "user_query": "ja"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16511,
+      "system_date": "2020-08-24 09:22:21",
+      "system_response": "Rezept: 'Traditional Buttermilk Scones'\n\nBeschreibung\nwas gibt es besseres zum 5 o'clock tea?\n\nPortionen: 4\n\nZutaten\n400 g Mehl \n 100 g Zucker \n 0.5 TL Backpulver \n 0.5 TL Natron \n 0.75 TL Salz \n 175 g Butter weich \n 250 ml Buttermilch\n\nZubereitung\nAls erstes wird der Ofen auf 220 Grad Umluft vorgeheitzt.  In einer grossen Schüssel werden die trockenen Zutaten geschmischt. Die weiche Butter wird untergehoben und mit einem Handmixer so lange gerührt, bis sich eine Streuselähnliche Masse bildet. Dann die Buttermilch hinzugeben und alles schön vermischen. Achtung: der Teig bleibt klebrig, feucht!  Nun mit den Händen kleine Brötchen formen und auf ein Blech mit Backpapier legen. Falls ihr aber so Ausstecher habt, müsst ihr den Teig erst ausrollen (auf ca. 2 cm Dicke) und dann die Scones ausstechen.  Bevor es in den Ofen geht, noch schnell mit etwas Buttermilch bepinseln und ab damit ins Warme.  Schon nach 12 Minuten könnt ihr die guten Scones aus dem Ofen nehmen und eigentlich sofort essen! http://therealcinnamonswirl.blogspot.com/2014/11/traditional-buttermilk-scones.html\n\nSchwierigkeit: leicht\nZeit: 15 Minuten"
+    },
+    "state": 3.4,
+    "recipe_num_search": 3
+  },
+  {
+    "current_recipe": "('/rezept/501455/Traditional-Buttermilk-Scones.html', 'Traditional Buttermilk Scones', \"was gibt es besseres zum 5 o'clock tea?\", 10, 5.0, 5, 1, 3, 124, 4, '400 g:Mehl \\n 100 g:Zucker \\n 0.5 TL:Backpulver \\n 0.5 TL:Natron \\n 0.75 TL:Salz \\n 175 g:Butter weich \\n 250 ml:Buttermilch', 'Als erstes wird der Ofen auf 220 Grad Umluft vorgeheitzt.\\t\\tIn einer grossen Schüssel werden die trockenen Zutaten geschmischt. Die weiche Butter wird untergehoben und mit einem Handmixer so lange gerührt, bis sich eine Streuselähnliche Masse bildet. Dann die Buttermilch hinzugeben und alles schön vermischen. Achtung: der Teig bleibt klebrig, feucht!\\t\\tNun mit den Händen kleine Brötchen formen und auf ein Blech mit Backpapier legen. Falls ihr aber so Ausstecher habt, müsst ihr den Teig erst ausrollen (auf ca. 2 cm Dicke) und dann die Scones ausstechen.\\t\\tBevor es in den Ofen geht, noch schnell mit etwas Buttermilch bepinseln und ab damit ins Warme.\\t\\tSchon nach 12 Minuten könnt ihr die guten Scones aus dem Ofen nehmen und eigentlich sofort essen!\\thttp://therealcinnamonswirl.blogspot.com/2014/11/traditional-buttermilk-scones.html', 'leicht', 15, '1', 1394, 333, 5.3, 42.8, 16.0, datetime.date(2014, 11, 14), 7, 1)"
+  },
+  {
+    "curr_user": "no_user"
+  },
+  {
+    "System": "B"
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16031,
+      "user_date": "2020-08-09 19:39:11",
+      "user_query": "Ja"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16032,
+      "system_date": "2020-08-09 19:39:11",
+      "system_response": "Mit „Hey rezeptbot“ oder „Hey bot“ kann eine neue Suche gestartet werden."
+    },
+    "state": 3.4,
+    "recipe_num_search": 2
+  },
+  {
+    "current_recipe": "('/rezept/366669/Backofengemuese-mediterran.html', 'Backofengemüse - mediterran', None, 37, 5.0, 5, 11, 14, 4715, 4, '1:Aubergine frisch \\n 1:Zucchini \\n 1:Gemüsezwiebel \\n 250 g:Champignons \\n 1 Zehe:Knoblauch \\n 1:Paprika rot \\n 1:Paprika gelb \\n 50 ml:Olivenöl \\n 2 Zweige:Thymian \\n 2 Zweige:Rosmarin \\n :Salz, Pfeffer', 'Zwiebel und Knoblauch schälen und den Knoblauch hacken. Zwiebel, Paprika, Aubergine, Champignons und Zucchini in grobe Stücke schneiden und mit dem Knoblauch in einer großen Schüssel mischen. Olivenöl, Thymian, Rosmarin gut 1 Teelöffel Salz und kräftig Pfeffer hinzugeben. Alles vermengen und ca 30 Minuten durchziehen lassen. \\n Das Gemüse komplett in eine Auflaufform geben. Den Backofen auf Umluft mit Grill stellen und das Gemüse bei 200 Grad für insgesamt etwa 20 Minuten garen und grillen. Wenn das obere Gemüse nach ca 15 Minuten stark anbräunt, einmal durchrühren und ruhig für weiter 5 Minuten in den Ofen geben. \\n Das Gemüse sollte am Ende gut gebräunt sein aber noch einen leichten %x22Biss%x22 haben. Die Thymian- und Rosmarinzweige beim Anrichten entfernen. Guten Appetit', 'leicht', 60, '1', 665, 159, 2.2, 0.4, 16.8, datetime.date(2011, 1, 8), 11, 0)"
+  },
+  {
+    "curr_user": "no_user"
+  },
+  {
+    "System": "B"
+  }
+]

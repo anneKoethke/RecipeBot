@@ -1,0 +1,142 @@
+[
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16440,
+      "user_date": "2020-08-24 09:18:16",
+      "user_query": "hi bot"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16441,
+      "system_date": "2020-08-24 09:18:17",
+      "system_response": "Möchtest du System B verwenden (ja, nein)?"
+    },
+    "state": 1.1,
+    "recipe_num_search": 1
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16442,
+      "user_date": "2020-08-24 09:18:21",
+      "user_query": "ja"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16443,
+      "system_date": "2020-08-24 09:18:21",
+      "system_response": "System B wird verwendet.\nHallo und willkommen zum Rezeptbot-Chat!\nFalls du Fragen hast, was man hier tun kann, kannst du mit /help eine kleine Einleitung aufrufen. Du kannst aber auch sofort nach einem Rezept suchen.\nAlso: Was kann ich für dich tun?"
+    },
+    "state": 1,
+    "recipe_num_search": 1
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16444,
+      "user_date": "2020-08-24 09:19:01",
+      "user_query": "schnelles leichtes veganes Abendessen"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16445,
+      "system_date": "2020-08-24 09:19:01",
+      "system_response": "Gibt es spezielle Zutaten, die du magst? Wie beispielsweise Szechuan Pfeffer oder Tamarinde?"
+    },
+    "state": 2.2,
+    "recipe_num_search": 1
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16446,
+      "user_date": "2020-08-24 09:19:10",
+      "user_query": "Tomate Guke"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16448,
+      "system_date": "2020-08-24 09:19:10",
+      "system_response": "Welches Gemüse magst du?"
+    },
+    "state": 2.2,
+    "recipe_num_search": 1
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16449,
+      "user_date": "2020-08-24 09:19:14",
+      "user_query": "Gurke"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16452,
+      "system_date": "2020-08-24 09:19:21",
+      "system_response": "Wie klingt Griechischer Bauernsalat im Glas für dich?"
+    },
+    "state": 3.1,
+    "recipe_num_search": 1
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16453,
+      "user_date": "2020-08-24 09:19:35",
+      "user_query": "gut"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16454,
+      "system_date": "2020-08-24 09:19:36",
+      "system_response": "Möchtest du die Zutatenliste sehen?"
+    },
+    "state": 3.2,
+    "recipe_num_search": 1
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16455,
+      "user_date": "2020-08-24 09:19:37",
+      "user_query": "ja"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16456,
+      "system_date": "2020-08-24 09:19:37",
+      "system_response": "Zutaten\n\n0.25 Eisbergsalat \n 2 Tomaten \n 0.25 Gurke \n 50 g Feta \n 1 kleine Zwiebel \n 8 Oliven schwarz entsteint \n 4 Peperoni eingelegt \n 50 ml Olivenöl \n 0.5 Zitronensaft \n  Salz \n  Pfeffer aus der Mühle\n\nMöchtest du das Rezept sehen?"
+    },
+    "state": 3.3,
+    "recipe_num_search": 1
+  },
+  {
+    "current_recipe": "('/rezept/490980/Griechischer-Bauernsalat-im-Glas.html', 'Griechischer Bauernsalat im Glas', 'kleiner Salat als Beilage', 13, 5.0, 5, 4, 6, 632, 4, '0.25:Eisbergsalat \\n 2:Tomaten \\n 0.25:Gurke \\n 50 g:Feta \\n 1:kleine Zwiebel \\n 8:Oliven schwarz entsteint \\n 4:Peperoni eingelegt \\n 50 ml:Olivenöl \\n 0.5:Zitronensaft \\n :Salz \\n :Pfeffer aus der Mühle', 'Eisbergsalat waschen, trocken tupfen und in feine Streifen schneiden. Zwiebel schälen und in Ringe schneiden. Tomaten waschen, putzen und in Stücke schneiden. Gurke schälen, die Enden abschneiden und fein würfeln.  Feta würfeln. \\n Zuerst den Eisbergsalat auf 4 Gläser verteilen, danach Gurken, Tomaten, Zwiebel, und Feta darauf geben. Jeweils 2 Oliven und eine Peperoni in Scheiben geschnitten darauf verteilen. \\n Für die Marinade die halbe Zitrone auspressen. Den Saft mit Pfeffer und Salz würzen. Das Olivenöl unterschlagen. Marinade über den Salat geben.', 'leicht', 15, '1', 2340, 559, 8.5, 0.1, 59.3, datetime.date(2014, 4, 18), 11, 0)"
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16457,
+      "user_date": "2020-08-24 09:19:42",
+      "user_query": "ja"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16458,
+      "system_date": "2020-08-24 09:19:42",
+      "system_response": "Rezept: 'Griechischer Bauernsalat im Glas'\n\nBeschreibung\nkleiner Salat als Beilage\n\nPortionen: 4\n\nZutaten\n0.25 Eisbergsalat \n 2 Tomaten \n 0.25 Gurke \n 50 g Feta \n 1 kleine Zwiebel \n 8 Oliven schwarz entsteint \n 4 Peperoni eingelegt \n 50 ml Olivenöl \n 0.5 Zitronensaft \n  Salz \n  Pfeffer aus der Mühle\n\nZubereitung\nEisbergsalat waschen, trocken tupfen und in feine Streifen schneiden. Zwiebel schälen und in Ringe schneiden. Tomaten waschen, putzen und in Stücke schneiden. Gurke schälen, die Enden abschneiden und fein würfeln.  Feta würfeln. \n Zuerst den Eisbergsalat auf 4 Gläser verteilen, danach Gurken, Tomaten, Zwiebel, und Feta darauf geben. Jeweils 2 Oliven und eine Peperoni in Scheiben geschnitten darauf verteilen. \n Für die Marinade die halbe Zitrone auspressen. Den Saft mit Pfeffer und Salz würzen. Das Olivenöl unterschlagen. Marinade über den Salat geben.\n\nSchwierigkeit: leicht\nZeit: 15 Minuten"
+    },
+    "state": 3.4,
+    "recipe_num_search": 1
+  },
+  {
+    "current_recipe": "('/rezept/490980/Griechischer-Bauernsalat-im-Glas.html', 'Griechischer Bauernsalat im Glas', 'kleiner Salat als Beilage', 13, 5.0, 5, 4, 6, 632, 4, '0.25:Eisbergsalat \\n 2:Tomaten \\n 0.25:Gurke \\n 50 g:Feta \\n 1:kleine Zwiebel \\n 8:Oliven schwarz entsteint \\n 4:Peperoni eingelegt \\n 50 ml:Olivenöl \\n 0.5:Zitronensaft \\n :Salz \\n :Pfeffer aus der Mühle', 'Eisbergsalat waschen, trocken tupfen und in feine Streifen schneiden. Zwiebel schälen und in Ringe schneiden. Tomaten waschen, putzen und in Stücke schneiden. Gurke schälen, die Enden abschneiden und fein würfeln.  Feta würfeln. \\n Zuerst den Eisbergsalat auf 4 Gläser verteilen, danach Gurken, Tomaten, Zwiebel, und Feta darauf geben. Jeweils 2 Oliven und eine Peperoni in Scheiben geschnitten darauf verteilen. \\n Für die Marinade die halbe Zitrone auspressen. Den Saft mit Pfeffer und Salz würzen. Das Olivenöl unterschlagen. Marinade über den Salat geben.', 'leicht', 15, '1', 2340, 559, 8.5, 0.1, 59.3, datetime.date(2014, 4, 18), 11, 0)"
+  },
+  {
+    "curr_user": "no_user"
+  },
+  {
+    "System": "B"
+  }
+]

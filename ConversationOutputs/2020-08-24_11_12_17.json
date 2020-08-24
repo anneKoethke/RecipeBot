@@ -1,0 +1,321 @@
+[
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16381,
+      "user_date": "2020-08-24 09:09:35",
+      "user_query": "hi bot"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16382,
+      "system_date": "2020-08-24 09:09:39",
+      "system_response": "Möchtest du System B verwenden (ja, nein)?"
+    },
+    "state": 1.1,
+    "recipe_num_search": 1
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16383,
+      "user_date": "2020-08-24 09:09:40",
+      "user_query": "ja"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16384,
+      "system_date": "2020-08-24 09:09:40",
+      "system_response": "System B wird verwendet.\nHallo und willkommen zum Rezeptbot-Chat!\nFalls du Fragen hast, was man hier tun kann, kannst du mit /help eine kleine Einleitung aufrufen. Du kannst aber auch sofort nach einem Rezept suchen.\nAlso: Was kann ich für dich tun?"
+    },
+    "state": 1,
+    "recipe_num_search": 1
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16385,
+      "user_date": "2020-08-24 09:09:51",
+      "user_query": "schnelles veganes essen für zwischendurch"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16386,
+      "system_date": "2020-08-24 09:09:51",
+      "system_response": "Wie stehst du zu regionaler Küche (z.B. Hamburger oder Allgäuer Küche)?"
+    },
+    "state": 2.1,
+    "recipe_num_search": 1
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16387,
+      "user_date": "2020-08-24 09:09:55",
+      "user_query": "egal"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16388,
+      "system_date": "2020-08-24 09:09:55",
+      "system_response": "Welche Präferenzen gibt es bei den Zutaten?"
+    },
+    "state": 2.2,
+    "recipe_num_search": 1
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16389,
+      "user_date": "2020-08-24 09:10:06",
+      "user_query": "Gemüse, kein Fleisch"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16392,
+      "system_date": "2020-08-24 09:10:07",
+      "system_response": "Wie klingt Apfelstrudel für dich?"
+    },
+    "state": 3.1,
+    "recipe_num_search": 1
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16393,
+      "user_date": "2020-08-24 09:10:49",
+      "user_query": "nein"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16394,
+      "system_date": "2020-08-24 09:10:49",
+      "system_response": "Welche Zutaten würdest du niemals benutzen?"
+    },
+    "state": 2.2,
+    "recipe_num_search": 1
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16395,
+      "user_date": "2020-08-24 09:10:55",
+      "user_query": "Apfel"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16398,
+      "system_date": "2020-08-24 09:10:56",
+      "system_response": "Wie klingt Italienische Tomatensoße für dich?"
+    },
+    "state": 3.1,
+    "recipe_num_search": 1
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16399,
+      "user_date": "2020-08-24 09:11:00",
+      "user_query": "nein"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16400,
+      "system_date": "2020-08-24 09:11:00",
+      "system_response": "Welche Zutaten würdest du niemals benutzen?"
+    },
+    "state": 2.2,
+    "recipe_num_search": 1
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16401,
+      "user_date": "2020-08-24 09:11:03",
+      "user_query": "Tomaten"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16404,
+      "system_date": "2020-08-24 09:11:05",
+      "system_response": "Wie klingt Kartoffelsuppe für dich?"
+    },
+    "state": 3.1,
+    "recipe_num_search": 1
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16405,
+      "user_date": "2020-08-24 09:11:07",
+      "user_query": "gut"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16406,
+      "system_date": "2020-08-24 09:11:07",
+      "system_response": "Möchtest du die Zutatenliste sehen?"
+    },
+    "state": 3.2,
+    "recipe_num_search": 1
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16407,
+      "user_date": "2020-08-24 09:11:08",
+      "user_query": "ja"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16408,
+      "system_date": "2020-08-24 09:11:09",
+      "system_response": "Zutaten\n\n500 gr. Fleischknochen \n 2 Lorbeerblatt \n 3 Wacholderbeere \n 4 Piment \n 300 gr. Wurzelgemüse \n  und Gemüsereste \n 500 gr. Kartoffeln geschält frisch \n  Salz \n  Pfeffer \n  Liebstöckel \n 2 Zwiebel gewürfelt \n 50 gr. fetten Speck \n  Mehl \n 1 Prise Kümmel gemahlen \n  Petersilie gehackt \n  Muskatnuss\n\nMöchtest du das Rezept sehen?"
+    },
+    "state": 3.3,
+    "recipe_num_search": 1
+  },
+  {
+    "current_recipe": "('/rezept/244301/Kartoffelsuppe.html', 'Kartoffelsuppe', 'eine Variante von Winne', 35, 4.89, 5, 10, 1, 474, 4, '500 gr.:Fleischknochen \\n 2:Lorbeerblatt \\n 3:Wacholderbeere \\n 4:Piment \\n 300 gr.:Wurzelgemüse \\n :und Gemüsereste \\n 500 gr.:Kartoffeln geschält frisch \\n :Salz \\n :Pfeffer \\n :Liebstöckel \\n 2:Zwiebel gewürfelt \\n 50 gr.:fetten Speck \\n :Mehl \\n 1 Prise:Kümmel gemahlen \\n :Petersilie gehackt \\n :Muskatnuss', 'Fleischknochen (in meinem Fall ausgeschälte Schweinekammknochen), können auch andere Knochen sein....mit kaltem Wasser ansetzen.....\\tLorbeerblätter, Wacholderbeeren und Piment mit hinzugeben....\\t....kochen bis sich das angehaftete Fleisch gut von den Knochen lösen läßt\\thabe im Schnellkochtopf-2. Ring 15 Minuten-kochen lassen \\n Wurzelgemüse putzen und kleinschneiden (hier auch Gemüsereste der vergangenen Wochen, die kleingeschnitten und eingefroren waren, wie Porree,Blumenkohl,Brokkoli,Kohlrabi) \\n Kartoffeln kleinschneiden \\n die Brühe durch ein Sieb gießen und wieder zurück in den Topf....\\tdas Fleisch von den Knochen lösen und kleinschneidenund wieder zu Brühe.... \\n das Gemüse zugeben und langsam ca. 10 Minuten köcheln lassen....\\tim Schnellkochtopf ca. 1 Minute erster Ring.... \\n dann die Kartoffeln zugeben und weiter köcheln lassen bis sie angenehm bissig sind.....\\tetwas Liebstöckel(frisch oder Pulver) dazu geben \\n Speck auslassen und die Zwiebeln darin dünsten lassen, mit einer Prise Kümmel würzen und mit Mehl bestäuben  (Vorsichtig nicht schwarz werden lassen)\\t....heiß in die Suppe geben \\n mit Salz, Pfeffer und etwas geriebene Muskatnus abschmecken \\n auf Teller anrichten und mit frischer gehackter Petersilie bestreuen.....\\t\\t......legger dazu noch ein schöner warmer Zwiebelkuchen...... \\n %x22Einfach & Preiswert...für den kleinen Geldbeutel%x22\\tmehr Rezepte unserer Mitglieder findet Ihr in unserer Gruppe', 'leicht', None, '1', 343, 82, 9.7, 7.2, 1.7, datetime.date(2009, 10, 6), 16, 0)"
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16409,
+      "user_date": "2020-08-24 09:11:15",
+      "user_query": "nein"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16410,
+      "system_date": "2020-08-24 09:11:15",
+      "system_response": "Bisherige Zutaten wurden als Suchkriterium aus der Suche entfernt.\nWelche Präferenzen gibt es bei den Zutaten?"
+    },
+    "state": 2.2,
+    "recipe_num_search": 1
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16412,
+      "user_date": "2020-08-24 09:11:39",
+      "user_query": "j"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16413,
+      "system_date": "2020-08-24 09:11:39",
+      "system_response": "Was sind deine Lieblingszutaten?"
+    },
+    "state": 2.2,
+    "recipe_num_search": 1
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16414,
+      "user_date": "2020-08-24 09:11:48",
+      "user_query": "Kartoffeln, Gemüse"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16417,
+      "system_date": "2020-08-24 09:11:50",
+      "system_response": "Wie klingt ~ Auflauf ~ Kartoffel-Leberkäse-Auflauf der 1. für dich?"
+    },
+    "state": 3.1,
+    "recipe_num_search": 1
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16418,
+      "user_date": "2020-08-24 09:11:54",
+      "user_query": "nein"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16419,
+      "system_date": "2020-08-24 09:11:54",
+      "system_response": "Welche Zutaten würdest du niemals benutzen?"
+    },
+    "state": 2.2,
+    "recipe_num_search": 1
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16420,
+      "user_date": "2020-08-24 09:12:00",
+      "user_query": "Leberkäse"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16423,
+      "system_date": "2020-08-24 09:12:03",
+      "system_response": "Wie klingt Tajine - Gemüse für dich?"
+    },
+    "state": 3.1,
+    "recipe_num_search": 1
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16424,
+      "user_date": "2020-08-24 09:12:06",
+      "user_query": "gut"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16425,
+      "system_date": "2020-08-24 09:12:06",
+      "system_response": "Möchtest du die Zutatenliste sehen?"
+    },
+    "state": 3.2,
+    "recipe_num_search": 1
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16426,
+      "user_date": "2020-08-24 09:12:08",
+      "user_query": "ja"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16427,
+      "system_date": "2020-08-24 09:12:08",
+      "system_response": "Zutaten\n\nGemüse nach Lust und Laune \n 3 Stück Süsskartoffeln \n 1 grosse Peperoni rot \n 1 mittlere Zwiebel gewürfelt \n 2 Stück Karotten \n 1 Stück Aubergine frisch \n 1 Stück Zucchini frisch \n 3 Knoblauchzehen würfeln \n Die Gewürze können auch ganz europäisch sein \n 1 TL Kreuzkümmel gemahlen \n 2 TL Kurkuma gemahlen \n 2 TL Harissa-Paste \n aber das muss sein, sonst brennt das Gemüse an \n 2 dl Gemüsebrühe heiß \n Kräuter nach Wahl \n 0.5 Bund Petersilie gehackt\n\nMöchtest du das Rezept sehen?"
+    },
+    "state": 3.3,
+    "recipe_num_search": 1
+  },
+  {
+    "current_recipe": "('/rezept/490257/Tajine-Gemuese.html', 'Tajine - Gemüse', \"Marokko's Küche einfach genial\", 18, 5.0, 5, 7, 6, 1225, 4, 'Gemüse nach Lust und Laune \\n 3 Stück:Süsskartoffeln \\n 1 grosse:Peperoni rot \\n 1 mittlere:Zwiebel gewürfelt \\n 2 Stück:Karotten \\n 1 Stück:Aubergine frisch \\n 1 Stück:Zucchini frisch \\n 3:Knoblauchzehen würfeln \\n Die Gewürze können auch ganz europäisch sein \\n 1 TL:Kreuzkümmel gemahlen \\n 2 TL:Kurkuma gemahlen \\n 2 TL:Harissa-Paste \\n aber das muss sein, sonst brennt das Gemüse an \\n 2 dl:Gemüsebrühe heiß \\n Kräuter nach Wahl \\n 0.5 Bund:Petersilie gehackt', 'Tajines können auf Feuer (mit Stövchen) und auf jedem Herd ( Gas, Normal, Glaskeramik, sogar Induction - hierfür gibt es Metalplatten, Ceran) genutzt werden. ABER bitte auf dem Herd langsam einheizen sonst springt das Tajine, das dauert nicht viel länger. Vor allem braucht das Tajine nicht hohe Hitze sondern konstante. Die Tajine entwickelt (ähnlich wie im Dampfdrucktopf) eine feuchte Hitze - also Dampf - die vom Deckel konstant auf Gemüse, Fleisch oder Fisch zurück geworfen wird. \\n Zwiebel und Knoblauch vorbereiten und mit Öl in den Tajine geben. Gemüse waschen. Aubergine grob würfeln und in Salzwasser legen, 15-30 Minuten ziehen lassen, danach abtropfen lassen. Gemüse nach Lust und Laune schälen, in grobe Würfel oder Scheiben schneiden. \\n Tajine mit den Zwiebeln und dem Knoblauch langsam erhitzen. Das Gemüse, sobald  Zwiebel und Knoblauch bräteln darauf zu einem %x22Hut%x22 schichten. Den Rand für den Tajine-Deckel frei lassen. \\n Kräuter, Kreuzkümmel und Kurkuma darüber verteilen. Die Harissa-Paste in der Gemüsebrühe auflösen und über das Gemüse träufeln. \\n Nun den Deckel auf die Tajine-Platte setzen, oben in die Einbuchtung des Deckels Wasser giessen und die Tajine für 15 Minuten arbeiten lassen. \\n Wir können die Tajine kontrollieren indem wir an ihr hören!! Wenn es schön brutzelt ist alles gut. Wir machen oft den Fehler, die ganze Zeit im Topf rühren zu wollen. Dann fällt leider der Dampf in der Tajine zusammen und der Effekt bleibt aus. Das ist schade!!! Die Flüssigkeit kann über den Rand schwappen, manchmal %x22tanzt%x22 der Deckel sogar leicht, was in Ordnung ist. \\n Vorsicht beim abheben des Deckels, es kann noch Wasser in der Einbuchtung sein. Nach den 15 Minuten kann gerührt werden, nun sollte auch wenn nötig Gemüsebrühe nachgeschüttet werden. Die Dampfzeit verlängern, je nach dem wie viel Biss das Gemüse noch haben soll. \\n Serviert wird das Gemüse mit der ganzen Tajine, der Deckel wird erst auf dem Tisch weg gelegt. \\n En Guete wünscht, Duchesse_Alex', 'leicht', 60, '1', 159, 38, 1.2, 2.7, 2.8, datetime.date(2014, 4, 6), 12, 0)"
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16428,
+      "user_date": "2020-08-24 09:12:16",
+      "user_query": "ja"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16429,
+      "system_date": "2020-08-24 09:12:17",
+      "system_response": "Rezept: 'Tajine - Gemüse'\n\nBeschreibung\nMarokko's Küche einfach genial\n\nPortionen: 4\n\nZutaten\nGemüse nach Lust und Laune \n 3 Stück Süsskartoffeln \n 1 grosse Peperoni rot \n 1 mittlere Zwiebel gewürfelt \n 2 Stück Karotten \n 1 Stück Aubergine frisch \n 1 Stück Zucchini frisch \n 3 Knoblauchzehen würfeln \n Die Gewürze können auch ganz europäisch sein \n 1 TL Kreuzkümmel gemahlen \n 2 TL Kurkuma gemahlen \n 2 TL Harissa-Paste \n aber das muss sein, sonst brennt das Gemüse an \n 2 dl Gemüsebrühe heiß \n Kräuter nach Wahl \n 0.5 Bund Petersilie gehackt\n\nZubereitung\nTajines können auf Feuer (mit Stövchen) und auf jedem Herd ( Gas, Normal, Glaskeramik, sogar Induction - hierfür gibt es Metalplatten, Ceran) genutzt werden. ABER bitte auf dem Herd langsam einheizen sonst springt das Tajine, das dauert nicht viel länger. Vor allem braucht das Tajine nicht hohe Hitze sondern konstante. Die Tajine entwickelt (ähnlich wie im Dampfdrucktopf) eine feuchte Hitze - also Dampf - die vom Deckel konstant auf Gemüse, Fleisch oder Fisch zurück geworfen wird. \n Zwiebel und Knoblauch vorbereiten und mit Öl in den Tajine geben. Gemüse waschen. Aubergine grob würfeln und in Salzwasser legen, 15-30 Minuten ziehen lassen, danach abtropfen lassen. Gemüse nach Lust und Laune schälen, in grobe Würfel oder Scheiben schneiden. \n Tajine mit den Zwiebeln und dem Knoblauch langsam erhitzen. Das Gemüse, sobald  Zwiebel und Knoblauch bräteln darauf zu einem %x22Hut%x22 schichten. Den Rand für den Tajine-Deckel frei lassen. \n Kräuter, Kreuzkümmel und Kurkuma darüber verteilen. Die Harissa-Paste in der Gemüsebrühe auflösen und über das Gemüse träufeln. \n Nun den Deckel auf die Tajine-Platte setzen, oben in die Einbuchtung des Deckels Wasser giessen und die Tajine für 15 Minuten arbeiten lassen. \n Wir können die Tajine kontrollieren indem wir an ihr hören!! Wenn es schön brutzelt ist alles gut. Wir machen oft den Fehler, die ganze Zeit im Topf rühren zu wollen. Dann fällt leider der Dampf in der Tajine zusammen und der Effekt bleibt aus. Das ist schade!!! Die Flüssigkeit kann über den Rand schwappen, manchmal %x22tanzt%x22 der Deckel sogar leicht, was in Ordnung ist. \n Vorsicht beim abheben des Deckels, es kann noch Wasser in der Einbuchtung sein. Nach den 15 Minuten kann gerührt werden, nun sollte auch wenn nötig Gemüsebrühe nachgeschüttet werden. Die Dampfzeit verlängern, je nach dem wie viel Biss das Gemüse noch haben soll. \n Serviert wird das Gemüse mit der ganzen Tajine, der Deckel wird erst auf dem Tisch weg gelegt. \n En Guete wünscht, Duchesse_Alex\n\nSchwierigkeit: leicht\nZeit: 60 Minuten"
+    },
+    "state": 3.4,
+    "recipe_num_search": 1
+  },
+  {
+    "current_recipe": "('/rezept/490257/Tajine-Gemuese.html', 'Tajine - Gemüse', \"Marokko's Küche einfach genial\", 18, 5.0, 5, 7, 6, 1225, 4, 'Gemüse nach Lust und Laune \\n 3 Stück:Süsskartoffeln \\n 1 grosse:Peperoni rot \\n 1 mittlere:Zwiebel gewürfelt \\n 2 Stück:Karotten \\n 1 Stück:Aubergine frisch \\n 1 Stück:Zucchini frisch \\n 3:Knoblauchzehen würfeln \\n Die Gewürze können auch ganz europäisch sein \\n 1 TL:Kreuzkümmel gemahlen \\n 2 TL:Kurkuma gemahlen \\n 2 TL:Harissa-Paste \\n aber das muss sein, sonst brennt das Gemüse an \\n 2 dl:Gemüsebrühe heiß \\n Kräuter nach Wahl \\n 0.5 Bund:Petersilie gehackt', 'Tajines können auf Feuer (mit Stövchen) und auf jedem Herd ( Gas, Normal, Glaskeramik, sogar Induction - hierfür gibt es Metalplatten, Ceran) genutzt werden. ABER bitte auf dem Herd langsam einheizen sonst springt das Tajine, das dauert nicht viel länger. Vor allem braucht das Tajine nicht hohe Hitze sondern konstante. Die Tajine entwickelt (ähnlich wie im Dampfdrucktopf) eine feuchte Hitze - also Dampf - die vom Deckel konstant auf Gemüse, Fleisch oder Fisch zurück geworfen wird. \\n Zwiebel und Knoblauch vorbereiten und mit Öl in den Tajine geben. Gemüse waschen. Aubergine grob würfeln und in Salzwasser legen, 15-30 Minuten ziehen lassen, danach abtropfen lassen. Gemüse nach Lust und Laune schälen, in grobe Würfel oder Scheiben schneiden. \\n Tajine mit den Zwiebeln und dem Knoblauch langsam erhitzen. Das Gemüse, sobald  Zwiebel und Knoblauch bräteln darauf zu einem %x22Hut%x22 schichten. Den Rand für den Tajine-Deckel frei lassen. \\n Kräuter, Kreuzkümmel und Kurkuma darüber verteilen. Die Harissa-Paste in der Gemüsebrühe auflösen und über das Gemüse träufeln. \\n Nun den Deckel auf die Tajine-Platte setzen, oben in die Einbuchtung des Deckels Wasser giessen und die Tajine für 15 Minuten arbeiten lassen. \\n Wir können die Tajine kontrollieren indem wir an ihr hören!! Wenn es schön brutzelt ist alles gut. Wir machen oft den Fehler, die ganze Zeit im Topf rühren zu wollen. Dann fällt leider der Dampf in der Tajine zusammen und der Effekt bleibt aus. Das ist schade!!! Die Flüssigkeit kann über den Rand schwappen, manchmal %x22tanzt%x22 der Deckel sogar leicht, was in Ordnung ist. \\n Vorsicht beim abheben des Deckels, es kann noch Wasser in der Einbuchtung sein. Nach den 15 Minuten kann gerührt werden, nun sollte auch wenn nötig Gemüsebrühe nachgeschüttet werden. Die Dampfzeit verlängern, je nach dem wie viel Biss das Gemüse noch haben soll. \\n Serviert wird das Gemüse mit der ganzen Tajine, der Deckel wird erst auf dem Tisch weg gelegt. \\n En Guete wünscht, Duchesse_Alex', 'leicht', 60, '1', 159, 38, 1.2, 2.7, 2.8, datetime.date(2014, 4, 6), 12, 0)"
+  },
+  {
+    "curr_user": "no_user"
+  },
+  {
+    "System": "B"
+  }
+]

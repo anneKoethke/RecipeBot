@@ -1,0 +1,126 @@
+[
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16144,
+      "user_date": "2020-08-24 08:12:16",
+      "user_query": "hi bot"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16145,
+      "system_date": "2020-08-24 08:12:16",
+      "system_response": "Möchtest du System B verwenden (ja, nein)?"
+    },
+    "state": 1.1,
+    "recipe_num_search": 1
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16146,
+      "user_date": "2020-08-24 08:12:18",
+      "user_query": "nein"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16147,
+      "system_date": "2020-08-24 08:12:18",
+      "system_response": "System A wird verwendet.\nHallo und willkommen zum Rezeptbot-Chat!\nFalls du Fragen hast, was man hier tun kann, kannst du mit /help eine kleine Einleitung aufrufen. Du kannst aber auch sofort nach einem Rezept suchen.\nAlso: Was kann ich für dich tun?"
+    },
+    "state": 1,
+    "recipe_num_search": 1
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16148,
+      "user_date": "2020-08-24 08:12:24",
+      "user_query": "schnelles Frühstück Vegan"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16149,
+      "system_date": "2020-08-24 08:12:24",
+      "system_response": "Was sind deine Lieblingszutaten?"
+    },
+    "state": 2.2,
+    "recipe_num_search": 1
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16150,
+      "user_date": "2020-08-24 08:12:29",
+      "user_query": "Olive, Tomate, Feta"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16151,
+      "system_date": "2020-08-24 08:12:32",
+      "system_response": "Wie klingt Griechischer Bauernsalat für dich?"
+    },
+    "state": 3.1,
+    "recipe_num_search": 1
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16152,
+      "user_date": "2020-08-24 08:12:35",
+      "user_query": "gut"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16153,
+      "system_date": "2020-08-24 08:12:35",
+      "system_response": "Möchtest du die Zutatenliste sehen?"
+    },
+    "state": 3.2,
+    "recipe_num_search": 1
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16154,
+      "user_date": "2020-08-24 08:12:36",
+      "user_query": "ja"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16155,
+      "system_date": "2020-08-24 08:12:36",
+      "system_response": "Zutaten\n\n1/2 Eisbergsalat \n 2 Tomaten \n 1/2 Salatgurke \n 1 rote Zwiebel \n 2 Beutel Fix für Salat %x22GriechischeArt%x22 \n 6 EL Olivenöl \n 150 g Feta \n 2 EL schwarze Oliven\n\nMöchtest du das Rezept sehen?"
+    },
+    "state": 3.3,
+    "recipe_num_search": 1
+  },
+  {
+    "current_recipe": "('/rezept/10013/Griechischer-Bauernsalat.html', 'Griechischer Bauernsalat', None, 12, 4.67, 4, 3, 6, 1007, 3, '1/2:Eisbergsalat \\n 2:Tomaten \\n 1/2:Salatgurke \\n 1:rote Zwiebel \\n 2 Beutel:Fix für Salat %x22GriechischeArt%x22 \\n 6 EL:Olivenöl \\n 150 g:Feta \\n 2 EL:schwarze Oliven', 'Eisbergsalat putzen und in mundgerechte Stücke zupfen. Tomaten putzen und in Scheiben schneiden. Salatgurke der Länge nach vierteln, in mundgerechte Stücke schneiden. \\n Zwiebel in Ringe schneiden. Beutelinhalt für Salat %x22Griechische Art%x22, 6 EL Wasser und Olivenöl verrühren.\\tVorbereitete Salatzutaten in eine Schüssel geben und das Dressing darüber verteilen. \\n Käse zerbröckeln oder in mundgerechte Stücke schneiden. Mit den Oliven auf dem Salat verteilen. Nach Wunsch mit Pfeffer bestreuen.', 'leicht', 20, '1', 1997, 477, 10.6, 0.1, 49.2, datetime.date(2008, 6, 28), 8, 0)"
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16156,
+      "user_date": "2020-08-24 08:12:40",
+      "user_query": "ja"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16157,
+      "system_date": "2020-08-24 08:12:40",
+      "system_response": "Rezept: 'Griechischer Bauernsalat'\n\nBeschreibung\nkeine Angabe\n\nPortionen: 3\n\nZutaten\n1/2 Eisbergsalat \n 2 Tomaten \n 1/2 Salatgurke \n 1 rote Zwiebel \n 2 Beutel Fix für Salat %x22GriechischeArt%x22 \n 6 EL Olivenöl \n 150 g Feta \n 2 EL schwarze Oliven\n\nZubereitung\nEisbergsalat putzen und in mundgerechte Stücke zupfen. Tomaten putzen und in Scheiben schneiden. Salatgurke der Länge nach vierteln, in mundgerechte Stücke schneiden. \n Zwiebel in Ringe schneiden. Beutelinhalt für Salat %x22Griechische Art%x22, 6 EL Wasser und Olivenöl verrühren. Vorbereitete Salatzutaten in eine Schüssel geben und das Dressing darüber verteilen. \n Käse zerbröckeln oder in mundgerechte Stücke schneiden. Mit den Oliven auf dem Salat verteilen. Nach Wunsch mit Pfeffer bestreuen.\n\nSchwierigkeit: leicht\nZeit: 20 Minuten"
+    },
+    "state": 3.4,
+    "recipe_num_search": 1
+  },
+  {
+    "current_recipe": "('/rezept/10013/Griechischer-Bauernsalat.html', 'Griechischer Bauernsalat', None, 12, 4.67, 4, 3, 6, 1007, 3, '1/2:Eisbergsalat \\n 2:Tomaten \\n 1/2:Salatgurke \\n 1:rote Zwiebel \\n 2 Beutel:Fix für Salat %x22GriechischeArt%x22 \\n 6 EL:Olivenöl \\n 150 g:Feta \\n 2 EL:schwarze Oliven', 'Eisbergsalat putzen und in mundgerechte Stücke zupfen. Tomaten putzen und in Scheiben schneiden. Salatgurke der Länge nach vierteln, in mundgerechte Stücke schneiden. \\n Zwiebel in Ringe schneiden. Beutelinhalt für Salat %x22Griechische Art%x22, 6 EL Wasser und Olivenöl verrühren.\\tVorbereitete Salatzutaten in eine Schüssel geben und das Dressing darüber verteilen. \\n Käse zerbröckeln oder in mundgerechte Stücke schneiden. Mit den Oliven auf dem Salat verteilen. Nach Wunsch mit Pfeffer bestreuen.', 'leicht', 20, '1', 1997, 477, 10.6, 0.1, 49.2, datetime.date(2008, 6, 28), 8, 0)"
+  },
+  {
+    "curr_user": "no_user"
+  },
+  {
+    "System": "A"
+  }
+]

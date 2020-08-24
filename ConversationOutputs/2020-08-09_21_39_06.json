@@ -1,0 +1,286 @@
+[
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 15990,
+      "user_date": "2020-08-09 19:36:18",
+      "user_query": "Hi bot"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 15991,
+      "system_date": "2020-08-09 19:36:18",
+      "system_response": "Möchtest du System B verwenden (ja, nein)?"
+    },
+    "state": 1.1,
+    "recipe_num_search": 1
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 15992,
+      "user_date": "2020-08-09 19:36:20",
+      "user_query": "Ja"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 15993,
+      "system_date": "2020-08-09 19:36:20",
+      "system_response": "System B wird verwendet.\nHallo und willkommen zum Rezeptbot-Chat!\nFalls du Fragen hast, was man hier tun kann, kannst du mit /help eine kleine Einleitung aufrufen. Du kannst aber auch sofort nach einem Rezept suchen.\nAlso: Was kann ich für dich tun?"
+    },
+    "state": 1,
+    "recipe_num_search": 1
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 15994,
+      "user_date": "2020-08-09 19:36:26",
+      "user_query": "Abendessen"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 15995,
+      "system_date": "2020-08-09 19:36:26",
+      "system_response": "Gibt es Vegetarier?"
+    },
+    "state": 2.1,
+    "recipe_num_search": 1
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 15996,
+      "user_date": "2020-08-09 19:36:29",
+      "user_query": "Ja"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 15997,
+      "system_date": "2020-08-09 19:36:29",
+      "system_response": "Wie stehst du zu deftigem Essen?"
+    },
+    "state": 2.1,
+    "recipe_num_search": 1
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 15998,
+      "user_date": "2020-08-09 19:36:31",
+      "user_query": "Gut"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 15999,
+      "system_date": "2020-08-09 19:36:31",
+      "system_response": "Welche Kohlenhydratquelle bevorzugst du normalerweise? Beispielsweise Kartoffeln, Nudeln oder Reis? Brot?"
+    },
+    "state": 2.2,
+    "recipe_num_search": 1
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16000,
+      "user_date": "2020-08-09 19:36:37",
+      "user_query": "Kartoffeln"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16002,
+      "system_date": "2020-08-09 19:36:37",
+      "system_response": "Gibt es spezielle Zutaten, die du magst? Wie beispielsweise Szechuan Pfeffer oder Tamarinde?"
+    },
+    "state": 2.2,
+    "recipe_num_search": 1
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16003,
+      "user_date": "2020-08-09 19:36:42",
+      "user_query": "Nein"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16004,
+      "system_date": "2020-08-09 19:36:42",
+      "system_response": "Welche Präferenzen gibt es bei den Zutaten?"
+    },
+    "state": 2.2,
+    "recipe_num_search": 1
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16007,
+      "user_date": "2020-08-09 19:37:00",
+      "user_query": "Ok"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16008,
+      "system_date": "2020-08-09 19:37:00",
+      "system_response": "Was sind deine Lieblingszutaten?"
+    },
+    "state": 2.2,
+    "recipe_num_search": 1
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16011,
+      "user_date": "2020-08-09 19:37:38",
+      "user_query": "Ok"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16012,
+      "system_date": "2020-08-09 19:37:38",
+      "system_response": "Welche Zutaten würdest du niemals benutzen?"
+    },
+    "state": 2.2,
+    "recipe_num_search": 1
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16015,
+      "user_date": "2020-08-09 19:38:27",
+      "user_query": "Hi bot"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16016,
+      "system_date": "2020-08-09 19:38:27",
+      "system_response": "Möchtest du System B verwenden (ja, nein)?"
+    },
+    "state": 1.1,
+    "recipe_num_search": 2
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16017,
+      "user_date": "2020-08-09 19:38:32",
+      "user_query": "Ja"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16018,
+      "system_date": "2020-08-09 19:38:32",
+      "system_response": "System B wird verwendet.\nHallo und willkommen zum Rezeptbot-Chat!\nFalls du Fragen hast, was man hier tun kann, kannst du mit /help eine kleine Einleitung aufrufen. Du kannst aber auch sofort nach einem Rezept suchen.\nAlso: Was kann ich für dich tun?"
+    },
+    "state": 1,
+    "recipe_num_search": 2
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16019,
+      "user_date": "2020-08-09 19:38:40",
+      "user_query": "Abendessen"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16020,
+      "system_date": "2020-08-09 19:38:40",
+      "system_response": "Gibt es Allergiker?"
+    },
+    "state": 2.1,
+    "recipe_num_search": 2
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16021,
+      "user_date": "2020-08-09 19:38:43",
+      "user_query": "Nein"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16022,
+      "system_date": "2020-08-09 19:38:43",
+      "system_response": "Welche Länderküche ist dein Favorit, bzw. aus welchem Land soll dein Rezept kommen?"
+    },
+    "state": 2.1,
+    "recipe_num_search": 2
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16023,
+      "user_date": "2020-08-09 19:38:48",
+      "user_query": "Mediterran"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16024,
+      "system_date": "2020-08-09 19:38:56",
+      "system_response": "Wie klingt Backofengemüse - mediterran für dich?"
+    },
+    "state": 3.1,
+    "recipe_num_search": 2
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16025,
+      "user_date": "2020-08-09 19:39:00",
+      "user_query": "Gut"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16026,
+      "system_date": "2020-08-09 19:39:00",
+      "system_response": "Möchtest du die Zutatenliste sehen?"
+    },
+    "state": 3.2,
+    "recipe_num_search": 2
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16027,
+      "user_date": "2020-08-09 19:39:03",
+      "user_query": "Ja"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16028,
+      "system_date": "2020-08-09 19:39:03",
+      "system_response": "Zutaten\n\n1 Aubergine frisch \n 1 Zucchini \n 1 Gemüsezwiebel \n 250 g Champignons \n 1 Zehe Knoblauch \n 1 Paprika rot \n 1 Paprika gelb \n 50 ml Olivenöl \n 2 Zweige Thymian \n 2 Zweige Rosmarin \n  Salz, Pfeffer\n\nMöchtest du das Rezept sehen?"
+    },
+    "state": 3.3,
+    "recipe_num_search": 2
+  },
+  {
+    "current_recipe": "('/rezept/366669/Backofengemuese-mediterran.html', 'Backofengemüse - mediterran', None, 37, 5.0, 5, 11, 14, 4715, 4, '1:Aubergine frisch \\n 1:Zucchini \\n 1:Gemüsezwiebel \\n 250 g:Champignons \\n 1 Zehe:Knoblauch \\n 1:Paprika rot \\n 1:Paprika gelb \\n 50 ml:Olivenöl \\n 2 Zweige:Thymian \\n 2 Zweige:Rosmarin \\n :Salz, Pfeffer', 'Zwiebel und Knoblauch schälen und den Knoblauch hacken. Zwiebel, Paprika, Aubergine, Champignons und Zucchini in grobe Stücke schneiden und mit dem Knoblauch in einer großen Schüssel mischen. Olivenöl, Thymian, Rosmarin gut 1 Teelöffel Salz und kräftig Pfeffer hinzugeben. Alles vermengen und ca 30 Minuten durchziehen lassen. \\n Das Gemüse komplett in eine Auflaufform geben. Den Backofen auf Umluft mit Grill stellen und das Gemüse bei 200 Grad für insgesamt etwa 20 Minuten garen und grillen. Wenn das obere Gemüse nach ca 15 Minuten stark anbräunt, einmal durchrühren und ruhig für weiter 5 Minuten in den Ofen geben. \\n Das Gemüse sollte am Ende gut gebräunt sein aber noch einen leichten %x22Biss%x22 haben. Die Thymian- und Rosmarinzweige beim Anrichten entfernen. Guten Appetit', 'leicht', 60, '1', 665, 159, 2.2, 0.4, 16.8, datetime.date(2011, 1, 8), 11, 0)"
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16029,
+      "user_date": "2020-08-09 19:39:06",
+      "user_query": "Ja"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16030,
+      "system_date": "2020-08-09 19:39:06",
+      "system_response": "Rezept: 'Backofengemüse - mediterran'\n\nBeschreibung\nkeine Angabe\n\nPortionen: 4\n\nZutaten\n1 Aubergine frisch \n 1 Zucchini \n 1 Gemüsezwiebel \n 250 g Champignons \n 1 Zehe Knoblauch \n 1 Paprika rot \n 1 Paprika gelb \n 50 ml Olivenöl \n 2 Zweige Thymian \n 2 Zweige Rosmarin \n  Salz, Pfeffer\n\nZubereitung\nZwiebel und Knoblauch schälen und den Knoblauch hacken. Zwiebel, Paprika, Aubergine, Champignons und Zucchini in grobe Stücke schneiden und mit dem Knoblauch in einer großen Schüssel mischen. Olivenöl, Thymian, Rosmarin gut 1 Teelöffel Salz und kräftig Pfeffer hinzugeben. Alles vermengen und ca 30 Minuten durchziehen lassen. \n Das Gemüse komplett in eine Auflaufform geben. Den Backofen auf Umluft mit Grill stellen und das Gemüse bei 200 Grad für insgesamt etwa 20 Minuten garen und grillen. Wenn das obere Gemüse nach ca 15 Minuten stark anbräunt, einmal durchrühren und ruhig für weiter 5 Minuten in den Ofen geben. \n Das Gemüse sollte am Ende gut gebräunt sein aber noch einen leichten %x22Biss%x22 haben. Die Thymian- und Rosmarinzweige beim Anrichten entfernen. Guten Appetit\n\nSchwierigkeit: leicht\nZeit: 60 Minuten"
+    },
+    "state": 3.4,
+    "recipe_num_search": 2
+  },
+  {
+    "current_recipe": "('/rezept/366669/Backofengemuese-mediterran.html', 'Backofengemüse - mediterran', None, 37, 5.0, 5, 11, 14, 4715, 4, '1:Aubergine frisch \\n 1:Zucchini \\n 1:Gemüsezwiebel \\n 250 g:Champignons \\n 1 Zehe:Knoblauch \\n 1:Paprika rot \\n 1:Paprika gelb \\n 50 ml:Olivenöl \\n 2 Zweige:Thymian \\n 2 Zweige:Rosmarin \\n :Salz, Pfeffer', 'Zwiebel und Knoblauch schälen und den Knoblauch hacken. Zwiebel, Paprika, Aubergine, Champignons und Zucchini in grobe Stücke schneiden und mit dem Knoblauch in einer großen Schüssel mischen. Olivenöl, Thymian, Rosmarin gut 1 Teelöffel Salz und kräftig Pfeffer hinzugeben. Alles vermengen und ca 30 Minuten durchziehen lassen. \\n Das Gemüse komplett in eine Auflaufform geben. Den Backofen auf Umluft mit Grill stellen und das Gemüse bei 200 Grad für insgesamt etwa 20 Minuten garen und grillen. Wenn das obere Gemüse nach ca 15 Minuten stark anbräunt, einmal durchrühren und ruhig für weiter 5 Minuten in den Ofen geben. \\n Das Gemüse sollte am Ende gut gebräunt sein aber noch einen leichten %x22Biss%x22 haben. Die Thymian- und Rosmarinzweige beim Anrichten entfernen. Guten Appetit', 'leicht', 60, '1', 665, 159, 2.2, 0.4, 16.8, datetime.date(2011, 1, 8), 11, 0)"
+  },
+  {
+    "curr_user": "no_user"
+  },
+  {
+    "System": "B"
+  }
+]

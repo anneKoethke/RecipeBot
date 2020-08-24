@@ -1,0 +1,190 @@
+[
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 15962,
+      "user_date": "2020-08-09 19:28:13",
+      "user_query": "Hi bot"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 15963,
+      "system_date": "2020-08-09 19:28:13",
+      "system_response": "Möchtest du System B verwenden (ja, nein)?"
+    },
+    "state": 1.1,
+    "recipe_num_search": 2
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 15964,
+      "user_date": "2020-08-09 19:28:17",
+      "user_query": "Nein"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 15965,
+      "system_date": "2020-08-09 19:28:17",
+      "system_response": "System A wird verwendet.\nHallo und willkommen zum Rezeptbot-Chat!\nFalls du Fragen hast, was man hier tun kann, kannst du mit /help eine kleine Einleitung aufrufen. Du kannst aber auch sofort nach einem Rezept suchen.\nAlso: Was kann ich für dich tun?"
+    },
+    "state": 1,
+    "recipe_num_search": 2
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 15966,
+      "user_date": "2020-08-09 19:28:34",
+      "user_query": "Abendessen"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 15967,
+      "system_date": "2020-08-09 19:28:34",
+      "system_response": "Zu was für Rezepten greifst du normalerweise, wenn du etwas kochen möchtest?"
+    },
+    "state": 2.1,
+    "recipe_num_search": 2
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 15968,
+      "user_date": "2020-08-09 19:28:39",
+      "user_query": "Vegan"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 15969,
+      "system_date": "2020-08-09 19:28:39",
+      "system_response": "Wie würdest du deine Kochfähigkeiten einschätzen?"
+    },
+    "state": 2.1,
+    "recipe_num_search": 2
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 15970,
+      "user_date": "2020-08-09 19:28:42",
+      "user_query": "Gut"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 15971,
+      "system_date": "2020-08-09 19:28:42",
+      "system_response": "Magst du etwas süßes Essen?"
+    },
+    "state": 2.1,
+    "recipe_num_search": 2
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 15972,
+      "user_date": "2020-08-09 19:28:44",
+      "user_query": "Nein"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 15973,
+      "system_date": "2020-08-09 19:28:44",
+      "system_response": "Gibt es spezielle Zutaten, die du magst? Wie beispielsweise Szechuan Pfeffer oder Tamarinde?"
+    },
+    "state": 2.2,
+    "recipe_num_search": 2
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 15974,
+      "user_date": "2020-08-09 19:28:47",
+      "user_query": "Nein"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 15975,
+      "system_date": "2020-08-09 19:28:47",
+      "system_response": "Welche Zutaten würdest du niemals benutzen?"
+    },
+    "state": 2.2,
+    "recipe_num_search": 2
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 15976,
+      "user_date": "2020-08-09 19:28:56",
+      "user_query": "Fleisch, Fisch, Forelle"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 15979,
+      "system_date": "2020-08-09 19:28:57",
+      "system_response": "Wie klingt Gemüsesuppe mit Fleischkügeli für dich?"
+    },
+    "state": 3.1,
+    "recipe_num_search": 2
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 15980,
+      "user_date": "2020-08-09 19:29:05",
+      "user_query": "Gut"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 15981,
+      "system_date": "2020-08-09 19:29:05",
+      "system_response": "Möchtest du die Zutatenliste sehen?"
+    },
+    "state": 3.2,
+    "recipe_num_search": 2
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 15982,
+      "user_date": "2020-08-09 19:29:08",
+      "user_query": "Ja"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 15983,
+      "system_date": "2020-08-09 19:29:08",
+      "system_response": "Zutaten\n\n1 kg Wintergemüse, gemischt ausKürbis, Lauch, Pastinaken,Rosenkohl, Rueebli,Sellerie, Topinambur, Wirz \n 0.5 EL Öl \n 1 ½ Liter Fleischbouillon \n 1 Zwiebel%x2C besteckt mit \n 1 Lorbeerblatt%x2C und \n 1 Nelke \n 4 EL Linsen \n 1 TL Meerrettich%x2C frisch gerieben \n  Salz \n  Pfeffer \n  FÜR DIE FLEISCHKUEGELI \n 200 g Hackfleisch%x2C gemischt \n 1 kl. Knoblauchzehe%x2C gepresst \n 25 g Getrocknete Tomaten%x2C in Öleingelegt, abgetropft inWürfeln \n 1 kl. Peperoncino%x2C entkernt, feingehackt \n 0.5 Stk. Vollkornbrötchen%x2C v. Vortaggewürfelt \n 1 kl. Frisches Ei%x2C verklopft \n 0.125 TL Rosenpaprika, scharf \n 0.5 TL Italien. Kräutermischung \n 0.25 TL Salz \n  Pfeffer aus der Mühle \n  Öl%x2C zum Braten\n\nMöchtest du das Rezept sehen?"
+    },
+    "state": 3.3,
+    "recipe_num_search": 2
+  },
+  {
+    "current_recipe": "('/rezept/110643/Gemuesesuppe-mit-Fleischkuegeli.html', 'Gemüsesuppe mit Fleischkügeli', 'QUELLE erfasst: Arthur Heinzmann im Januar 99 nach Betty Bossi', 7, 5.0, 5, 4, 1, 647, 6, '1 kg:Wintergemüse, gemischt ausKürbis, Lauch, Pastinaken,Rosenkohl, Rueebli,Sellerie, Topinambur, Wirz \\n 0.5 EL:Öl \\n 1 ½ Liter:Fleischbouillon \\n 1:Zwiebel%x2C besteckt mit \\n 1:Lorbeerblatt%x2C und \\n 1:Nelke \\n 4 EL:Linsen \\n 1 TL:Meerrettich%x2C frisch gerieben \\n :Salz \\n :Pfeffer \\n :FÜR DIE FLEISCHKUEGELI \\n 200 g:Hackfleisch%x2C gemischt \\n 1 kl.:Knoblauchzehe%x2C gepresst \\n 25 g:Getrocknete Tomaten%x2C in Öleingelegt, abgetropft inWürfeln \\n 1 kl.:Peperoncino%x2C entkernt, feingehackt \\n 0.5 Stk.:Vollkornbrötchen%x2C v. Vortaggewürfelt \\n 1 kl.:Frisches Ei%x2C verklopft \\n 0.125 TL:Rosenpaprika, scharf \\n 0.5 TL:Italien. Kräutermischung \\n 0.25 TL:Salz \\n :Pfeffer aus der Mühle \\n :Öl%x2C zum Braten', 'Fuer die Suppe Gemuese in Streifen, Wuerfel oder Stengel schneiden. Im warmen Oel andaempfen, Bouillon und besteckte Zwiebel zugeben, aufkochen. Die Linsen beifuegen, die Suppe zugedeckt etwa 35 Mnuten koecheln. Wuerzen, nach Belieben Meerrettich beigeben. \\n Nussgrosse Stuecke herauspressen, mit dem Messer direkt in eine Bratpfanne ins heisse Oel abstreifen und etwa 5 Minuten braten. Auf einem Haushaltpapier abtropfen. Die Kuegeli vor dem Servieren etwa 2 Minuten in der Suppe warm werden lassen.', 'mittel', 50, '1', 1519, 363, 20.4, 42.9, 12.1, datetime.date(2009, 2, 15), 21, 0)"
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 15984,
+      "user_date": "2020-08-09 19:29:10",
+      "user_query": "Ja"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 15985,
+      "system_date": "2020-08-09 19:29:10",
+      "system_response": "Rezept: 'Gemüsesuppe mit Fleischkügeli'\n\nBeschreibung\nQUELLE erfasst: Arthur Heinzmann im Januar 99 nach Betty Bossi\n\nPortionen: 6\n\nZutaten\n1 kg Wintergemüse, gemischt ausKürbis, Lauch, Pastinaken,Rosenkohl, Rueebli,Sellerie, Topinambur, Wirz \n 0.5 EL Öl \n 1 ½ Liter Fleischbouillon \n 1 Zwiebel%x2C besteckt mit \n 1 Lorbeerblatt%x2C und \n 1 Nelke \n 4 EL Linsen \n 1 TL Meerrettich%x2C frisch gerieben \n  Salz \n  Pfeffer \n  FÜR DIE FLEISCHKUEGELI \n 200 g Hackfleisch%x2C gemischt \n 1 kl. Knoblauchzehe%x2C gepresst \n 25 g Getrocknete Tomaten%x2C in Öleingelegt, abgetropft inWürfeln \n 1 kl. Peperoncino%x2C entkernt, feingehackt \n 0.5 Stk. Vollkornbrötchen%x2C v. Vortaggewürfelt \n 1 kl. Frisches Ei%x2C verklopft \n 0.125 TL Rosenpaprika, scharf \n 0.5 TL Italien. Kräutermischung \n 0.25 TL Salz \n  Pfeffer aus der Mühle \n  Öl%x2C zum Braten\n\nZubereitung\nFuer die Suppe Gemuese in Streifen, Wuerfel oder Stengel schneiden. Im warmen Oel andaempfen, Bouillon und besteckte Zwiebel zugeben, aufkochen. Die Linsen beifuegen, die Suppe zugedeckt etwa 35 Mnuten koecheln. Wuerzen, nach Belieben Meerrettich beigeben. \n Nussgrosse Stuecke herauspressen, mit dem Messer direkt in eine Bratpfanne ins heisse Oel abstreifen und etwa 5 Minuten braten. Auf einem Haushaltpapier abtropfen. Die Kuegeli vor dem Servieren etwa 2 Minuten in der Suppe warm werden lassen.\n\nSchwierigkeit: mittel\nZeit: 50 Minuten"
+    },
+    "state": 3.4,
+    "recipe_num_search": 2
+  },
+  {
+    "current_recipe": "('/rezept/110643/Gemuesesuppe-mit-Fleischkuegeli.html', 'Gemüsesuppe mit Fleischkügeli', 'QUELLE erfasst: Arthur Heinzmann im Januar 99 nach Betty Bossi', 7, 5.0, 5, 4, 1, 647, 6, '1 kg:Wintergemüse, gemischt ausKürbis, Lauch, Pastinaken,Rosenkohl, Rueebli,Sellerie, Topinambur, Wirz \\n 0.5 EL:Öl \\n 1 ½ Liter:Fleischbouillon \\n 1:Zwiebel%x2C besteckt mit \\n 1:Lorbeerblatt%x2C und \\n 1:Nelke \\n 4 EL:Linsen \\n 1 TL:Meerrettich%x2C frisch gerieben \\n :Salz \\n :Pfeffer \\n :FÜR DIE FLEISCHKUEGELI \\n 200 g:Hackfleisch%x2C gemischt \\n 1 kl.:Knoblauchzehe%x2C gepresst \\n 25 g:Getrocknete Tomaten%x2C in Öleingelegt, abgetropft inWürfeln \\n 1 kl.:Peperoncino%x2C entkernt, feingehackt \\n 0.5 Stk.:Vollkornbrötchen%x2C v. Vortaggewürfelt \\n 1 kl.:Frisches Ei%x2C verklopft \\n 0.125 TL:Rosenpaprika, scharf \\n 0.5 TL:Italien. Kräutermischung \\n 0.25 TL:Salz \\n :Pfeffer aus der Mühle \\n :Öl%x2C zum Braten', 'Fuer die Suppe Gemuese in Streifen, Wuerfel oder Stengel schneiden. Im warmen Oel andaempfen, Bouillon und besteckte Zwiebel zugeben, aufkochen. Die Linsen beifuegen, die Suppe zugedeckt etwa 35 Mnuten koecheln. Wuerzen, nach Belieben Meerrettich beigeben. \\n Nussgrosse Stuecke herauspressen, mit dem Messer direkt in eine Bratpfanne ins heisse Oel abstreifen und etwa 5 Minuten braten. Auf einem Haushaltpapier abtropfen. Die Kuegeli vor dem Servieren etwa 2 Minuten in der Suppe warm werden lassen.', 'mittel', 50, '1', 1519, 363, 20.4, 42.9, 12.1, datetime.date(2009, 2, 15), 21, 0)"
+  },
+  {
+    "curr_user": "no_user"
+  },
+  {
+    "System": "B"
+  }
+]

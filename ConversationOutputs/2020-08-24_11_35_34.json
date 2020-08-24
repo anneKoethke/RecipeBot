@@ -1,0 +1,887 @@
+[
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16565,
+      "user_date": "2020-08-24 09:30:22",
+      "user_query": "hi bot"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16566,
+      "system_date": "2020-08-24 09:30:22",
+      "system_response": "Möchtest du System B verwenden (ja, nein)?"
+    },
+    "state": 1.1,
+    "recipe_num_search": 5
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16567,
+      "user_date": "2020-08-24 09:30:23",
+      "user_query": "ja"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16568,
+      "system_date": "2020-08-24 09:30:23",
+      "system_response": "System B wird verwendet.\nHallo und willkommen zum Rezeptbot-Chat!\nFalls du Fragen hast, was man hier tun kann, kannst du mit /help eine kleine Einleitung aufrufen. Du kannst aber auch sofort nach einem Rezept suchen.\nAlso: Was kann ich für dich tun?"
+    },
+    "state": 1,
+    "recipe_num_search": 5
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16569,
+      "user_date": "2020-08-24 09:30:32",
+      "user_query": "vegane schokoladentoret"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16570,
+      "system_date": "2020-08-24 09:30:32",
+      "system_response": "Gibt es Veganer?"
+    },
+    "state": 2.1,
+    "recipe_num_search": 5
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16571,
+      "user_date": "2020-08-24 09:30:33",
+      "user_query": "ja"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16572,
+      "system_date": "2020-08-24 09:30:33",
+      "system_response": "Wie stehst du zu saisonalem Essen?"
+    },
+    "state": 2.1,
+    "recipe_num_search": 5
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16573,
+      "user_date": "2020-08-24 09:30:36",
+      "user_query": "egal"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16574,
+      "system_date": "2020-08-24 09:30:36",
+      "system_response": "Gibt es Allergiker?"
+    },
+    "state": 2.1,
+    "recipe_num_search": 5
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16575,
+      "user_date": "2020-08-24 09:30:38",
+      "user_query": "nein"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16576,
+      "system_date": "2020-08-24 09:30:38",
+      "system_response": "Welche Länderküche ist dein Favorit, bzw. aus welchem Land soll dein Rezept kommen?"
+    },
+    "state": 2.1,
+    "recipe_num_search": 5
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16577,
+      "user_date": "2020-08-24 09:30:42",
+      "user_query": "egal"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16578,
+      "system_date": "2020-08-24 09:30:42",
+      "system_response": "Magst du etwas süßes Essen?"
+    },
+    "state": 2.1,
+    "recipe_num_search": 5
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16579,
+      "user_date": "2020-08-24 09:30:44",
+      "user_query": "ja"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16580,
+      "system_date": "2020-08-24 09:30:44",
+      "system_response": "Welche Kohlenhydratquelle bevorzugst du normalerweise? Beispielsweise Kartoffeln, Nudeln oder Reis? Brot?"
+    },
+    "state": 2.2,
+    "recipe_num_search": 5
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16581,
+      "user_date": "2020-08-24 09:30:48",
+      "user_query": "Torte"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16583,
+      "system_date": "2020-08-24 09:30:48",
+      "system_response": "Welche Zutaten würdest du niemals benutzen?"
+    },
+    "state": 2.2,
+    "recipe_num_search": 5
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16584,
+      "user_date": "2020-08-24 09:30:54",
+      "user_query": "egal"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16585,
+      "system_date": "2020-08-24 09:30:54",
+      "system_response": "Welche Präferenzen gibt es bei den Zutaten?"
+    },
+    "state": 2.2,
+    "recipe_num_search": 5
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16586,
+      "user_date": "2020-08-24 09:31:02",
+      "user_query": "SChokolade, Torte, Kuchen"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16589,
+      "system_date": "2020-08-24 09:31:02",
+      "system_response": "Wie klingt Vegan : Rot - Weiss - Reis an Paprika - Gulasch mit Feldsalat für dich?"
+    },
+    "state": 3.1,
+    "recipe_num_search": 5
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16590,
+      "user_date": "2020-08-24 09:31:15",
+      "user_query": "nein"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16591,
+      "system_date": "2020-08-24 09:31:15",
+      "system_response": "Welche Zutaten würdest du niemals benutzen?"
+    },
+    "state": 2.2,
+    "recipe_num_search": 5
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16592,
+      "user_date": "2020-08-24 09:31:20",
+      "user_query": "Gulasch"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16595,
+      "system_date": "2020-08-24 09:31:20",
+      "system_response": "Wie klingt Gebrannte Mandeln für dich?"
+    },
+    "state": 3.1,
+    "recipe_num_search": 5
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16596,
+      "user_date": "2020-08-24 09:31:25",
+      "user_query": "nein"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16597,
+      "system_date": "2020-08-24 09:31:25",
+      "system_response": "Welche Zutaten würdest du niemals benutzen?"
+    },
+    "state": 2.2,
+    "recipe_num_search": 5
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16598,
+      "user_date": "2020-08-24 09:31:30",
+      "user_query": "Mandeln"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16601,
+      "system_date": "2020-08-24 09:31:31",
+      "system_response": "Wie klingt Gegrillter Tofu für dich?"
+    },
+    "state": 3.1,
+    "recipe_num_search": 5
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16602,
+      "user_date": "2020-08-24 09:31:33",
+      "user_query": "nein"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16603,
+      "system_date": "2020-08-24 09:31:33",
+      "system_response": "Welche Zutaten würdest du niemals benutzen?"
+    },
+    "state": 2.2,
+    "recipe_num_search": 5
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16604,
+      "user_date": "2020-08-24 09:31:36",
+      "user_query": "Tofu"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16607,
+      "system_date": "2020-08-24 09:31:38",
+      "system_response": "Wie klingt Pellkartoffeln, Tofupfanne, Rohkost für dich?"
+    },
+    "state": 3.1,
+    "recipe_num_search": 5
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16608,
+      "user_date": "2020-08-24 09:31:43",
+      "user_query": "nein"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16609,
+      "system_date": "2020-08-24 09:31:43",
+      "system_response": "Welche Zutaten würdest du niemals benutzen?"
+    },
+    "state": 2.2,
+    "recipe_num_search": 5
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16610,
+      "user_date": "2020-08-24 09:31:50",
+      "user_query": "Tofupfanne"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16611,
+      "system_date": "2020-08-24 09:31:50",
+      "system_response": "Was sind deine Lieblingszutaten?"
+    },
+    "state": 2.2,
+    "recipe_num_search": 5
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16612,
+      "user_date": "2020-08-24 09:32:00",
+      "user_query": "Schokolade, Reismilch"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16615,
+      "system_date": "2020-08-24 09:32:01",
+      "system_response": "Wie klingt Butternuss und Hokkaido mit Walnuss-Kashmir-Krokant für dich?"
+    },
+    "state": 3.1,
+    "recipe_num_search": 5
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16616,
+      "user_date": "2020-08-24 09:32:09",
+      "user_query": "gut"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16617,
+      "system_date": "2020-08-24 09:32:09",
+      "system_response": "Möchtest du die Zutatenliste sehen?"
+    },
+    "state": 3.2,
+    "recipe_num_search": 5
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16618,
+      "user_date": "2020-08-24 09:32:10",
+      "user_query": "ja"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16619,
+      "system_date": "2020-08-24 09:32:10",
+      "system_response": "Zutaten\n\n1 Butternusskürbis \n 1 Hokkaido \n 30 Gramm Zucker \n  Walnüsse \n 0.5 TL Kashmir-Curry \n  Zimtblüten Gewürz \n  Langer Pfeffer \n  Piment \n  Pimenton de la vera \n  Sonnenblumenöl kaltgepresst \n 1 Gramm Xanthan \n  Salz\n\nMöchtest du das Rezept sehen?"
+    },
+    "state": 3.3,
+    "recipe_num_search": 5
+  },
+  {
+    "current_recipe": "('/rezept/499334/Butternuss-und-Hokkaido-mit-Walnuss-Kashmir-Krokant.html', 'Butternuss und Hokkaido mit Walnuss-Kashmir-Krokant', None, 11, 5.0, 5, 6, 1, 249, 4, '1:Butternusskürbis \\n 1:Hokkaido \\n 30 Gramm:Zucker \\n :Walnüsse \\n 0.5 TL:Kashmir-Curry \\n :Zimtblüten Gewürz \\n :Langer Pfeffer \\n :Piment \\n :Pimenton de la vera \\n :Sonnenblumenöl kaltgepresst \\n 1 Gramm:Xanthan \\n :Salz', 'Butternusskürbis schälen und in dünne Scheiben schneiden. Hokkaido würfeln.\\tBeides vakuumieren und 25 Minuten im Wasserbad garen.\\tDer Butternusskürbis wird mit den Gewürzen gegart, Hokkaido nur mit Salz und etwas Sonnenblumenöl.\\tWer keine Geräte für Sous Vide hat, nimmt Ziplockbeutel und legt diese verschlossen in einen Topf und kocht das ganze auf dem Herd. \\n Butternusskürbisscheiben mit Xanthan im Hochleistungsmixer zum Smoothie mixen. \\n Hokkaidowürfel räuchern. \\n Zucker im Topf schmelzen, Walnüsse dazugeben, karamellisieren lassen. Mit dem Currypulver würzen. Es sollte wirklich nur ein milder Curry sein, damit die Walnüsse nicht geschmacklich ausgeknockt werden. Grob hacken. \\n Dazu gab es schwarzen Venere-Reis in Gemüsebrühe  1:2 gekocht. \\n Wir haben cremige Konsistenz und warme Gewürze im Püree, knackige Nüsse mit Curryschärfe und Umami, Süße durch das Karamell der Nüsse und eine Schweinearbeit.', 'schwer', 100, '1', 1603, 383, 1.5, 90.4, 1.3, datetime.date(2014, 10, 5), 12, 0)"
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16620,
+      "user_date": "2020-08-24 09:32:20",
+      "user_query": "nein"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16621,
+      "system_date": "2020-08-24 09:32:20",
+      "system_response": "Bisherige Zutaten wurden als Suchkriterium aus der Suche entfernt.\nWelche Präferenzen gibt es bei den Zutaten?"
+    },
+    "state": 2.2,
+    "recipe_num_search": 5
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16622,
+      "user_date": "2020-08-24 09:32:31",
+      "user_query": "Kuchen oder Torte, Schokolade, vegan"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16625,
+      "system_date": "2020-08-24 09:32:32",
+      "system_response": "Wie klingt Kartoffel Wedges (Gemüse) aus dem Ofen für dich?"
+    },
+    "state": 3.1,
+    "recipe_num_search": 5
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16626,
+      "user_date": "2020-08-24 09:32:36",
+      "user_query": "nein"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16627,
+      "system_date": "2020-08-24 09:32:36",
+      "system_response": "Welche Zutaten würdest du niemals benutzen?"
+    },
+    "state": 2.2,
+    "recipe_num_search": 5
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16628,
+      "user_date": "2020-08-24 09:32:42",
+      "user_query": "KArtoffel"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16631,
+      "system_date": "2020-08-24 09:32:42",
+      "system_response": "Wie klingt Crostini für dich?"
+    },
+    "state": 3.1,
+    "recipe_num_search": 5
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16632,
+      "user_date": "2020-08-24 09:32:45",
+      "user_query": "nein"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16633,
+      "system_date": "2020-08-24 09:32:45",
+      "system_response": "Welche Zutaten würdest du niemals benutzen?"
+    },
+    "state": 2.2,
+    "recipe_num_search": 5
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16634,
+      "user_date": "2020-08-24 09:32:49",
+      "user_query": "Crostini"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16635,
+      "system_date": "2020-08-24 09:32:49",
+      "system_response": "Welches Gemüse magst du?"
+    },
+    "state": 2.2,
+    "recipe_num_search": 5
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16636,
+      "user_date": "2020-08-24 09:32:51",
+      "user_query": "nein"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16637,
+      "system_date": "2020-08-24 09:32:52",
+      "system_response": "Gibt es spezielle Zutaten, die du magst? Wie beispielsweise Szechuan Pfeffer oder Tamarinde?"
+    },
+    "state": 2.2,
+    "recipe_num_search": 5
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16638,
+      "user_date": "2020-08-24 09:32:57",
+      "user_query": "Schokolade"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16641,
+      "system_date": "2020-08-24 09:32:57",
+      "system_response": "Wie klingt Gebratener Blumenkohl mit Maronen und Art Sauce Hollandaise für dich?"
+    },
+    "state": 3.1,
+    "recipe_num_search": 5
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16642,
+      "user_date": "2020-08-24 09:33:03",
+      "user_query": "nein"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16643,
+      "system_date": "2020-08-24 09:33:03",
+      "system_response": "Welche Zutaten würdest du niemals benutzen?"
+    },
+    "state": 2.2,
+    "recipe_num_search": 5
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16644,
+      "user_date": "2020-08-24 09:33:08",
+      "user_query": "Blumenkohl"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16647,
+      "system_date": "2020-08-24 09:33:09",
+      "system_response": "Wie klingt Dinkelbrötchen für dich?"
+    },
+    "state": 3.1,
+    "recipe_num_search": 5
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16648,
+      "user_date": "2020-08-24 09:33:13",
+      "user_query": "nein"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16649,
+      "system_date": "2020-08-24 09:33:13",
+      "system_response": "Welche Zutaten würdest du niemals benutzen?"
+    },
+    "state": 2.2,
+    "recipe_num_search": 5
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16650,
+      "user_date": "2020-08-24 09:33:17",
+      "user_query": "Dinkelbrötchen"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16651,
+      "system_date": "2020-08-24 09:33:17",
+      "system_response": "Welches Gemüse magst du?"
+    },
+    "state": 2.2,
+    "recipe_num_search": 5
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16652,
+      "user_date": "2020-08-24 09:33:20",
+      "user_query": "nein"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16653,
+      "system_date": "2020-08-24 09:33:20",
+      "system_response": "Welche Kohlenhydratquelle bevorzugst du normalerweise? Beispielsweise Kartoffeln, Nudeln oder Reis? Brot?"
+    },
+    "state": 2.2,
+    "recipe_num_search": 5
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16654,
+      "user_date": "2020-08-24 09:33:22",
+      "user_query": "nein"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16655,
+      "system_date": "2020-08-24 09:33:23",
+      "system_response": "Gibt es spezielle Zutaten, die du magst? Wie beispielsweise Szechuan Pfeffer oder Tamarinde?"
+    },
+    "state": 2.2,
+    "recipe_num_search": 5
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16656,
+      "user_date": "2020-08-24 09:33:25",
+      "user_query": "nein"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16657,
+      "system_date": "2020-08-24 09:33:25",
+      "system_response": "Welche Zutaten würdest du niemals benutzen?"
+    },
+    "state": 2.2,
+    "recipe_num_search": 5
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16658,
+      "user_date": "2020-08-24 09:33:28",
+      "user_query": "nein"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16659,
+      "system_date": "2020-08-24 09:33:28",
+      "system_response": "Welche Präferenzen gibt es bei den Zutaten?"
+    },
+    "state": 2.2,
+    "recipe_num_search": 5
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16660,
+      "user_date": "2020-08-24 09:33:31",
+      "user_query": "hi bot"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16661,
+      "system_date": "2020-08-24 09:33:31",
+      "system_response": "Möchtest du System B verwenden (ja, nein)?"
+    },
+    "state": 1.1,
+    "recipe_num_search": 6
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16662,
+      "user_date": "2020-08-24 09:33:33",
+      "user_query": "ja"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16663,
+      "system_date": "2020-08-24 09:33:33",
+      "system_response": "System B wird verwendet.\nHallo und willkommen zum Rezeptbot-Chat!\nFalls du Fragen hast, was man hier tun kann, kannst du mit /help eine kleine Einleitung aufrufen. Du kannst aber auch sofort nach einem Rezept suchen.\nAlso: Was kann ich für dich tun?"
+    },
+    "state": 1,
+    "recipe_num_search": 6
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16664,
+      "user_date": "2020-08-24 09:33:59",
+      "user_query": "vegane Schokotorte oder Kuchen mit schokolade"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16665,
+      "system_date": "2020-08-24 09:34:01",
+      "system_response": "Wie klingt Kokos-Joghurt-Kuchen mit weißer Schokolade für dich?"
+    },
+    "state": 3.1,
+    "recipe_num_search": 6
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16666,
+      "user_date": "2020-08-24 09:34:07",
+      "user_query": "gut"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16667,
+      "system_date": "2020-08-24 09:34:07",
+      "system_response": "Möchtest du die Zutatenliste sehen?"
+    },
+    "state": 3.2,
+    "recipe_num_search": 6
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16668,
+      "user_date": "2020-08-24 09:34:08",
+      "user_query": "ja"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16669,
+      "system_date": "2020-08-24 09:34:08",
+      "system_response": "Zutaten\n\n150 g Butter/Magerine \n 200 g Zucker \n 1 Prise Salz \n 1 Pck Vanillezucker \n 3 Eier \n 0.5 Dose Kokosmilch \n Tropfen Vanille-/Kokosaroma \n 350 g Mehl \n 1 TL gestrichene Backpulver \n 125 g Joghurt Pfirsich-Maracuja \n 50 g Kokosraspel \n 100 g weiße Kuvertüre \n 200 g weiße Kuvertüre\n\nMöchtest du das Rezept sehen?"
+    },
+    "state": 3.3,
+    "recipe_num_search": 6
+  },
+  {
+    "current_recipe": "('/rezept/55245/Kokos-Joghurt-Kuchen-mit-weisser-Schokolade.html', 'Kokos-Joghurt-Kuchen mit weißer Schokolade', 'super lecker und saftig', 27, 5.0, 5, 9, 28, 3753, 8, '150 g:Butter/Magerine \\n 200 g:Zucker \\n 1 Prise:Salz \\n 1 Pck:Vanillezucker \\n 3:Eier \\n 0.5 Dose:Kokosmilch \\n Tropfen:Vanille-/Kokosaroma \\n 350 g:Mehl \\n 1 TL:gestrichene Backpulver \\n 125 g:Joghurt Pfirsich-Maracuja \\n 50 g:Kokosraspel \\n 100 g:weiße Kuvertüre \\n 200 g:weiße Kuvertüre', '1. Butter/Magerine schaumig rühren, Zucker,Salz und Vanillezucker hinzugeben\\t2. Eier, Kokosmilch und Aroma langsam hinzugeben\\t3. Mehl mit Backpulver vermischen, sieben und unterrühren\\t4. Joghurt, Kokosraspel und gehackte weiße Kuvertüre unterheben\\tDer Teig sollte zum Schluss %x22schwer reißend%x22 vom Löffel fallen, aber nicht zu trocken sein. Im Zweifelsfall Milch hinzugeben\\tBacken: In gefetteter Form bei ca. 180°-200° Grad ca 60 min im vorgeheizten Ofen backen\\tWenn der Kuchen fertig ist, noch heiß mit ein bisschen Milch (fruchtiger: Ananassaft) tränken und mit Aprikosenmarmelade bestreichen. Erkalten lassen\\t200 g Kuvetrüre im Wasserbad schmelzen, dan kuchen damit bepinseln und dann nach Belieben verzieren (Kokosraspel, bunte Streusel, Raffaelo etc)', 'leicht', 15, '1', 1570, 375, 7.7, 75.8, 4.1, datetime.date(2008, 11, 4), 12, 1)"
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16670,
+      "user_date": "2020-08-24 09:34:15",
+      "user_query": "nein"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16671,
+      "system_date": "2020-08-24 09:34:15",
+      "system_response": "Bisherige Zutaten wurden als Suchkriterium aus der Suche entfernt.\nWelche Präferenzen gibt es bei den Zutaten?"
+    },
+    "state": 2.2,
+    "recipe_num_search": 6
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16672,
+      "user_date": "2020-08-24 09:34:31",
+      "user_query": "keine Butter, keine Milch, keine Sahne"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16675,
+      "system_date": "2020-08-24 09:34:32",
+      "system_response": "Wie klingt Sahniges Kartoffel -Möhren Pürree für dich?"
+    },
+    "state": 3.1,
+    "recipe_num_search": 6
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16676,
+      "user_date": "2020-08-24 09:34:36",
+      "user_query": "nein"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16677,
+      "system_date": "2020-08-24 09:34:36",
+      "system_response": "Welche Zutaten würdest du niemals benutzen?"
+    },
+    "state": 2.2,
+    "recipe_num_search": 6
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16678,
+      "user_date": "2020-08-24 09:34:41",
+      "user_query": "Gemüse"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16681,
+      "system_date": "2020-08-24 09:34:43",
+      "system_response": "Wie klingt Obst-Karamell-Törtchen für dich?"
+    },
+    "state": 3.1,
+    "recipe_num_search": 6
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16682,
+      "user_date": "2020-08-24 09:34:46",
+      "user_query": "gut"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16683,
+      "system_date": "2020-08-24 09:34:46",
+      "system_response": "Möchtest du die Zutatenliste sehen?"
+    },
+    "state": 3.2,
+    "recipe_num_search": 6
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16684,
+      "user_date": "2020-08-24 09:34:48",
+      "user_query": "ja"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16685,
+      "system_date": "2020-08-24 09:34:48",
+      "system_response": "Zutaten\n\n125 ml Milch \n 60 gr. Butter \n 1 Prise Salz \n 110 gr. Zucker \n 100 gr. Mehl \n 3 Eier Freiland \n 400 gr. Sahne 10% Fett \n 1 Pk. Vanillesaucenpulver \n  ohne Kochen für 250 mlMilch \n 150 gr. Brombeeren frisch \n  evtl. Tiefkühlbrombeeren \n 2 Nektarinen frisch \n  evtel. als Ersatz Konserve \n  einige Minzblättchen\n\nMöchtest du das Rezept sehen?"
+    },
+    "state": 3.3,
+    "recipe_num_search": 6
+  },
+  {
+    "current_recipe": "('/rezept/102954/Obst-Karamell-Toertchen.html', 'Obst-Karamell-Törtchen', 'Total Lecker und einfach. Die Zutaten sind für 6 Stück.', 1, 5.0, 5, 1, 0, 136, 3, '125 ml:Milch \\n 60 gr.:Butter \\n 1 Prise:Salz \\n 110 gr.:Zucker \\n 100 gr.:Mehl \\n 3:Eier Freiland \\n 400 gr.:Sahne 10% Fett \\n 1 Pk.:Vanillesaucenpulver \\n :ohne Kochen für 250 mlMilch \\n 150 gr.:Brombeeren frisch \\n :evtl. Tiefkühlbrombeeren \\n 2:Nektarinen frisch \\n :evtel. als Ersatz Konserve \\n :einige Minzblättchen', 'Milch mit Butter, salz und 1 TL Zucker zum Kochen bringen. Mehl dazusieben und mit einem Holzlöffel unterrühren. Bei geringer Temperatur weiterrühren, bis sich der Teig vom Topfboden löst. 1 Ei unterrühren. Den Teig etwas abkühlen lasen und restliche Eier unterrühren. Backofen auf 200° C (Umluft 180° C) vorheizen. Ein Backblech mit Backpapier auslegen. \\n Den Teig in einem Spritzbeutel mit mittlerer Sterntülle füllen und 6 Kränze von 8 cm Durchmesser auf das Backblech spritzen. Die Kränze leicht mit kalten Wasser besprengen und im Backofen etwa 30 Minuten backen. Quer halbieren und auskühlen lassen. Restlichen Zucker goldbraun Karamellisieren. Die oberen Kranzhälfte mit 1 TL Karamell dekorieren. \\n Zum restlichen Karamell 100 gr. Sahne gießen, aufkochen lassen und den Karamell auflösen. Abkühlen lassen. Die restliche Sahne steif schlagen, dabei das Saucenpulver einrieseln lassen, Karamellsahne unterrühren. Die Kranzunterhälften mit der Karamellcreme füllen und die oberen Hälften drauf setzen. Brombeeren waschen gegebenenfalls auftauen lassen . \\n Nektarinen waschen, entsteinen und in spalten schneiden. Bei der Konserve das Fruchtsaft abtropfen lassen. Das Obst in der Mitte der Törtchen geben und mit Minzblättchen verzieren. Sofort servieren. Wer keine Minze mag, oder eine Allergie hat, der kann sie auch weglassen.', 'leicht', 60, '1', 791, 189, 3.1, 22.0, 9.9, datetime.date(2009, 2, 5), 14, 0)"
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16686,
+      "user_date": "2020-08-24 09:35:02",
+      "user_query": "nein"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16687,
+      "system_date": "2020-08-24 09:35:02",
+      "system_response": "Bisherige Zutaten wurden als Suchkriterium aus der Suche entfernt.\nWelche Präferenzen gibt es bei den Zutaten?"
+    },
+    "state": 2.2,
+    "recipe_num_search": 6
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16688,
+      "user_date": "2020-08-24 09:35:15",
+      "user_query": "Schokolade, zimt, kirsche"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16691,
+      "system_date": "2020-08-24 09:35:16",
+      "system_response": "Wie klingt Rafaellokugeln für dich?"
+    },
+    "state": 3.1,
+    "recipe_num_search": 6
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16692,
+      "user_date": "2020-08-24 09:35:18",
+      "user_query": "gut"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16693,
+      "system_date": "2020-08-24 09:35:18",
+      "system_response": "Möchtest du die Zutatenliste sehen?"
+    },
+    "state": 3.2,
+    "recipe_num_search": 6
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16694,
+      "user_date": "2020-08-24 09:35:20",
+      "user_query": "ja"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16695,
+      "system_date": "2020-08-24 09:35:20",
+      "system_response": "Zutaten\n\n100 Gramm Kokosflocken \n 90 Gramm Staubzucker \n 1 Sackerl Vanillezucker \n 1 Saft einer Zitrone \n 7 EL Wasser \n 100 Gramm Tafel weße Schokolade \n 1 Teel Ceres \n  Kokosflocken zum Wälzen\n\nMöchtest du das Rezept sehen?"
+    },
+    "state": 3.3,
+    "recipe_num_search": 6
+  },
+  {
+    "current_recipe": "('/rezept/150549/Rafaellokugeln.html', 'Rafaellokugeln', None, 36, 4.89, 5, 12, 15, 617, 1, '100 Gramm:Kokosflocken \\n 90 Gramm:Staubzucker \\n 1 Sackerl:Vanillezucker \\n 1:Saft einer Zitrone \\n 7 EL:Wasser \\n 100 Gramm:Tafel weße Schokolade \\n 1 Teel:Ceres \\n :Kokosflocken zum Wälzen', 'Kokosflocken und St.Zucker,VZ verrühren,Zitrone und Wasser dazu,Schokolade mit Ceres zerlassen.alles vermengen, kalt stellen .In Kugeln formenund in Kokosflocken wälzen.', 'leicht', None, '1', 1117, 267, 1.7, 26.4, 17.3, datetime.date(2009, 4, 15), 8, 1)"
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16696,
+      "user_date": "2020-08-24 09:35:33",
+      "user_query": "ja"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16697,
+      "system_date": "2020-08-24 09:35:34",
+      "system_response": "Rezept: 'Rafaellokugeln'\n\nBeschreibung\nkeine Angabe\n\nPortionen: 1\n\nZutaten\n100 Gramm Kokosflocken \n 90 Gramm Staubzucker \n 1 Sackerl Vanillezucker \n 1 Saft einer Zitrone \n 7 EL Wasser \n 100 Gramm Tafel weße Schokolade \n 1 Teel Ceres \n  Kokosflocken zum Wälzen\n\nZubereitung\nKokosflocken und St.Zucker,VZ verrühren,Zitrone und Wasser dazu,Schokolade mit Ceres zerlassen.alles vermengen, kalt stellen .In Kugeln formenund in Kokosflocken wälzen.\n\nSchwierigkeit: leicht\nZeit: keine Angabe"
+    },
+    "state": 3.4,
+    "recipe_num_search": 6
+  },
+  {
+    "current_recipe": "('/rezept/150549/Rafaellokugeln.html', 'Rafaellokugeln', None, 36, 4.89, 5, 12, 15, 617, 1, '100 Gramm:Kokosflocken \\n 90 Gramm:Staubzucker \\n 1 Sackerl:Vanillezucker \\n 1:Saft einer Zitrone \\n 7 EL:Wasser \\n 100 Gramm:Tafel weße Schokolade \\n 1 Teel:Ceres \\n :Kokosflocken zum Wälzen', 'Kokosflocken und St.Zucker,VZ verrühren,Zitrone und Wasser dazu,Schokolade mit Ceres zerlassen.alles vermengen, kalt stellen .In Kugeln formenund in Kokosflocken wälzen.', 'leicht', None, '1', 1117, 267, 1.7, 26.4, 17.3, datetime.date(2009, 4, 15), 8, 1)"
+  },
+  {
+    "curr_user": "no_user"
+  },
+  {
+    "System": "B"
+  }
+]

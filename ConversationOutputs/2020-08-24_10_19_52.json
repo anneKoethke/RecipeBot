@@ -1,0 +1,126 @@
+[
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16212,
+      "user_date": "2020-08-24 08:18:49",
+      "user_query": "hi bot"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16213,
+      "system_date": "2020-08-24 08:18:50",
+      "system_response": "Möchtest du System B verwenden (ja, nein)?"
+    },
+    "state": 1.1,
+    "recipe_num_search": 3
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16214,
+      "user_date": "2020-08-24 08:18:52",
+      "user_query": "ja"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16215,
+      "system_date": "2020-08-24 08:18:52",
+      "system_response": "System B wird verwendet.\nHallo und willkommen zum Rezeptbot-Chat!\nFalls du Fragen hast, was man hier tun kann, kannst du mit /help eine kleine Einleitung aufrufen. Du kannst aber auch sofort nach einem Rezept suchen.\nAlso: Was kann ich für dich tun?"
+    },
+    "state": 1,
+    "recipe_num_search": 3
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16216,
+      "user_date": "2020-08-24 08:19:02",
+      "user_query": "schnelles veganes abendessen"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16217,
+      "system_date": "2020-08-24 08:19:02",
+      "system_response": "Welches Gemüse magst du?"
+    },
+    "state": 2.2,
+    "recipe_num_search": 3
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16218,
+      "user_date": "2020-08-24 08:19:11",
+      "user_query": "tomate, zucchini, olive, aubergine"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16221,
+      "system_date": "2020-08-24 08:19:18",
+      "system_response": "Wie klingt Mediterranean Couscous Salad für dich?"
+    },
+    "state": 3.1,
+    "recipe_num_search": 3
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16222,
+      "user_date": "2020-08-24 08:19:22",
+      "user_query": "gut"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16223,
+      "system_date": "2020-08-24 08:19:22",
+      "system_response": "Möchtest du die Zutatenliste sehen?"
+    },
+    "state": 3.2,
+    "recipe_num_search": 3
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16224,
+      "user_date": "2020-08-24 08:19:23",
+      "user_query": "ja"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16225,
+      "system_date": "2020-08-24 08:19:24",
+      "system_response": "Zutaten\n\n1 Tasse Couscous \n 1 ½ Tassen kochendes Wasser \n 0.5 Würfel Gemüsebrühe \n 1 Stk. 1 Stück von jedem-Aubergine, Zucchini undPaprika je, klein in Würfelgeschnitten ca 1.cm \n 2 Stk. Knoblauchzehen gehackt oderzedrückt \n 0.5 Glas getrocknete Tomaten inOlivenöl \n 150 gr. Feta Käse \n 100 gr. schwarze Oliven, entsteintund klein geschnitten \n 0.5 Bund Minze, Thymian, Basilikum je \n 2 Zweige Rosmarin \n  Salz und  Pfeffer /schwarz/\n\nMöchtest du das Rezept sehen?"
+    },
+    "state": 3.3,
+    "recipe_num_search": 3
+  },
+  {
+    "current_recipe": "('/rezept/471545/Mediterranean-Couscous-Salad.html', 'Mediterranean Couscous Salad', None, 16, 5.0, 5, 5, 4, 431, 4, '1 Tasse:Couscous \\n 1 ½ Tassen:kochendes Wasser \\n 0.5 Würfel:Gemüsebrühe \\n 1 Stk.:1 Stück von jedem-Aubergine, Zucchini undPaprika je, klein in Würfelgeschnitten ca 1.cm \\n 2 Stk.:Knoblauchzehen gehackt oderzedrückt \\n 0.5 Glas:getrocknete Tomaten inOlivenöl \\n 150 gr.:Feta Käse \\n 100 gr.:schwarze Oliven, entsteintund klein geschnitten \\n 0.5 Bund:Minze, Thymian, Basilikum je \\n 2 Zweige:Rosmarin \\n :Salz und  Pfeffer /schwarz/', '1. Couscous, Gemüsebrühe (zedrückt) mit etwas Saz in einer großen Schüssel (Salatschüssel) geben und mit dem heißen Wasser übergießen,  für mind.  ca 15 min ziehen lassen. \\n Etwas vom Olivenöl von den getrockneten Tomaten in einer Pfane erhitzen, den gehakten Knoblauch, Zucchini, AUbergine und Paprika anbraten (je nach Herd ca 10 min, das Gemüse soll bißfest bleiben). Erst am Ende mit wenig Salz abschmecken und abkühlen lassen. \\n Getrocknete Tomaten, Feta und Oliven klein schneiden. \\n Gemüse, Tomaten, Käse und Oliven zu dem Couscous geben und langsam und sorgfältig umrühren. Je nach Geschmack noch etwa vom Tomatenolivenöl dazu geben (ich mag den Salat lieber %x22trockener%x22 und lüftiger, mein Freund mag ihn lieber etwas %x22glatter%x22, er gibt immer noch paar Esslöffel vom Olivenöl dazu). \\n Die feingehakten Kräuter dazugeben. Nach Geschmack mit Salz und Pfeffer abschmecken. \\n Am besten schmeckt es wenn man den Salat für 1 Stunde im Kühlschrank ziehen gelassen hat. Kann man aber im Notfall auch direkt servieren.\\tp.s. Das Bild stammt nicht von mir, ist aber eine sehr realistische Orientierung für das Endergebnis.', 'leicht', 30, '1', 1452, 347, 12.5, 70.5, 1.2, datetime.date(2013, 7, 15), 15, 0)"
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16226,
+      "user_date": "2020-08-24 08:19:54",
+      "user_query": "ja"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16227,
+      "system_date": "2020-08-24 08:19:54",
+      "system_response": "Rezept: 'Mediterranean Couscous Salad'\n\nBeschreibung\nkeine Angabe\n\nPortionen: 4\n\nZutaten\n1 Tasse Couscous \n 1 ½ Tassen kochendes Wasser \n 0.5 Würfel Gemüsebrühe \n 1 Stk. 1 Stück von jedem-Aubergine, Zucchini undPaprika je, klein in Würfelgeschnitten ca 1.cm \n 2 Stk. Knoblauchzehen gehackt oderzedrückt \n 0.5 Glas getrocknete Tomaten inOlivenöl \n 150 gr. Feta Käse \n 100 gr. schwarze Oliven, entsteintund klein geschnitten \n 0.5 Bund Minze, Thymian, Basilikum je \n 2 Zweige Rosmarin \n  Salz und  Pfeffer /schwarz/\n\nZubereitung\n1. Couscous, Gemüsebrühe (zedrückt) mit etwas Saz in einer großen Schüssel (Salatschüssel) geben und mit dem heißen Wasser übergießen,  für mind.  ca 15 min ziehen lassen. \n Etwas vom Olivenöl von den getrockneten Tomaten in einer Pfane erhitzen, den gehakten Knoblauch, Zucchini, AUbergine und Paprika anbraten (je nach Herd ca 10 min, das Gemüse soll bißfest bleiben). Erst am Ende mit wenig Salz abschmecken und abkühlen lassen. \n Getrocknete Tomaten, Feta und Oliven klein schneiden. \n Gemüse, Tomaten, Käse und Oliven zu dem Couscous geben und langsam und sorgfältig umrühren. Je nach Geschmack noch etwa vom Tomatenolivenöl dazu geben (ich mag den Salat lieber %x22trockener%x22 und lüftiger, mein Freund mag ihn lieber etwas %x22glatter%x22, er gibt immer noch paar Esslöffel vom Olivenöl dazu). \n Die feingehakten Kräuter dazugeben. Nach Geschmack mit Salz und Pfeffer abschmecken. \n Am besten schmeckt es wenn man den Salat für 1 Stunde im Kühlschrank ziehen gelassen hat. Kann man aber im Notfall auch direkt servieren. p.s. Das Bild stammt nicht von mir, ist aber eine sehr realistische Orientierung für das Endergebnis.\n\nSchwierigkeit: leicht\nZeit: 30 Minuten"
+    },
+    "state": 3.4,
+    "recipe_num_search": 3
+  },
+  {
+    "current_recipe": "('/rezept/471545/Mediterranean-Couscous-Salad.html', 'Mediterranean Couscous Salad', None, 16, 5.0, 5, 5, 4, 431, 4, '1 Tasse:Couscous \\n 1 ½ Tassen:kochendes Wasser \\n 0.5 Würfel:Gemüsebrühe \\n 1 Stk.:1 Stück von jedem-Aubergine, Zucchini undPaprika je, klein in Würfelgeschnitten ca 1.cm \\n 2 Stk.:Knoblauchzehen gehackt oderzedrückt \\n 0.5 Glas:getrocknete Tomaten inOlivenöl \\n 150 gr.:Feta Käse \\n 100 gr.:schwarze Oliven, entsteintund klein geschnitten \\n 0.5 Bund:Minze, Thymian, Basilikum je \\n 2 Zweige:Rosmarin \\n :Salz und  Pfeffer /schwarz/', '1. Couscous, Gemüsebrühe (zedrückt) mit etwas Saz in einer großen Schüssel (Salatschüssel) geben und mit dem heißen Wasser übergießen,  für mind.  ca 15 min ziehen lassen. \\n Etwas vom Olivenöl von den getrockneten Tomaten in einer Pfane erhitzen, den gehakten Knoblauch, Zucchini, AUbergine und Paprika anbraten (je nach Herd ca 10 min, das Gemüse soll bißfest bleiben). Erst am Ende mit wenig Salz abschmecken und abkühlen lassen. \\n Getrocknete Tomaten, Feta und Oliven klein schneiden. \\n Gemüse, Tomaten, Käse und Oliven zu dem Couscous geben und langsam und sorgfältig umrühren. Je nach Geschmack noch etwa vom Tomatenolivenöl dazu geben (ich mag den Salat lieber %x22trockener%x22 und lüftiger, mein Freund mag ihn lieber etwas %x22glatter%x22, er gibt immer noch paar Esslöffel vom Olivenöl dazu). \\n Die feingehakten Kräuter dazugeben. Nach Geschmack mit Salz und Pfeffer abschmecken. \\n Am besten schmeckt es wenn man den Salat für 1 Stunde im Kühlschrank ziehen gelassen hat. Kann man aber im Notfall auch direkt servieren.\\tp.s. Das Bild stammt nicht von mir, ist aber eine sehr realistische Orientierung für das Endergebnis.', 'leicht', 30, '1', 1452, 347, 12.5, 70.5, 1.2, datetime.date(2013, 7, 15), 15, 0)"
+  },
+  {
+    "curr_user": "no_user"
+  },
+  {
+    "System": "B"
+  }
+]

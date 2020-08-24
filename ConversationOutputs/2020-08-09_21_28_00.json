@@ -1,0 +1,174 @@
+[
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 15940,
+      "user_date": "2020-08-09 19:27:02",
+      "user_query": "Hi bot"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 15941,
+      "system_date": "2020-08-09 19:27:02",
+      "system_response": "Möchtest du System B verwenden (ja, nein)?"
+    },
+    "state": 1.1,
+    "recipe_num_search": 1
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 15942,
+      "user_date": "2020-08-09 19:27:04",
+      "user_query": "Ja"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 15943,
+      "system_date": "2020-08-09 19:27:04",
+      "system_response": "System B wird verwendet.\nHallo und willkommen zum Rezeptbot-Chat!\nFalls du Fragen hast, was man hier tun kann, kannst du mit /help eine kleine Einleitung aufrufen. Du kannst aber auch sofort nach einem Rezept suchen.\nAlso: Was kann ich für dich tun?"
+    },
+    "state": 1,
+    "recipe_num_search": 1
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 15944,
+      "user_date": "2020-08-09 19:27:10",
+      "user_query": "Abendessen"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 15945,
+      "system_date": "2020-08-09 19:27:10",
+      "system_response": "Zu was für Rezepten greifst du normalerweise, wenn du etwas kochen möchtest?"
+    },
+    "state": 2.1,
+    "recipe_num_search": 1
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 15946,
+      "user_date": "2020-08-09 19:27:17",
+      "user_query": "Vegan"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 15947,
+      "system_date": "2020-08-09 19:27:17",
+      "system_response": "Für wie viele Personen willst du kochen?"
+    },
+    "state": 2.1,
+    "recipe_num_search": 1
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 15948,
+      "user_date": "2020-08-09 19:27:20",
+      "user_query": "3"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 15949,
+      "system_date": "2020-08-09 19:27:20",
+      "system_response": "Gibt es spezielle Zutaten, die du magst? Wie beispielsweise Szechuan Pfeffer oder Tamarinde?"
+    },
+    "state": 2.2,
+    "recipe_num_search": 1
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 15950,
+      "user_date": "2020-08-09 19:27:24",
+      "user_query": "Nein"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 15951,
+      "system_date": "2020-08-09 19:27:24",
+      "system_response": "Welche Zutaten würdest du niemals benutzen?"
+    },
+    "state": 2.2,
+    "recipe_num_search": 1
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 15952,
+      "user_date": "2020-08-09 19:27:32",
+      "user_query": "Fleisch, Fisch, Forelle"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 15955,
+      "system_date": "2020-08-09 19:27:34",
+      "system_response": "Wie klingt Frischfleisch schnell unter die Haube gebracht %x2Co) für dich?"
+    },
+    "state": 3.1,
+    "recipe_num_search": 1
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 15956,
+      "user_date": "2020-08-09 19:27:54",
+      "user_query": "Gut"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 15957,
+      "system_date": "2020-08-09 19:27:54",
+      "system_response": "Möchtest du die Zutatenliste sehen?"
+    },
+    "state": 3.2,
+    "recipe_num_search": 1
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 15958,
+      "user_date": "2020-08-09 19:27:57",
+      "user_query": "Ja"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 15959,
+      "system_date": "2020-08-09 19:27:57",
+      "system_response": "Zutaten\n\n4 Stück Schwein Schnitzelgeschnetzelt \n  ... oder anderes Fleisch... \n 1 Stück Zwiebel gewürfelt \n 1 Becher Sahne \n 200 ml Milch \n 1 Becher Schmand \n 1 Stück Champignons Konserve,Scheiben \n  Salz \n  Pfeffer \n  Saucenbinder für helleSauce \n 1 Päckchen Sonntagsbrötchen, 6 Stück \n  Knoblauch nach Geschmack\n\nMöchtest du das Rezept sehen?"
+    },
+    "state": 3.3,
+    "recipe_num_search": 1
+  },
+  {
+    "current_recipe": "('/rezept/127898/Frischfleisch-schnell-unter-die-Haube-gebracht-o.html', 'Frischfleisch schnell unter die Haube gebracht %x2Co)', 'Schnitzelauflauf mit Sonntagsbrötchenhaube', 65, 4.97, 5, 21, 39, 2657, 3, '4 Stück:Schwein Schnitzelgeschnetzelt \\n :... oder anderes Fleisch... \\n 1 Stück:Zwiebel gewürfelt \\n 1 Becher:Sahne \\n 200 ml:Milch \\n 1 Becher:Schmand \\n 1 Stück:Champignons Konserve,Scheiben \\n :Salz \\n :Pfeffer \\n :Saucenbinder für helleSauce \\n 1 Päckchen:Sonntagsbrötchen, 6 Stück \\n :Knoblauch nach Geschmack', 'Die Schnitzelstücke und die Zwiebel mit Knobi kräftig anbraten. Kräftig mit Salz und Pfeffer würzen. \\n Die Champignons ohne Flüssigkeit, Sahne, Milch und Schmand hinzugeben, kurz aufkochen lassen. \\n Mit dem Saucenbinder andicken, wer keinen Saucenbinder verwenden möchte, kann eine Mehlschwitze herstellen und diese verwenden. Nach Geschmack würzen. \\n Alles in eine hohe Auflaufform füllen und die ungebackenen Sonntagsbrötchen oben drauf legen. Am Schönsten ist es, wenn die Brötchen nicht zu viel Abstand haben, dann hat man eine richtige Haube. \\n Das Ganze nun bei  180 Grad ( vorgeheizt ) für etwa 20 Minuten backen. Und dann geniessen! Dazu schmeckt ein grüner Salat. Viel Spass beim Nachkochen. \\n Kleiner Tip: die Sauce dickt im Backofen nicht wirklich nach, also vorher ausreichend andicken! \\n Auf den Bildern wurde eine grössere Menge zubereitet und als Fleisch Filet verwendet. Man beachte, dass die Backzeit sich bei grösserer Menge natürlich verlängert!', 'leicht', 15, '1', 364, 87, 3.2, 4.5, 6.4, datetime.date(2009, 3, 8), 12, 0)"
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 15960,
+      "user_date": "2020-08-09 19:28:00",
+      "user_query": "Ja"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 15961,
+      "system_date": "2020-08-09 19:28:00",
+      "system_response": "Rezept: 'Frischfleisch schnell unter die Haube gebracht %x2Co)'\n\nBeschreibung\nSchnitzelauflauf mit Sonntagsbrötchenhaube\n\nPortionen: 3\n\nZutaten\n4 Stück Schwein Schnitzelgeschnetzelt \n  ... oder anderes Fleisch... \n 1 Stück Zwiebel gewürfelt \n 1 Becher Sahne \n 200 ml Milch \n 1 Becher Schmand \n 1 Stück Champignons Konserve,Scheiben \n  Salz \n  Pfeffer \n  Saucenbinder für helleSauce \n 1 Päckchen Sonntagsbrötchen, 6 Stück \n  Knoblauch nach Geschmack\n\nZubereitung\nDie Schnitzelstücke und die Zwiebel mit Knobi kräftig anbraten. Kräftig mit Salz und Pfeffer würzen. \n Die Champignons ohne Flüssigkeit, Sahne, Milch und Schmand hinzugeben, kurz aufkochen lassen. \n Mit dem Saucenbinder andicken, wer keinen Saucenbinder verwenden möchte, kann eine Mehlschwitze herstellen und diese verwenden. Nach Geschmack würzen. \n Alles in eine hohe Auflaufform füllen und die ungebackenen Sonntagsbrötchen oben drauf legen. Am Schönsten ist es, wenn die Brötchen nicht zu viel Abstand haben, dann hat man eine richtige Haube. \n Das Ganze nun bei  180 Grad ( vorgeheizt ) für etwa 20 Minuten backen. Und dann geniessen! Dazu schmeckt ein grüner Salat. Viel Spass beim Nachkochen. \n Kleiner Tip: die Sauce dickt im Backofen nicht wirklich nach, also vorher ausreichend andicken! \n Auf den Bildern wurde eine grössere Menge zubereitet und als Fleisch Filet verwendet. Man beachte, dass die Backzeit sich bei grösserer Menge natürlich verlängert!\n\nSchwierigkeit: leicht\nZeit: 15 Minuten"
+    },
+    "state": 3.4,
+    "recipe_num_search": 1
+  },
+  {
+    "current_recipe": "('/rezept/127898/Frischfleisch-schnell-unter-die-Haube-gebracht-o.html', 'Frischfleisch schnell unter die Haube gebracht %x2Co)', 'Schnitzelauflauf mit Sonntagsbrötchenhaube', 65, 4.97, 5, 21, 39, 2657, 3, '4 Stück:Schwein Schnitzelgeschnetzelt \\n :... oder anderes Fleisch... \\n 1 Stück:Zwiebel gewürfelt \\n 1 Becher:Sahne \\n 200 ml:Milch \\n 1 Becher:Schmand \\n 1 Stück:Champignons Konserve,Scheiben \\n :Salz \\n :Pfeffer \\n :Saucenbinder für helleSauce \\n 1 Päckchen:Sonntagsbrötchen, 6 Stück \\n :Knoblauch nach Geschmack', 'Die Schnitzelstücke und die Zwiebel mit Knobi kräftig anbraten. Kräftig mit Salz und Pfeffer würzen. \\n Die Champignons ohne Flüssigkeit, Sahne, Milch und Schmand hinzugeben, kurz aufkochen lassen. \\n Mit dem Saucenbinder andicken, wer keinen Saucenbinder verwenden möchte, kann eine Mehlschwitze herstellen und diese verwenden. Nach Geschmack würzen. \\n Alles in eine hohe Auflaufform füllen und die ungebackenen Sonntagsbrötchen oben drauf legen. Am Schönsten ist es, wenn die Brötchen nicht zu viel Abstand haben, dann hat man eine richtige Haube. \\n Das Ganze nun bei  180 Grad ( vorgeheizt ) für etwa 20 Minuten backen. Und dann geniessen! Dazu schmeckt ein grüner Salat. Viel Spass beim Nachkochen. \\n Kleiner Tip: die Sauce dickt im Backofen nicht wirklich nach, also vorher ausreichend andicken! \\n Auf den Bildern wurde eine grössere Menge zubereitet und als Fleisch Filet verwendet. Man beachte, dass die Backzeit sich bei grösserer Menge natürlich verlängert!', 'leicht', 15, '1', 364, 87, 3.2, 4.5, 6.4, datetime.date(2009, 3, 8), 12, 0)"
+  },
+  {
+    "curr_user": "no_user"
+  },
+  {
+    "System": "B"
+  }
+]

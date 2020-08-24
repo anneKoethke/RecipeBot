@@ -1,0 +1,193 @@
+[
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16280,
+      "user_date": "2020-08-24 08:51:31",
+      "user_query": "hi bot"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16281,
+      "system_date": "2020-08-24 08:51:38",
+      "system_response": "Möchtest du System B verwenden (ja, nein)?"
+    },
+    "state": 1.1,
+    "recipe_num_search": 1
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16282,
+      "user_date": "2020-08-24 08:51:40",
+      "user_query": "ja"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16283,
+      "system_date": "2020-08-24 08:51:40",
+      "system_response": "System B wird verwendet.\nHallo und willkommen zum Rezeptbot-Chat!\nFalls du Fragen hast, was man hier tun kann, kannst du mit /help eine kleine Einleitung aufrufen. Du kannst aber auch sofort nach einem Rezept suchen.\nAlso: Was kann ich für dich tun?"
+    },
+    "state": 1,
+    "recipe_num_search": 1
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16284,
+      "user_date": "2020-08-24 08:51:52",
+      "user_query": "leichtes schnelles Essen für zwischendurch vegan"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16285,
+      "system_date": "2020-08-24 08:51:54",
+      "system_response": "Wie klingt Schnelles Bärchen essen für dich?"
+    },
+    "state": 3.1,
+    "recipe_num_search": 1
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16286,
+      "user_date": "2020-08-24 08:51:58",
+      "user_query": "gut"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16287,
+      "system_date": "2020-08-24 08:51:58",
+      "system_response": "Möchtest du die Zutatenliste sehen?"
+    },
+    "state": 3.2,
+    "recipe_num_search": 1
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16288,
+      "user_date": "2020-08-24 08:52:00",
+      "user_query": "ja"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16289,
+      "system_date": "2020-08-24 08:52:00",
+      "system_response": "Zutaten\n\n180 gr. Hackfleisch, gemischtes \n 500 gr. Tomaten, gestückelte \n 100 gr. Käse, geriebener \n 180 gr. Nudeln \n 100 ml Milch \n 200 ml Sahne \n 1 Knoblauchzehe \n 1 EL Brühe, gekörnte \n 1 Zwiebel frisch \n  Salz und Pfeffer\n\nMöchtest du das Rezept sehen?"
+    },
+    "state": 3.3,
+    "recipe_num_search": 1
+  },
+  {
+    "current_recipe": "('/rezept/389209/Schnelles-Baerchen-essen.html', 'Schnelles Bärchen essen', 'Hackfleisch - Nudel - Auflauf aus der Mikrowelle', 14, 5.0, 5, 1, 1, 2370, 2, '180 gr.:Hackfleisch, gemischtes \\n 500 gr.:Tomaten, gestückelte \\n 100 gr.:Käse, geriebener \\n 180 gr.:Nudeln \\n 100 ml:Milch \\n 200 ml:Sahne \\n 1:Knoblauchzehe \\n 1 EL:Brühe, gekörnte \\n 1:Zwiebel frisch \\n :Salz und Pfeffer', 'Die Zwiebel und den Knoblauch schälen und klein schneiden. \\n Die ersten acht Zutaten aus der Liste zusammen in ein Gefäß geben, welches für die Mikrowelle geeignet ist (z.B. Ultra Plus von Tupperware). Nun die rohen Nudeln dazu geben und alles gründlich verrühren. Mit Salz und Pfeffer würzen. \\n Zudecken und bei 600 Watt 10 Minuten garen. Das ganze nochmal gut umrühren und wieder 10 Minuten bei gleicher Wattstärke in die Mikrowelle geben. Heiß servieren. \\n Hinweis: Sollten die Nudeln noch hart sein, einfach erneut für einige Minuten in die Mikrowelle geben.', 'leicht', 15, '1', 778, 186, 3.6, 12.8, 13.6, datetime.date(2011, 5, 19), 11, 0)"
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16290,
+      "user_date": "2020-08-24 08:52:03",
+      "user_query": "nein"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16291,
+      "system_date": "2020-08-24 08:52:03",
+      "system_response": "Bisherige Zutaten wurden als Suchkriterium aus der Suche entfernt.\nWelche Präferenzen gibt es bei den Zutaten?"
+    },
+    "state": 2.2,
+    "recipe_num_search": 1
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16293,
+      "user_date": "2020-08-24 08:56:33",
+      "user_query": "hi"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16294,
+      "system_date": "2020-08-24 08:56:33",
+      "system_response": "Was sind deine Lieblingszutaten?"
+    },
+    "state": 2.2,
+    "recipe_num_search": 1
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16295,
+      "user_date": "2020-08-24 08:56:53",
+      "user_query": "Tomaten, Gurke, Eier"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16298,
+      "system_date": "2020-08-24 08:56:58",
+      "system_response": "Wie klingt Selbstgepressten Karotten - Apfelsaft für dich?"
+    },
+    "state": 3.1,
+    "recipe_num_search": 1
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16299,
+      "user_date": "2020-08-24 08:57:09",
+      "user_query": "gut"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16300,
+      "system_date": "2020-08-24 08:57:09",
+      "system_response": "Möchtest du die Zutatenliste sehen?"
+    },
+    "state": 3.2,
+    "recipe_num_search": 1
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16301,
+      "user_date": "2020-08-24 08:57:10",
+      "user_query": "ja"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16302,
+      "system_date": "2020-08-24 08:57:10",
+      "system_response": "Zutaten\n\n1 kg Karotten \n 1 Stück Apfel \n 1 EßL Reishonig \n 1 TL Öl\n\nMöchtest du das Rezept sehen?"
+    },
+    "state": 3.3,
+    "recipe_num_search": 1
+  },
+  {
+    "current_recipe": "('/rezept/497347/Selbstgepressten-Karotten-Apfelsaft.html', 'Selbstgepressten Karotten - Apfelsaft', 'Wird täglich 2 x getrunken. Das richtige um wieder Farbe in´s Gesicht zu bekommen :-)', 20, 5.0, 5, 7, 1, 86, 2, '1 kg:Karotten \\n 1 Stück:Apfel \\n 1 EßL:Reishonig \\n 1 TL:Öl', 'Die Karotten gut abbürsten (müssen nicht geschält werden) \\n Den Apfel waschen, halbieren, vierteln und nur Blüte und Stiel weg schneiden. \\n Die Karotten durch eine Saftpresse geben, die Äpfelstücke zwischen durch mit verarbeiten. \\n In den fertig gepressten Saft dann den Reishonig und das Öl unterrühren....in Gläser geben und einfach nur genießen - da weiß man was man hat :-)', 'leicht', None, '1', 154, 37, 0.9, 5.8, 1.2, datetime.date(2014, 8, 16), 4, 0)"
+  },
+  {
+    "user": {
+      "user_chat_id": 581544185,
+      "user_message_id": 16303,
+      "user_date": "2020-08-24 08:57:15",
+      "user_query": "ja"
+    },
+    "system": {
+      "system_chat_id": 913584168,
+      "system_message_id": 16304,
+      "system_date": "2020-08-24 08:57:15",
+      "system_response": "Rezept: 'Selbstgepressten Karotten - Apfelsaft'\n\nBeschreibung\nWird täglich 2 x getrunken. Das richtige um wieder Farbe in´s Gesicht zu bekommen :-)\n\nPortionen: 2\n\nZutaten\n1 kg Karotten \n 1 Stück Apfel \n 1 EßL Reishonig \n 1 TL Öl\n\nZubereitung\nDie Karotten gut abbürsten (müssen nicht geschält werden) \n Den Apfel waschen, halbieren, vierteln und nur Blüte und Stiel weg schneiden. \n Die Karotten durch eine Saftpresse geben, die Äpfelstücke zwischen durch mit verarbeiten. \n In den fertig gepressten Saft dann den Reishonig und das Öl unterrühren....in Gläser geben und einfach nur genießen - da weiß man was man hat :-)\n\nSchwierigkeit: leicht\nZeit: keine Angabe"
+    },
+    "state": 3.4,
+    "recipe_num_search": 1
+  },
+  {
+    "current_recipe": "('/rezept/497347/Selbstgepressten-Karotten-Apfelsaft.html', 'Selbstgepressten Karotten - Apfelsaft', 'Wird täglich 2 x getrunken. Das richtige um wieder Farbe in´s Gesicht zu bekommen :-)', 20, 5.0, 5, 7, 1, 86, 2, '1 kg:Karotten \\n 1 Stück:Apfel \\n 1 EßL:Reishonig \\n 1 TL:Öl', 'Die Karotten gut abbürsten (müssen nicht geschält werden) \\n Den Apfel waschen, halbieren, vierteln und nur Blüte und Stiel weg schneiden. \\n Die Karotten durch eine Saftpresse geben, die Äpfelstücke zwischen durch mit verarbeiten. \\n In den fertig gepressten Saft dann den Reishonig und das Öl unterrühren....in Gläser geben und einfach nur genießen - da weiß man was man hat :-)', 'leicht', None, '1', 154, 37, 0.9, 5.8, 1.2, datetime.date(2014, 8, 16), 4, 0)"
+  },
+  {
+    "curr_user": "no_user"
+  },
+  {
+    "System": "B"
+  }
+]
